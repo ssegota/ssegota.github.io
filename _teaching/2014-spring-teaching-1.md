@@ -1,5 +1,5 @@
 ---
-title: "Elektronika"
+title: "Electronics"
 collection: teaching
 type: "Laboratory Exercises"
 permalink: /teaching/2014-spring-teaching-1
