@@ -11,35 +11,28 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Electrical Engineering (dr. sc.), 2025
+* Master's degree in Computer Engineering (mag. ing. comp), 2019
+* Bachelor's degree in Computer Engineering (univ. bacc. ing. comp.), 2017
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
+* 2022-2025: Research Assistant
+  * Faculty of Engineering - University of Rijeka
   * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2019-2022: Expert Associate - Junior Researcher
+  * University of Rijeka
+  * Duties included: Data collection, processing and modelling as part of CEKOM SmartCity.4DII and DATACROSS projects
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Robotics
+* Artificial Intelligence
+  * Regression modeling
+  * Convolutional neural networks
+  * Data synthetization
+* Evolutionary Computing
 
 Publications
 ======
