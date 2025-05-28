@@ -54,4 +54,7 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* IEEE Student member since 2013
+* Member of Global Meteor Network
+* Member of Astronomical Society "Istra" since 2008, as a member of administrative board since 2022
+* Representative in the assembly of the Technical Culture Community of Pula since 2025
