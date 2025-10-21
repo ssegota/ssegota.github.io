@@ -17,13 +17,13 @@ Education
 
 Work experience
 ======
+* 2025 - ...: Assistant Professor
+  * Faculty of Informatics, Juraj Dobrila University of Pula   
 * 2022-2025: Research Assistant
   * Faculty of Engineering - University of Rijeka
-  * Duties included: Merging pull requests
 
 * 2019-2022: Expert Associate - Junior Researcher
   * University of Rijeka
-  * Duties included: Data collection, processing and modelling as part of CEKOM SmartCity.4DII and DATACROSS projects
   
 Skills
 ======
@@ -56,5 +56,6 @@ Service and leadership
 ======
 * IEEE Student member since 2013
 * Member of Global Meteor Network
-* Member of Astronomical Society "Istra" since 2008, as a member of administrative board since 2022
+* Member of Astronomical Society "Istra" since 2008, as a member of administrative board since 2022, and the General Secretary since 2025
 * Representative in the assembly of the Technical Culture Community of Pula since 2025
+* Representative in the Croatian Astronomical Union since 2025
