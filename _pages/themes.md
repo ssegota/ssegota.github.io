@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: archive
 title: Thesis Topics
-permalink: /themes/
+permalink: /thesis-topics/
 ---
 
 # Topics for Bachelor’s and Master’s Theses
