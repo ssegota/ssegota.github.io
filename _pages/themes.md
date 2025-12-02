@@ -1,10 +1,8 @@
 ---
 layout: archive
-title: Thesis Topics
+title: Topics for Bachelor’s and Master’s Theses
 permalink: /thesis-topics/
 ---
-
-# Topics for Bachelor’s and Master’s Theses
 
 Below is a list of topics for bachelor’s and master’s theses.  
 If you are interested in any of them, contact **sandi.baressi.segota@unipu.hr**.
