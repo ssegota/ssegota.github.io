@@ -1,3 +1,9 @@
+---
+layout: page
+title: Thesis Topics
+permalink: /themes/
+---
+
 # Topics for Bachelor’s and Master’s Theses
 
 Below is a list of topics for bachelor’s and master’s theses.  
