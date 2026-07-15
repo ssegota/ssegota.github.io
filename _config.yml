@@ -25,10 +25,10 @@ author:
   name             : "Sandi Baressi Šegota"
   pronouns         : # example: "she/her"  
   bio              : "Researching the application of AI in complex engineering systems"
-  location         : "Rijeka, Croatia"
-  employer         : "University of Rijeka"
-  uri              : "http://portal.uniri.hr/Portfolio/details/4228" # URL
-  email            : "sandi.segota@riteh.uniri.hr" 
+  location         : "Pula, Croatia"
+  employer         : "Juraj Dobrila University of Pula"
+  uri              : "https://fipu.unipu.hr/fipu/sandi.baressi_segota" # URL
+  email            : "sandi.baressi.segota@unipu.hr" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
