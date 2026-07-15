@@ -17,11 +17,12 @@ Education
 
 Work experience
 ======
+* 2025 - ...: Lead Developer
+  * dAIgnostics LLC
 * 2025 - ...: Assistant Professor
   * Faculty of Informatics, Juraj Dobrila University of Pula   
 * 2022-2025: Research Assistant
   * Faculty of Engineering - University of Rijeka
-
 * 2019-2022: Expert Associate - Junior Researcher
   * University of Rijeka
   
