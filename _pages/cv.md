@@ -11,9 +11,12 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Electrical Engineering (dr. sc.), 2025
-* Master's degree in Computer Engineering (mag. ing. comp), 2019
+* Ph.D. in Electrical Engineering (dr. sc.), 2025
+  * Faculty of Engineering, University of Rijeka
+* Master's degree in Computer Engineering (mag. ing. comp.), 2019
+  * Faculty of Engineering, University of Rijeka
 * Bachelor's degree in Computer Engineering (univ. bacc. ing. comp.), 2017
+  * Faculty of Engineering, University of Rijeka
 
 Work experience
 ======
