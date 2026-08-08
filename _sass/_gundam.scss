@@ -1,0 +1,641 @@
+/* ==========================================================================
+   RX-78-2 THEME LAYER
+   --------------------------------------------------------------------------
+   Federation colour scheme (armour white, Federation blue, red, yellow trim)
+   applied on top of the Minimal Mistakes base, plus a light/dark switch.
+
+   Everything here is driven by custom properties so the dark variant is a
+   token swap rather than a second stylesheet. Imported last in main.scss so
+   it wins over the base theme without needing !important.
+   ========================================================================== */
+
+:root {
+  /* Armour */
+  --g-bg:          #e6e7e2;
+  --g-surface:     #f8f9f6;
+  --g-surface-alt: #dcded8;
+  --g-line:        #b0b3ac;
+  --g-line-soft:   #c9ccc5;
+
+  /* Ink */
+  --g-text:        #15181f;
+  --g-text-dim:    #545a66;
+
+  /* Trim.
+     --g-brand paints the solid bars (masthead, footer) and stays deep in both
+     modes so white sits on it legibly. --g-blue is the interactive blue and
+     lifts at night so it keeps contrast against dark armour. */
+  --g-brand:       #24408e;
+  --g-brand-deep:  #1a2f6b;
+  --g-blue:        #24408e;
+  --g-blue-deep:   #1a2f6b;
+  --g-blue-soft:   #e3e7f3;
+  --g-red:         #c0272d;
+  --g-yellow:      #f0b929;
+  --g-eye:         #3f9e56;
+
+  --g-link:        #24408e;
+  --g-link-hover:  #c0272d;
+
+  --g-shadow:      rgba(21, 24, 31, 0.13);
+  --g-chamfer:     12px;
+  --g-mono: ui-monospace, "SF Mono", "JetBrains Mono", "DejaVu Sans Mono", Menlo, Consolas, monospace;
+}
+
+/* Night operations: same trim, inverted armour. Blue and red are lifted so
+   they keep their contrast ratio against a dark ground. */
+:root[data-theme="dark"] {
+  --g-bg:          #12151b;
+  --g-surface:     #1a1e26;
+  --g-surface-alt: #232935;
+  --g-line:        #39414f;
+  --g-line-soft:   #2c3340;
+
+  --g-text:        #e6e7e2;
+  --g-text-dim:    #9aa3b2;
+
+  --g-brand:       #16244d;
+  --g-brand-deep:  #101a38;
+  --g-blue:        #6b90e8;
+  --g-blue-deep:   #24408e;
+  --g-blue-soft:   #1d2739;
+  --g-red:         #e8646a;
+  --g-yellow:      #f0b929;
+  --g-eye:         #57c072;
+
+  --g-link:        #7ea2ee;
+  --g-link-hover:  #f0b929;
+
+  --g-shadow:      rgba(0, 0, 0, 0.5);
+}
+
+/* ==========================================================================
+   Base surfaces
+   ========================================================================== */
+
+html {
+  background-color: var(--g-bg);
+}
+
+body {
+  background-color: var(--g-bg);
+  color: var(--g-text);
+}
+
+/* The base theme hard-codes greys in a lot of places. Rather than chase each
+   one, re-assert the token on the containers that actually paint. */
+.page__content,
+.page__content p,
+.page__content li,
+.page__content dl,
+.archive,
+.archive p,
+.archive li,
+.archive dl,
+.archive__item-excerpt,
+.author__bio {
+  color: var(--g-text);
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__subtitle {
+  color: var(--g-text);
+}
+
+a {
+  color: var(--g-link);
+
+  &:visited { color: var(--g-link); }
+  &:hover,
+  &:focus  { color: var(--g-link-hover); }
+}
+
+:focus-visible {
+  outline: 2px solid var(--g-red);
+  outline-offset: 2px;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid var(--g-line);
+}
+
+/* Small uppercase labels are the one strong borrowing from the source
+   design - they read as panel stencilling. */
+.page__meta,
+.archive__item-title + p,
+.page__date {
+  font-family: var(--g-mono);
+  font-size: 0.72em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--g-text-dim);
+}
+
+/* ==========================================================================
+   Masthead
+   ========================================================================== */
+
+.masthead {
+  background-color: var(--g-brand);
+  border-bottom: 0;
+  position: relative;
+
+  /* Hazard stripe along the bottom edge of the bar. */
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 6px;
+    background: repeating-linear-gradient(-45deg,
+      var(--g-yellow) 0 8px, var(--g-brand-deep) 8px 16px);
+  }
+
+  &__inner-wrap {
+    position: relative;
+    padding-right: 5.75em; /* clears the theme switch */
+  }
+}
+
+.greedy-nav {
+  background: transparent;
+
+  a {
+    color: rgba(255, 255, 255, 0.86);
+    font-family: var(--g-mono);
+    font-size: 0.82em;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+      color: var(--g-yellow);
+    }
+  }
+
+  .visible-links li:first-child a {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+  }
+
+  /* Yellow underline marks the item you are hovering, like a lit panel. */
+  .visible-links li a::before {
+    background: var(--g-yellow);
+    height: 3px;
+  }
+
+  button {
+    background-color: var(--g-red);
+
+    &:hover { background-color: var(--g-brand-deep); }
+  }
+
+  .hidden-links {
+    background: var(--g-surface);
+    border: 1px solid var(--g-line);
+    border-radius: 0;
+    box-shadow: 0 3px 10px var(--g-shadow);
+    clip-path: polygon(0 0, calc(100% - var(--g-chamfer)) 0,
+                       100% var(--g-chamfer), 100% 100%, 0 100%);
+
+    a {
+      color: var(--g-text);
+
+      &:hover { color: var(--g-red); }
+    }
+
+    &::before { border-bottom-color: var(--g-line); }
+  }
+}
+
+/* ==========================================================================
+   Theme switch
+   ========================================================================== */
+
+.theme-switch {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  z-index: 30;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 0.45em 0.7em;
+  cursor: pointer;
+
+  font-family: var(--g-mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+
+  color: #fff;
+  background: var(--g-brand-deep);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 0;
+
+  transition: background-color 120ms ease, border-color 120ms ease;
+
+  &:hover {
+    background: var(--g-red);
+    border-color: var(--g-yellow);
+  }
+
+  /* Camera-eye dot: green in light mode, yellow at night. */
+  &__eye {
+    width: 8px;
+    height: 8px;
+    background: var(--g-eye);
+    transform: rotate(45deg);
+    flex: none;
+  }
+
+  &__label::after { content: "NIGHT"; }
+}
+
+:root[data-theme="dark"] .theme-switch {
+  &__eye  { background: var(--g-yellow); }
+  &__label::after { content: "DAY"; }
+}
+
+@media (max-width: 37.5em) {
+  .theme-switch__label { display: none; }
+}
+
+/* ==========================================================================
+   Sidebar / author profile
+   ========================================================================== */
+
+.sidebar {
+  color: var(--g-text);
+
+  h3, h4, .author__name { color: var(--g-text); }
+}
+
+.author__avatar img {
+  border: 2px solid var(--g-line);
+  border-radius: 0;
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%);
+}
+
+.author__content {
+  padding: 0.75em 0;
+}
+
+.author__name {
+  font-family: var(--g-mono);
+  letter-spacing: 0.06em;
+}
+
+.author__bio {
+  color: var(--g-text-dim);
+}
+
+.author__urls-wrapper .btn {
+  font-family: var(--g-mono);
+  letter-spacing: 0.16em;
+}
+
+.author__urls {
+  background: var(--g-surface);
+  border: 1px solid var(--g-line);
+  border-radius: 0;
+  box-shadow: 0 3px 10px var(--g-shadow);
+  clip-path: polygon(0 0, calc(100% - var(--g-chamfer)) 0,
+                     100% var(--g-chamfer), 100% 100%, 0 100%);
+
+  li {
+    color: var(--g-text);
+  }
+
+  a {
+    color: var(--g-text);
+
+    &:hover {
+      color: var(--g-red);
+      text-decoration: none;
+    }
+  }
+
+  /* The base theme sets author__urls anchors to display:block, which would
+     push the employer name onto its own line below the icon. */
+  a.author__employer {
+    display: inline;
+  }
+
+  &::before { border-bottom-color: var(--g-line); }
+}
+
+@include breakpoint($large) {
+  .author__urls {
+    box-shadow: none;
+    clip-path: none;
+    border: 0;
+    background: transparent;
+  }
+}
+
+/* ==========================================================================
+   Page furniture
+   ========================================================================== */
+
+.page__title {
+  font-family: $sans-serif;
+  letter-spacing: -0.01em;
+  border-bottom: 3px solid var(--g-blue);
+  padding-bottom: 0.25em;
+  position: relative;
+
+  /* Red tick at the end of the rule - the RX-78 shield motif in miniature. */
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 46px;
+    height: 3px;
+    background: var(--g-red);
+  }
+}
+
+/* The `single` layout wraps content in .page__content, the `archive` layout in
+   .archive - most pages here use the latter, so both need covering. The
+   :not() keeps card titles inside listings out of it. */
+.page__content h2:not(.archive__item-title),
+.archive h2:not(.archive__item-title) {
+  border-bottom: 1px solid var(--g-line-soft);
+  padding-bottom: 0.2em;
+}
+
+/* h3 carries the individual thesis topics, so it needs to break the page into
+   scannable blocks rather than read as bold body text. */
+.page__content h3:not(.archive__item-title),
+.archive h3:not(.archive__item-title) {
+  font-size: $type-size-4;
+  margin-top: 1.8em;
+  margin-bottom: 0.4em;
+  padding-left: 0.6em;
+  border-left: 4px solid var(--g-blue);
+}
+
+.page__content,
+.archive {
+  blockquote {
+    border-left: 4px solid var(--g-yellow);
+    color: var(--g-text-dim);
+  }
+
+  code {
+    background: var(--g-surface-alt);
+    color: var(--g-text);
+    border-radius: 0;
+  }
+
+  pre {
+    background: var(--g-surface-alt);
+    border: 1px solid var(--g-line-soft);
+    border-radius: 0;
+  }
+
+  table {
+    border-color: var(--g-line);
+  }
+
+  th {
+    background: var(--g-blue);
+    color: #fff;
+    border-color: var(--g-blue-deep);
+  }
+
+  td { border-color: var(--g-line-soft); }
+
+  tbody tr:nth-child(even) { background: var(--g-surface); }
+}
+
+.page__footer {
+  background: var(--g-brand);
+  color: rgba(255, 255, 255, 0.75);
+
+  a {
+    color: rgba(255, 255, 255, 0.85);
+
+    &:hover { color: var(--g-yellow); }
+  }
+
+  footer { border-top: 0; }
+}
+
+.page__footer-follow .social-icons a { color: rgba(255, 255, 255, 0.85); }
+
+/* ==========================================================================
+   Archive listings (publications, talks, teaching)
+   ========================================================================== */
+
+.archive__item {
+  padding: 0.85em 1em;
+  margin-bottom: 0.6em;
+  background: var(--g-surface);
+  border: 1px solid var(--g-line-soft);
+  border-left: 4px solid var(--g-blue);
+  clip-path: polygon(0 0, calc(100% - var(--g-chamfer)) 0,
+                     100% var(--g-chamfer), 100% 100%, 0 100%);
+  transition: border-left-color 120ms ease, background-color 120ms ease;
+
+  &:hover {
+    border-left-color: var(--g-red);
+    background: var(--g-surface-alt);
+  }
+}
+
+.archive__item-title {
+  margin-top: 0.2em;
+  margin-bottom: 0.3em;
+  border-bottom: 0;
+  font-size: $type-size-4;
+
+  a { text-decoration: none; }
+}
+
+/* The base theme spaces list items for a blog roll; these are dense
+   bibliographic entries, so pull them together. */
+.list__item {
+  margin-bottom: 0;
+
+  .archive__item p { margin-bottom: 0.35em; }
+  .archive__item p:last-child { margin-bottom: 0; }
+}
+
+.archive__subtitle {
+  font-family: var(--g-mono);
+  font-size: 0.8em;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--g-blue);
+  border-bottom: 2px solid var(--g-line);
+}
+
+/* The CV page renders collections inside <ul>; drop the panel treatment there
+   so it reads as a list rather than a stack of cards. */
+.page__content ul > .list__item .archive__item {
+  background: transparent;
+  border: 0;
+  border-left: 3px solid var(--g-line);
+  clip-path: none;
+  padding: 0.1em 0 0.1em 0.9em;
+  margin-bottom: 0.4em;
+
+  &:hover {
+    background: transparent;
+    border-left-color: var(--g-red);
+  }
+}
+
+/* ==========================================================================
+   Controls (used by the CV summary picker and the publications switch)
+   ========================================================================== */
+
+.g-panel {
+  background: var(--g-surface);
+  border: 1px solid var(--g-line);
+  border-left: 4px solid var(--g-blue);
+  clip-path: polygon(0 0, calc(100% - var(--g-chamfer)) 0,
+                     100% var(--g-chamfer), 100% 100%, 0 100%);
+  padding: 1em 1.15em;
+  margin-bottom: 1.5em;
+}
+
+.g-eyebrow {
+  display: block;
+  font-family: var(--g-mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--g-blue);
+  margin-bottom: 0.5em;
+}
+
+.g-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6em;
+}
+
+select.g-select,
+.g-btn {
+  font-family: var(--g-mono);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.55em 0.8em;
+  border-radius: 0;
+  border: 1px solid var(--g-line);
+  background: var(--g-bg);
+  color: var(--g-text);
+  cursor: pointer;
+  line-height: 1.2;
+}
+
+select.g-select {
+  min-width: 15em;
+  max-width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  padding-right: 2.2em;
+  background-image: linear-gradient(45deg, transparent 50%, var(--g-blue) 50%),
+                    linear-gradient(135deg, var(--g-blue) 50%, transparent 50%);
+  background-position: calc(100% - 15px) 50%, calc(100% - 10px) 50%;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+
+.g-btn {
+  font-weight: 700;
+  border-color: var(--g-blue);
+  color: #fff;
+  background: var(--g-blue);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+
+  &:hover,
+  &:focus {
+    background: var(--g-red);
+    border-color: var(--g-red);
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &[aria-pressed="false"] {
+    background: var(--g-bg);
+    color: var(--g-text);
+    border-color: var(--g-line);
+  }
+
+  &[aria-pressed="false"]:hover {
+    border-color: var(--g-blue);
+    color: var(--g-blue);
+    background: var(--g-bg);
+  }
+}
+
+.g-meta {
+  font-family: var(--g-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--g-text-dim);
+}
+
+.g-readout {
+  margin-top: 1em;
+  padding: 0.9em 1.1em;
+  background: var(--g-bg);
+  border: 1px dashed var(--g-line);
+
+  p { margin: 0 0 0.8em; }
+  p:last-child { margin-bottom: 0; }
+}
+
+/* ==========================================================================
+   Notices
+   ========================================================================== */
+
+.notice,
+.notice--info,
+.notice--warning,
+.notice--danger,
+.notice--success {
+  border-radius: 0;
+  background: var(--g-surface);
+  color: var(--g-text);
+  border-left-width: 4px;
+}
+
+/* ==========================================================================
+   Print - the CV is the page most likely to hit a printer.
+   ========================================================================== */
+
+@media print {
+  .masthead,
+  .page__footer,
+  .theme-switch,
+  .g-controls,
+  .author__urls-wrapper {
+    display: none !important;
+  }
+
+  .archive__item {
+    clip-path: none;
+    border: 0;
+    border-left: 2px solid #000;
+    background: transparent;
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "profile_name": "Sandi Baressi Šegota",
+  "profile_url": "https://scholar.google.com/citations?user=lhMwhucAAAAJ&hl=en",
+  "fetched": "2026-08-08",
+  "total_publications": 100,
+  "stats": {
+    "citations_all": 1704,
+    "citations_5y": 1624,
+    "h_index_all": 21,
+    "h_index_5y": 20,
+    "i10_all": 39,
+    "i10_5y": 39
+  },
+  "recent": [
+    {
+      "title": "The Socratic Trap: Benchmarking the Capacity of Large Language Models to Generate Strategic Misconceptions in Computer Science Education",
+      "authors": "M Miličević, M Rovis, R Karlović, S Baressi Šegota, V Mrzljak, I Lorencin, ...",
+      "venue": "Information 17 (7), 706, 2026",
+      "year": "2026",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=lhMwhucAAAAJ:q3CdL3IzO_QC"
+    },
+    {
+      "title": "Croatian State Exam Benchmark: Evaluating Large Language Models on High School Croatian Language Proficiency",
+      "authors": "R Orlić, SB Šegota, A Novak, I Lorencin",
+      "venue": "2026 49th MIPRO ICT and Electronics Convention (MIPRO), 218-224, 2026",
+      "year": "2026",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=lhMwhucAAAAJ:foquWX3nUaYC"
+    },
+    {
+      "title": "Understanding the Energy Expenditure Predictors of Collaborative Robots Using Statistical and Machine Learning Methods",
+      "authors": "SB Šegota, N Anđelić, V Mrzljak, MB Dasko, I Lorencin",
+      "venue": "2026 49th MIPRO ICT and Electronics Convention (MIPRO), 199-205, 2026",
+      "year": "2026",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=lhMwhucAAAAJ:HbR8gkJAVGIC"
+    },
+    {
+      "title": "Evaluating the Impact of Adapter-Based Fine-Tuning on Structured Parsing Performance in Large Language Models",
+      "authors": "R Karlović, L Sever, S Baressi Šegota, V Mrzljak, I Lorencin",
+      "venue": "Machine learning and knowledge extraction 8 (5), 138, 2026",
+      "year": "2026",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=lhMwhucAAAAJ:S16KYo8Pm5AC"
+    },
+    {
+      "title": "Performance trade-offs of optimizing small language models for e-commerce",
+      "authors": "JT Licardo, N Tanković, I Osman, I Lorencin, S Baressi Šegota",
+      "venue": "Big Data and Cognitive Computing 10 (5), 155, 2026",
+      "year": "2026",
+      "citations": 4,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=lhMwhucAAAAJ:e_rmSamDkqQC"
+    },
+    {
+      "title": "Interpretable glass type classification using genetic programming symbolic expressions based on chemical composition and refractive index",
+      "authors": "N Anđelić, SB Šegota, V Mrzljak",
+      "venue": "Journal of non-crystalline solids 680, 124032, 2026",
+      "year": "2026",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=lhMwhucAAAAJ:k8Z6L05lTy4C"
+    },
+    {
+      "title": "The Ambient Temperature Influence on the CO2 Low-power Marine Waste Heat Recovery Plant at Several Loads",
+      "authors": "N Anđelić, S Baressi Šegota, I Poljak, V Mrzljak",
+      "venue": "Pomorski zbornik 66 (1), 11-36, 2026",
+      "year": "2026",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=lhMwhucAAAAJ:WZBGuue-350C"
+    },
+    {
+      "title": "Face Recognition System Using CLIP and FAISS for Scalable and Real-Time Identification",
+      "authors": "A Labinjan, S Baressi Šegota, I Lorencin, N Tanković",
+      "venue": "Mathematical and computational applications 31 (2), 36, 2026",
+      "year": "2026",
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=lhMwhucAAAAJ:kz9GbA2Ns4gC"
+    },
+    {
+      "title": "Operation guidelines for proper arrangement of pumps in the marine steam propulsion system",
+      "authors": "V Mrzljak, J Prpić-Oršić, M Jelić, S Baressi Šegota",
+      "venue": "XXXIV International Scientific Conference trans&MOTAUTO 2026-Proceedings, 15-18, 2026",
+      "year": "2026",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=lhMwhucAAAAJ:Dip1O2bNi0gC"
+    },
+    {
+      "title": "Confidence-guided lightweight CNN ensemble for OrganMNIST classification",
+      "authors": "S Baressi Šegota, I Lorencin, D Frank, NI Anđelić",
+      "venue": "Book of abstracts-6th BELBI, 2026",
+      "year": "2026",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=lhMwhucAAAAJ:PoWvk5oyLR8C"
+    }
+  ],
+  "cited": [
+    {
+      "title": "Modeling the Spread of COVID-19 Infection Using a Multilayer Perceptron",
+      "authors": "Z Car, S Baressi Šegota, N Anđelić, I Lorencin, V Mrzljak",
+      "venue": "Computational and Mathematical Methods in Medicine 2020, 10, 2020",
+      "year": "2020",
+      "citations": 279,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:KlAtU1dfN6UC"
+    },
+    {
+      "title": "Path planning optimization of six-degree-of-freedom robotic manipulators using evolutionary algorithms",
+      "authors": "S Baressi Šegota, N Anđelić, I Lorencin, M Saga, Z Car",
+      "venue": "International journal of advanced robotic systems 17 (2), 1729881420908076, 2020",
+      "year": "2020",
+      "citations": 109,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:UebtZRa9Y70C"
+    },
+    {
+      "title": "Impact of COVID‐19 on Forecasting Stock Prices: An Integration of Stationary Wavelet Transform and Bidirectional Long Short‐Term Memory",
+      "authors": "D Štifanić, J Musulin, A Miočević, S Baressi Šegota, R Šubić, Z Car",
+      "venue": "Complexity 2020 (1), 1846926, 2020",
+      "year": "2020",
+      "citations": 95,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:4TOpqqG69KYC"
+    },
+    {
+      "title": "Utilization of multilayer perceptron for determining the inverse kinematics of an industrial robotic manipulator",
+      "authors": "S Baressi Šegota, N Anđelić, V Mrzljak, I Lorencin, I Kuric, Z Car",
+      "venue": "International Journal of Advanced Robotic Systems 18 (4), 1729881420925283, 2021",
+      "year": "2021",
+      "citations": 81,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:J_g5lzvAfSwC"
+    },
+    {
+      "title": "Improvement of marine steam turbine conventional exergy analysis by neural network application",
+      "authors": "S Baressi Šegota, I Lorencin, N Anđelić, V Mrzljak, Z Car",
+      "venue": "Journal of Marine Science and Engineering 8 (11), 884, 2020",
+      "year": "2020",
+      "citations": 69,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:7PzlFSSx8tAC"
+    },
+    {
+      "title": "Application of artificial intelligence-based regression methods in the problem of COVID-19 spread prediction: a systematic review",
+      "authors": "J Musulin, S Baressi Šegota, D Štifanić, I Lorencin, N Anđelić, T Šušteršič, ...",
+      "venue": "International journal of environmental research and public health 18 (8), 4287, 2021",
+      "year": "2021",
+      "citations": 63,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:JV2RwH3_ST0C"
+    },
+    {
+      "title": "Comparison of conventional and heat balance based energy analyses of steam turbine",
+      "authors": "V Medica-Viola, S Baressi Šegota, V Mrzljak, D Štifanić",
+      "venue": "Pomorstvo 34 (1), 74-85, 2020",
+      "year": "2020",
+      "citations": 54,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:_kc_bZDykSQC"
+    },
+    {
+      "title": "Estimation of COVID-19 epidemic curves using genetic programming algorithm",
+      "authors": "N Anđelić, S Baressi Šegota, I Lorencin, V Mrzljak, Z Car",
+      "venue": "Health informatics journal 27 (1), 1460458220976728, 2021",
+      "year": "2021",
+      "citations": 51,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:TQgYirikUcIC"
+    },
+    {
+      "title": "On urinary bladder cancer diagnosis: Utilization of deep convolutional generative adversarial networks for data augmentation",
+      "authors": "I Lorencin, S Baressi Šegota, N Anđelić, V Mrzljak, T Ćabov, J Španjol, ...",
+      "venue": "Biology 10 (3), 175, 2021",
+      "year": "2021",
+      "citations": 48,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:TFP_iSt0sucC"
+    },
+    {
+      "title": "Automatic Evaluation of the Lung Condition of COVID-19 Patients Using X-ray Images and Convolutional Neural Networks",
+      "authors": "I Lorencin, S Baressi Šegota, N Anđelić, A Blagojević, T Šušteršić, ...",
+      "venue": "Journal of Personalized Medicine 11 (1), 28, 2021",
+      "year": "2021",
+      "citations": 46,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:hFOr9nPyWt4C"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+name: Refresh Google Scholar data
+
+# Google Scholar has no API and blocks datacentre IPs, so this job fails more
+# often than it succeeds from GitHub's runners. That is by design rather than a
+# bug to chase: on failure nothing is committed and the last good snapshot in
+# _data/scholar.json keeps serving the site. To refresh by hand from a normal
+# connection:
+#
+#     python3 scripts/fetch_scholar.py && git commit -am "Refresh Scholar data"
+
+on:
+  schedule:
+    - cron: "37 4 1 * *" # 04:37 UTC on the 1st of each month
+  workflow_dispatch: # or run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch profile
+        id: fetch
+        continue-on-error: true
+        run: python3 scripts/fetch_scholar.py
+
+      - name: Commit if the data changed
+        if: steps.fetch.outcome == 'success'
+        run: |
+          if git diff --quiet -- _data/scholar.json; then
+            echo "No change in _data/scholar.json."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/scholar.json
+          git commit -m "Refresh Google Scholar publication data"
+          git push
+
+      - name: Report a blocked fetch
+        if: steps.fetch.outcome != 'success'
+        run: |
+          echo "::warning::Google Scholar refused the request (rate limit or CAPTCHA)."
+          echo "::warning::_data/scholar.json is unchanged; rerun locally to refresh."

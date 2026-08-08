@@ -1,0 +1,19 @@
+{%- comment -%}
+Turns known institution names inside a venue string into links, so the course
+and talk listings point at fipu.unipu.hr without every _teaching/_talks file
+having to carry HTML in its front matter.
+
+Usage: {% include venue-link.html venue=post.venue %}
+{%- endcomment -%}
+{{- include.venue
+    | replace: "Faculty of Informatics - Juraj Dobrila University of Pula",
+               '<a href="https://fipu.unipu.hr">Faculty of Informatics - Juraj Dobrila University of Pula</a>'
+    | replace: "Faculty of Informatics, Juraj Dobrila University of Pula",
+               '<a href="https://fipu.unipu.hr">Faculty of Informatics, Juraj Dobrila University of Pula</a>'
+    | replace: "Faculty of Engineering - University of Rijeka",
+               '<a href="https://www.riteh.uniri.hr/">Faculty of Engineering - University of Rijeka</a>'
+    | replace: "dAIgnostics LLC",
+               '<a href="https://daignostics.info">dAIgnostics LLC</a>'
+    | replace: "LiberiqAI",
+               '<a href="https://liberiq.com">LiberiqAI</a>'
+-}}

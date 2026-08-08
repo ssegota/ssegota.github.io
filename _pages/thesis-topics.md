@@ -1,16 +1,18 @@
 ---
 layout: archive
-title: "Student Tasks"
-permalink: /student-tasks/
+title: "Thesis Topics"
+permalink: /thesis-topics/
 author_profile: true
 redirect_from:
+  - /student-tasks/
   - /theses/
   - /topics/
 ---
 
 {% include base_path %}
 
-Below is a list of suggested topics for **bachelor's** and **master's** theses, as well as for
+Below is a list of suggested topics for **bachelor's** and **master's** theses at the
+[Faculty of Informatics, Juraj Dobrila University of Pula](https://fipu.unipu.hr), as well as for
 seminar and project assignments. The topics are grouped by the level at which they are usually
 proposed, but almost every one of them can be scaled in either direction &mdash; the exact scope,
 dataset and set of methods are agreed upon individually before the work starts.

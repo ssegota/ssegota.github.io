@@ -1,4 +1,20 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+  // Light/dark switch. The active theme is already on <html> (set in the head
+  // before paint); this only handles toggling and persistence.
+  (function () {
+    var button = document.getElementById('theme-switch');
+    if (!button) return;
+
+    button.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-theme') === 'dark'
+        ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try { window.localStorage.setItem('theme', next); } catch (e) {}
+    });
+  })();
+</script>
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
