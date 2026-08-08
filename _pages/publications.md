@@ -55,25 +55,9 @@ author_profile: true
   <a href="{{ site.author.researchgate }}">ResearchGate</a>{% endif %}.
 </p>
 
-{% if site.publications.size > 0 %}
-Selected papers with abstracts
-======
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-{% endif %}
-
-
 {% else %}
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">The automatic Google Scholar list is unavailable right now. You can find all
-  articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<p>The automatic Google Scholar list is unavailable right now. All articles are on
+<a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</p>
 
 {% endif %}

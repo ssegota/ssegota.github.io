@@ -654,6 +654,29 @@ select.g-select {
   color: var(--g-text-dim);
 }
 
+/* Submission deadline on the editorial page: the one fact a prospective author
+   needs before reading anything else, so it gets the yellow trim. */
+p.g-deadline,
+.g-deadline {
+  display: inline-block;
+  margin: 0.2em 0 0.9em;
+  padding: 0.35em 0.7em;
+  font-family: var(--g-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--g-brand-deep);
+  background: var(--g-yellow);
+  border-left: 4px solid var(--g-brand-deep);
+
+  &--closed {
+    color: #fff;
+    background: var(--g-text-dim);
+    border-left-color: var(--g-red);
+  }
+}
+
 .g-readout {
   margin-top: 1em;
   padding: 0.9em 1.1em;

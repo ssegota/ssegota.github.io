@@ -15,9 +15,9 @@ served by GitHub Pages, which rebuilds on every push to `master`.
 | The five CV summaries (full → 250 chars) | [`_data/cv_summaries.yml`](_data/cv_summaries.yml) | [/cv/](https://ssegota.github.io/cv/) |
 | Education, jobs, skills, awards, service | [`_data/cv.yml`](_data/cv.yml) | [/cv/](https://ssegota.github.io/cv/) and the PDF |
 | Thesis topics for students | [`_pages/thesis-topics.md`](_pages/thesis-topics.md) | [/thesis-topics/](https://ssegota.github.io/thesis-topics/) |
+| Special issues you edit | [`_data/editorial.yml`](_data/editorial.yml) | [/editorial/](https://ssegota.github.io/editorial/) |
 | Courses you teach | [`_teaching/`](_teaching/) — one file per course | [/teaching/](https://ssegota.github.io/teaching/) |
 | Talks you have given | [`_talks/`](_talks/) — one file per talk | [/talks/](https://ssegota.github.io/talks/) |
-| Papers shown with a full abstract | [`_publications/`](_publications/) | bottom of [/publications/](https://ssegota.github.io/publications/) |
 | The menu bar | [`_data/navigation.yml`](_data/navigation.yml) | every page |
 | Profile links, e-mail, site title | [`_config.yml`](_config.yml) | sidebar, every page |
 | Colours and dark mode | [`_sass/_gundam.scss`](_sass/_gundam.scss) | every page |
@@ -36,7 +36,7 @@ python3 scripts/build_cv_pdf.py      # rebuild files/CV_Sandi_Baressi_Segota.pdf
 [`scripts/fetch_scholar.py`](scripts/fetch_scholar.py) rewrites
 [`_data/scholar.json`](_data/scholar.json) with your ten most recent and ten most cited papers plus
 the citation counts, which is what [/publications/](https://ssegota.github.io/publications/)
-renders. A monthly GitHub Action
+renders — it is now the only source for the publications page. A monthly GitHub Action
 ([`.github/workflows/update-scholar.yml`](.github/workflows/update-scholar.yml)) tries the same
 thing, but Google blocks datacentre traffic often enough that it will frequently fail — when it
 does, nothing is committed and the last good snapshot keeps serving. Running it yourself from a
