@@ -16,6 +16,8 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+<!-- The ?v= stamp changes on every build. Without it browsers keep serving a
+     cached main.css after a deploy and the site appears not to have changed. -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
 
 <meta http-equiv="cleartype" content="on">

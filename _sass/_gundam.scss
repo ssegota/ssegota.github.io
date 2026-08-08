@@ -234,33 +234,35 @@ hr {
   letter-spacing: 0.18em;
   text-transform: uppercase;
 
-  color: #fff;
-  background: var(--g-brand-deep);
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  /* Yellow trim against the blue bar: the point is to be found immediately,
+     so this is deliberately the loudest element in the masthead. */
+  color: var(--g-brand-deep);
+  background: var(--g-yellow);
+  border: 2px solid var(--g-brand-deep);
   border-radius: 0;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.45);
 
-  transition: background-color 120ms ease, border-color 120ms ease;
+  transition: background-color 120ms ease, color 120ms ease;
 
   &:hover {
     background: var(--g-red);
-    border-color: var(--g-yellow);
+    color: #fff;
   }
 
-  /* Camera-eye dot: green in light mode, yellow at night. */
-  &__eye {
-    width: 8px;
-    height: 8px;
-    background: var(--g-eye);
-    transform: rotate(45deg);
+  &__icon {
+    font-size: 12px;
+    line-height: 1;
     flex: none;
   }
 
-  &__label::after { content: "NIGHT"; }
+  &__label::after { content: "DARK"; }
+  .theme-switch__icon-sun { display: none; }
 }
 
 :root[data-theme="dark"] .theme-switch {
-  &__eye  { background: var(--g-yellow); }
-  &__label::after { content: "DAY"; }
+  &__label::after { content: "LIGHT"; }
+  .theme-switch__icon-sun  { display: inline; }
+  .theme-switch__icon-moon { display: none; }
 }
 
 @media (max-width: 37.5em) {
@@ -526,6 +528,65 @@ hr {
   align-items: center;
   gap: 0.6em;
 }
+
+/* Biography length switch: reads as a row of links under the text, with the
+   active one marked by a yellow rule rather than a control-looking chip. */
+/* p.g-switch, not .g-switch: the base theme sets `.page__content p` which has
+   equal specificity to a bare class and would otherwise win on font-size. */
+p.g-switch,
+.g-switch {
+  margin-top: 1.2em;
+  padding-top: 0.7em;
+  border-top: 1px solid var(--g-line);
+  font-family: var(--g-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  line-height: 2.1;
+
+  &__label {
+    color: var(--g-text-dim);
+    margin-right: 0.4em;
+  }
+
+  &__option {
+    font: inherit;
+    font-size: 11px;
+    letter-spacing: 0.09em;
+    text-transform: inherit;
+    background: none;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    padding: 0.1em 0.15em;
+    margin-right: 0.9em;
+    color: var(--g-link);
+    cursor: pointer;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--g-link-hover);
+      border-bottom-color: var(--g-link-hover);
+    }
+
+    &[aria-pressed="true"] {
+      color: var(--g-text);
+      font-weight: 700;
+      border-bottom-color: var(--g-yellow);
+      cursor: default;
+    }
+  }
+
+  /* Own line: it is a readout, not another option to click past. */
+  &__count {
+    display: block;
+    margin-top: 0.2em;
+    color: var(--g-text-dim);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+  }
+}
+
+.bio__text > p:first-child { margin-top: 0; }
 
 select.g-select,
 .g-btn {
