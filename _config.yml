@@ -27,6 +27,7 @@ author:
   bio              : "Researching the application of AI in complex engineering systems"
   location         : "Pula, Croatia"
   employer         : "Juraj Dobrila University of Pula"
+  employer_url     : "https://fipu.unipu.hr"
   uri              : "https://fipu.unipu.hr/fipu/sandi.baressi_segota" # URL
   email            : "sandi.baressi.segota@unipu.hr" 
 
@@ -64,11 +65,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  # NOTE: this was set to "sandi.segota", which rendered a broken link to
-  # https://twitter.com/sandi.segota (X handles cannot contain a dot). If the account is on
-  # Bluesky, put the full handle in the `bluesky` field above instead; if it is on X, put the
-  # handle here without the dot.
-  twitter          :   # Replace this with your X / Twitter handle
+  twitter          : "sandisegota" # X / Twitter handle, without the @
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -174,6 +171,7 @@ exclude:
   - log
   - node_modules
   - package.json
+  - scripts
   - tmp
   - vendor
 keep_files:

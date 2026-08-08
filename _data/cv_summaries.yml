@@ -1,0 +1,109 @@
+# Biography / CV summaries at five lengths, for conference programmes, speaker
+# introductions, grant forms and similar. Rendered on /cv/ behind a picker and
+# reused by scripts/build_cv_pdf.py.
+#
+# Markdown is allowed; institution names carry links (fipu.unipu.hr,
+# daignostics.info, liberiq.com). The copy button on the page copies plain
+# text, so the links do not travel with it.
+
+- id: full
+  label: "Full version"
+  text: >-
+    Dr. sc. Sandi Baressi Šegota, univ. mag. ing. comp., is an Assistant Professor at the
+    [Faculty of Informatics, Juraj Dobrila University of Pula](https://fipu.unipu.hr), where his
+    research predominantly focuses on Artificial Intelligence and Machine Learning. He earned his
+    Doctorate of Science in Electrical Engineering in 2025. After completing Secondary Technical
+    School Pula in 2013 and obtaining the qualification of Electrical Technician, he graduated from
+    the Faculty of Engineering, University of Rijeka, with a bachelor's degree (*cum laude*) in
+    Computer Science in 2017 and a master's degree (*cum laude*) in the same field in 2019. He
+    enrolled in doctoral studies at the Faculty of Engineering in Rijeka later that year.
+
+
+    In the private sector, he serves as a Lead Developer at
+    [dAIgnostics LLC](https://daignostics.info), which focuses on groundbreaking research in health
+    informatics and early neurodegenerative diagnostics. He also coordinates the architectural
+    strategy and software implementation for the skincare mobile platform startup
+    ["LiberiqAI"](https://liberiq.com), exploring agentic structures. He frequently engages in joint
+    academic outreach, delivering lectures at various events.
+
+
+    Throughout his academic career, Dr. Baressi Šegota has coauthored over 50 papers indexed in the
+    Web of Science Core Collection, 30% of which he authored as the first author. He has also
+    coauthored over 25 conference papers, 6 extended abstracts, and 1 book chapter. According to
+    Google Scholar, his publications have been cited more than 1,000 times in total. His scientific
+    and professional achievements have been recognized with several awards, including the 2021 Award
+    for Exceptional Contribution to the Development and Promotion of Technical Culture by the
+    Community of Technical Culture Pula and the Best Paper Award in the field of Artificial
+    Intelligence in Medical Science at the SICAAI conference in 2023.
+
+
+    Beyond his academic and research activities, Dr. Baressi Šegota is an active member of the
+    Astronomical Society "Istra" Pula (ADIP), which he joined in 2008. He has served as a member of
+    the directorate since 2021 and as General Secretary since 2025. He serves as a representative in
+    multiple bodies, including the Croatian Astronomical Union and the Community of Technical
+    Culture, and volunteers for projects such as STEM Games and Istra-STEM. He has also been a
+    member of the Institute of Electrical and Electronics Engineers (IEEE) since 2021 and of the
+    Global Meteor Network (GMN) since its inception.
+
+- id: w250
+  label: "250 words"
+  text: >-
+    Dr. sc. Sandi Baressi Šegota, univ. mag. ing. comp., is an Assistant Professor at the
+    [Faculty of Informatics, Juraj Dobrila University of Pula](https://fipu.unipu.hr), specializing
+    in Artificial Intelligence and Machine Learning. He earned his Doctorate of Science in
+    Electrical Engineering in 2025. He previously earned his computer science bachelor's (2017) and
+    master's (2019) degrees *cum laude* from the University of Rijeka, and qualified as an
+    Electrical Technician in 2013.
+
+
+    In the private sector, he serves as a Lead Developer at
+    [dAIgnostics LLC](https://daignostics.info), focusing on groundbreaking research in health
+    informatics and early neurodegenerative diagnostics. He also coordinates the architectural
+    strategy and software implementation for the skincare mobile platform startup
+    ["LiberiqAI"](https://liberiq.com), exploring agentic structures. Additionally, he is active in
+    joint academic outreach, delivering lectures at various events.
+
+
+    Throughout his career, Dr. Baressi Šegota has coauthored over 50 papers indexed in the Web of
+    Science Core Collection (30% as first author), alongside over 25 conference papers, 6 extended
+    abstracts, and 1 book chapter. His work has garnered more than 1,000 citations on Google
+    Scholar. His honors include the 2021 Award for Exceptional Contribution to the Development and
+    Promotion of Technical Culture by the Community of Technical Culture Pula, and the Best Paper
+    Award in Artificial Intelligence in Medical Science at the 2023 SICAAI conference.
+
+
+    Beyond academia, he has been an active member of the Astronomical Society "Istra" Pula (ADIP)
+    since 2008, currently serving as General Secretary. He volunteers for STEM Games and Istra-STEM,
+    and is a member of IEEE and the Global Meteor Network.
+
+- id: w100
+  label: "100 words"
+  text: >-
+    Dr. sc. Sandi Baressi Šegota is an Assistant Professor at the
+    [Faculty of Informatics, Juraj Dobrila University of Pula](https://fipu.unipu.hr), specializing
+    in Artificial Intelligence and Machine Learning. Holding a 2025 PhD in Electrical Engineering
+    from the University of Rijeka, his extensive research includes over 50 WoS-indexed papers and
+    1,000+ citations. In the private sector, he is a Lead Developer at
+    [dAIgnostics LLC](https://daignostics.info) and coordinates architectural strategy for the
+    startup [LiberiqAI](https://liberiq.com). An award-winning academic, he also actively promotes
+    STEM and serves as General Secretary of the Astronomical Society "Istra" Pula, while holding
+    memberships in the IEEE and Global Meteor Network.
+
+- id: c500
+  label: "500 characters"
+  text: >-
+    Dr. sc. Sandi Baressi Šegota is an Assistant Professor at
+    [Juraj Dobrila University of Pula](https://fipu.unipu.hr), specializing in AI and Machine
+    Learning. Holding a 2025 PhD in Electrical Engineering, he has coauthored over 50 WoS-indexed
+    papers with 1,000+ citations. He is a Lead Developer at
+    [dAIgnostics LLC](https://daignostics.info) and coordinates architecture for
+    [LiberiqAI](https://liberiq.com). An award-winning scientist, he also serves as General
+    Secretary of the Astronomical Society "Istra" Pula and holds memberships in the IEEE and GMN.
+
+- id: c250
+  label: "250 characters"
+  text: >-
+    Dr. sc. Sandi Baressi Šegota is an Assistant Professor at
+    [Juraj Dobrila University of Pula](https://fipu.unipu.hr) focusing on AI. With a 2025 PhD, he
+    leads development at [dAIgnostics LLC](https://daignostics.info) and is General Secretary of the
+    Astronomical Society "Istra" Pula.

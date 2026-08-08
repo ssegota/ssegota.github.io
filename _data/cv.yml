@@ -1,0 +1,74 @@
+# Structured CV. Rendered on /cv/ by _pages/cv.md and into the downloadable
+# PDF by scripts/build_cv_pdf.py, so both stay in step - edit here only.
+#
+# `url` on an entry turns the organisation name into a link on the web page and
+# a footnote-free link in the PDF.
+
+education:
+  - degree: "Ph.D. in Electrical Engineering (dr. sc.)"
+    year: "2025"
+    org: "Faculty of Engineering, University of Rijeka"
+    url: "https://www.riteh.uniri.hr/"
+  - degree: "Master's degree in Computer Engineering (mag. ing. comp.), cum laude"
+    year: "2019"
+    org: "Faculty of Engineering, University of Rijeka"
+    url: "https://www.riteh.uniri.hr/"
+  - degree: "Bachelor's degree in Computer Engineering (univ. bacc. ing. comp.), cum laude"
+    year: "2017"
+    org: "Faculty of Engineering, University of Rijeka"
+    url: "https://www.riteh.uniri.hr/"
+
+experience:
+  - role: "Assistant Professor"
+    period: "2025 - present"
+    org: "Faculty of Informatics, Juraj Dobrila University of Pula"
+    url: "https://fipu.unipu.hr"
+  - role: "Lead Developer"
+    period: "2025 - present"
+    org: "dAIgnostics LLC"
+    url: "https://daignostics.info"
+    note: "Health informatics and early neurodegenerative diagnostics"
+  - role: "Architecture and software implementation"
+    period: "2025 - present"
+    org: "LiberiqAI"
+    url: "https://liberiq.com"
+    note: "Skincare mobile platform startup; agentic structures"
+  - role: "Research Assistant"
+    period: "2022 - 2025"
+    org: "Faculty of Engineering, University of Rijeka"
+    url: "https://www.riteh.uniri.hr/"
+  - role: "Expert Associate - Junior Researcher"
+    period: "2019 - 2022"
+    org: "University of Rijeka"
+    url: "https://uniri.hr/"
+    note: "CEKOM SmartCity.4DII and DATACROSS projects"
+
+skills:
+  - group: "Robotics"
+    items:
+      - "Industrial and collaborative manipulators"
+      - "Path planning and trajectory optimization"
+      - "Simulation (RoboDK, CoppeliaSim)"
+  - group: "Artificial Intelligence"
+    items:
+      - "Regression modeling"
+      - "Convolutional neural networks"
+      - "Data synthetization"
+      - "Model interpretability"
+  - group: "Evolutionary Computing"
+    items:
+      - "Genetic algorithms and evolutionary optimization"
+
+awards:
+  - year: "2023"
+    text: "Best Paper Award, Artificial Intelligence in Medical Science, SICAAI conference"
+  - year: "2021"
+    text: "Award for Exceptional Contribution to the Development and Promotion of Technical Culture, Community of Technical Culture Pula"
+
+service:
+  - "General Secretary of the Astronomical Society \"Istra\" Pula (ADIP) since 2025; member since 2008, member of the administrative board since 2021"
+  - "Representative in the Croatian Astronomical Union since 2025"
+  - "Representative in the assembly of the Community of Technical Culture Pula since 2025"
+  - "Member of the Institute of Electrical and Electronics Engineers (IEEE) since 2021"
+  - "Member of the Global Meteor Network (GMN) since its inception"
+  - "Volunteer with STEM Games and Istra-STEM"
