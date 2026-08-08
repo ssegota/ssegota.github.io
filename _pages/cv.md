@@ -71,9 +71,7 @@ Publications
   {% endfor %}
   </ol>
 {% else %}
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  <p>See <a href="{{ site.author.googlescholar }}">Google Scholar</a> for the full publication list.</p>
 {% endif %}
 
 Talks

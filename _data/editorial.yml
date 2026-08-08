@@ -1,0 +1,60 @@
+# Special issues / topical collections edited. Rendered by _pages/editorial.md.
+#
+# `deadline` is the text shown; `deadline_iso` (YYYY-MM-DD) is what the page
+# compares against the build date to label the issue Open or Closed, so keep
+# the two in step. Add a new issue by copying one block.
+
+- title: "AI in Complex Engineering Systems"
+  journal: "Computers"
+  journal_detail: "ISSN 2073-431X, section \"AI-Driven Innovations\""
+  publisher: "MDPI"
+  role: "Guest Editor"
+  deadline: "30 August 2027"
+  deadline_iso: 2027-08-30
+  url: "https://www.mdpi.com/journal/computers/special_issues/VWA10HU3L5"
+  description: >-
+    The accurate prediction of performance and maintenance metrics in complex engineering systems has
+    driven a rapid expansion in the application of artificial intelligence. AI methods are now routine
+    across regression modelling of critical values, the detection of events and anomalies in numerical
+    and image-based data, and the optimization of operational processes, in many cases outperforming
+    traditional analytical or rule-based approaches.
+
+
+    This Special Issue explores and advances the use of AI in engineering contexts, with an emphasis on
+    interdisciplinary collaboration and on making emerging AI paradigms more familiar to
+    engineering-oriented researchers. Research articles, reviews and short communications are all
+    welcome.
+  topics:
+    - "Sensor fusion strategies for robust data interpretation"
+    - "Generative models for data augmentation and simulation"
+    - "Multi-agent optimization frameworks for complex control environments"
+    - "Digital twins and AI-enhanced simulation"
+    - "Edge AI for real-time industrial monitoring"
+    - "Explainable AI in engineering decision-making"
+    - "Resilient AI systems for fault-tolerant engineering"
+    - "Large language models for documentation automation and semantic parsing"
+
+- title: "Evolutionary Algorithms for Advanced Robotics"
+  journal: "Discover Robotics"
+  journal_detail: "open access"
+  publisher: "Springer Nature"
+  role: "Guest Editor, with Nikola Anđelić"
+  deadline: "30 September 2026"
+  deadline_iso: 2026-09-30
+  url: "https://link.springer.com/collections/aicjccbcjc"
+  description: >-
+    This Collection focuses on the integration of evolutionary algorithms into robotic systems, and on
+    their potential to solve complex problems in control, navigation, optimization and learning.
+    Genetic algorithms, genetic programming and differential evolution offer adaptive, bio-inspired
+    approaches that improve robotic performance, autonomy and decision-making in dynamic environments.
+
+
+    Original research, case studies and review articles are invited. Contributions addressing the
+    challenges of evolving controllers, real-time adaptation, explainability and the scalability of
+    these methods in both physical and simulated environments are particularly encouraged.
+  topics:
+    - "Autonomous navigation"
+    - "Swarm robotics and multi-agent systems"
+    - "Robotic manipulation"
+    - "Human-robot interaction"
+    - "Evolving controllers and real-time adaptation"

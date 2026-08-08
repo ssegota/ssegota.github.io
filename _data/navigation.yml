@@ -12,5 +12,8 @@ main:
   - title: "Thesis Topics"
     url: /thesis-topics/
 
+  - title: "Editorial"
+    url: /editorial/
+
   - title: "CV"
     url: /cv/
