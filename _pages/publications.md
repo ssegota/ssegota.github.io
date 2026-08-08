@@ -64,31 +64,6 @@ Selected papers with abstracts
 {% endfor %}
 {% endif %}
 
-<script>
-  // Switch between the two Scholar lists. Both are already in the page.
-  (function () {
-    var buttons = {
-      recent: document.getElementById('pub-recent'),
-      cited:  document.getElementById('pub-cited')
-    };
-    var lists = {
-      recent: document.getElementById('pub-list-recent'),
-      cited:  document.getElementById('pub-list-cited')
-    };
-    if (!buttons.recent || !lists.recent) return;
-
-    function show(which) {
-      Object.keys(lists).forEach(function (key) {
-        lists[key].hidden = (key !== which);
-        buttons[key].setAttribute('aria-pressed', String(key === which));
-      });
-    }
-
-    Object.keys(buttons).forEach(function (key) {
-      buttons[key].addEventListener('click', function () { show(key); });
-    });
-  })();
-</script>
 
 {% else %}
 
