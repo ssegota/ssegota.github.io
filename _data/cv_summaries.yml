@@ -1,13 +1,14 @@
-# Biography / CV summaries at five lengths, for conference programmes, speaker
-# introductions, grant forms and similar. Rendered on /cv/ behind a picker and
-# reused by scripts/build_cv_pdf.py.
+# Biography at five lengths, for conference programmes, speaker introductions,
+# grant forms and similar. The front page shows one at a time behind the length
+# switch; the `full` entry is also the Profile section of the generated PDF
+# (scripts/build_cv_pdf.py).
 #
 # Markdown is allowed; institution names carry links (fipu.unipu.hr,
-# daignostics.info, liberiq.com). The copy button on the page copies plain
-# text, so the links do not travel with it.
+# daignostics.info, liberiq.com). `label` is what the switch shows, so keep it
+# short enough to sit on one line.
 
 - id: full
-  label: "Full version"
+  label: "Full"
   text: >-
     Dr. sc. Sandi Baressi Šegota, univ. mag. ing. comp., is an Assistant Professor at the
     [Faculty of Informatics, Juraj Dobrila University of Pula](https://fipu.unipu.hr), where his
@@ -17,6 +18,14 @@
     the Faculty of Engineering, University of Rijeka, with a bachelor's degree (*cum laude*) in
     Computer Science in 2017 and a master's degree (*cum laude*) in the same field in 2019. He
     enrolled in doctoral studies at the Faculty of Engineering in Rijeka later that year.
+
+
+    During his studies, he was an active member of the academic community, serving on the Student
+    Council of the Faculty of Engineering and as the representative of doctoral students from 2020
+    to 2022. He began his professional career at the [University of Rijeka](https://uniri.hr/) in
+    2019 as a junior researcher and expert associate, working on the CEKOM SmartCity.4DII
+    (KK.01.2.2.03.0004) and the Scientific Center of Research Excellence in Data Science
+    "DATACROSS" (KK.01.1.1.01.0009).
 
 
     In the private sector, he serves as a Lead Developer at
@@ -90,7 +99,7 @@
     memberships in the IEEE and Global Meteor Network.
 
 - id: c500
-  label: "500 characters"
+  label: "500 chars"
   text: >-
     Dr. sc. Sandi Baressi Šegota is an Assistant Professor at
     [Juraj Dobrila University of Pula](https://fipu.unipu.hr), specializing in AI and Machine
@@ -101,7 +110,7 @@
     Secretary of the Astronomical Society "Istra" Pula and holds memberships in the IEEE and GMN.
 
 - id: c250
-  label: "250 characters"
+  label: "250 chars"
   text: >-
     Dr. sc. Sandi Baressi Šegota is an Assistant Professor at
     [Juraj Dobrila University of Pula](https://fipu.unipu.hr) focusing on AI. With a 2025 PhD, he
