@@ -111,6 +111,9 @@
 
 - id: c250
   label: "250 chars"
+  # Shown first on the front page. The switch keeps its longest-to-shortest
+  # order regardless; only this flag decides what loads.
+  default: true
   text: >-
     Dr. sc. Sandi Baressi Šegota is an Assistant Professor at
     [Juraj Dobrila University of Pula](https://fipu.unipu.hr) focusing on AI. With a 2025 PhD, he

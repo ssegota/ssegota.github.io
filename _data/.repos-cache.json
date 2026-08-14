@@ -1,0 +1,416 @@
+[
+ {
+  "name": "2DOF-AI-path-optimization",
+  "url": "https://github.com/ssegota/2DOF-AI-path-optimization",
+  "description": "",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "8Queen",
+  "url": "https://github.com/ssegota/8Queen",
+  "description": "The solution of the 8 Queen problem demonstrating a simple evolutionary algorithm",
+  "language": "Python",
+  "topics": [],
+  "stars": 2,
+  "fork": false
+ },
+ {
+  "name": "adip-web",
+  "url": "https://github.com/ssegota/adip-web",
+  "description": "",
+  "language": "HTML",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "amplify-vite-react-template-dai",
+  "url": "https://github.com/ssegota/amplify-vite-react-template-dai",
+  "description": "",
+  "language": "JavaScript",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "amplify-vite-react-template-test",
+  "url": "https://github.com/ssegota/amplify-vite-react-template-test",
+  "description": "Test",
+  "language": "TypeScript",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "Application-of-Artifical-Intelligence-Exercises",
+  "url": "https://github.com/ssegota/Application-of-Artifical-Intelligence-Exercises",
+  "description": "A repository to store and share the solutions of exercises from the laboratory section of \"Application of Artificial Intelligence\" class",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "Art-Showroom-RWA",
+  "url": "https://github.com/ssegota/Art-Showroom-RWA",
+  "description": "",
+  "language": "PHP",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "artificial-bee-colony",
+  "url": "https://github.com/ssegota/artificial-bee-colony",
+  "description": "Implementation of artificial bee colony (ABC) algorithm in python",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "Automated-correlation-filtering",
+  "url": "https://github.com/ssegota/Automated-correlation-filtering",
+  "description": "",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "Blic",
+  "url": "https://github.com/ssegota/Blic",
+  "description": "",
+  "language": "Shell",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "BMO-contiki-6LoWPAN",
+  "url": "https://github.com/ssegota/BMO-contiki-6LoWPAN",
+  "description": "Implementation of contiki ping-pong protocol on TI CC2650 for Wireless Sensor Networks class",
+  "language": "Makefile",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "CNN_Bench",
+  "url": "https://github.com/ssegota/CNN_Bench",
+  "description": "A simpler benchmark tool for CNN performance",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "Complex-System-Engineering-Exercises",
+  "url": "https://github.com/ssegota/Complex-System-Engineering-Exercises",
+  "description": "This repository contains solutions to exercises from Complex System Engineering Class (ML and AI techniques) at Rijeka Faculty of Engineering ",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "dai-amplify-test",
+  "url": "https://github.com/ssegota/dai-amplify-test",
+  "description": "",
+  "language": "TypeScript",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "Digital-Image-Processing-Project",
+  "url": "https://github.com/ssegota/Digital-Image-Processing-Project",
+  "description": "",
+  "language": "Matlab",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "dotfiles",
+  "url": "https://github.com/ssegota/dotfiles",
+  "description": "",
+  "language": "Shell",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "EEGDetection",
+  "url": "https://github.com/ssegota/EEGDetection",
+  "description": "Detection of EEG waves in a frequency band using Emotiv EPOC device",
+  "language": "Python",
+  "topics": [],
+  "stars": 4,
+  "fork": false
+ },
+ {
+  "name": "Embedded-Systems-Project",
+  "url": "https://github.com/ssegota/Embedded-Systems-Project",
+  "description": "Repository for project for Embedded System Programming Class - ROS recognition traffic, on RPi",
+  "language": "C++",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "gmn-wavelet-maps",
+  "url": "https://github.com/ssegota/gmn-wavelet-maps",
+  "description": "Reproduces the GMN daily wavelet meteor-shower maps + maxlist from raw radiants (Brown et al. 2010 3-D wavelet)",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "gundam-timeline",
+  "url": "https://github.com/ssegota/gundam-timeline",
+  "description": "A source-attributed chronology of every Gundam continuity — 100 events, 44 series, 19 continuities — with a renderer that keeps sourced fact and project guesswork visibly apart.",
+  "language": "HTML",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "ies_web-app-detector",
+  "url": "https://github.com/ssegota/ies_web-app-detector",
+  "description": "",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "isComputerOn-Python",
+  "url": "https://github.com/ssegota/isComputerOn-Python",
+  "description": "Python library for checking if the computer is on.",
+  "language": "Python",
+  "topics": [],
+  "stars": 6,
+  "fork": false
+ },
+ {
+  "name": "keras-grid-search",
+  "url": "https://github.com/ssegota/keras-grid-search",
+  "description": "Implementation of grid search on keras",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "linux-config-files",
+  "url": "https://github.com/ssegota/linux-config-files",
+  "description": "Various config files and auxiliary files for linux - used as backup",
+  "language": "Vim script",
+  "topics": [],
+  "stars": 1,
+  "fork": false
+ },
+ {
+  "name": "MemoryGeeks",
+  "url": "https://github.com/ssegota/MemoryGeeks",
+  "description": "A simple android memory game for college project.",
+  "language": "Java",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "menzapp",
+  "url": "https://github.com/ssegota/menzapp",
+  "description": "",
+  "language": "JavaScript",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "metrics_from_cm",
+  "url": "https://github.com/ssegota/metrics_from_cm",
+  "description": "Gets metrics from confusion marix, including ones not existing in sklearn. All metrics defined as ratios of fp, fn, tn, and tp",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "MLSA-filtar",
+  "url": "https://github.com/ssegota/MLSA-filtar",
+  "description": "implementation of MLSA filter on a wave file using SPTK functions",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "MPIS-simulation",
+  "url": "https://github.com/ssegota/MPIS-simulation",
+  "description": "Java model of trasformer field for College project (Modelling process-information systems)",
+  "language": "Java",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "navigatore",
+  "url": "https://github.com/ssegota/navigatore",
+  "description": "",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "NS3-simulation-example",
+  "url": "https://github.com/ssegota/NS3-simulation-example",
+  "description": "Example of network topology simulation using ns3 library",
+  "language": "C++",
+  "topics": [],
+  "stars": 1,
+  "fork": false
+ },
+ {
+  "name": "openstack-project",
+  "url": "https://github.com/ssegota/openstack-project",
+  "description": "",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "Optimizing-Classification-Algorithm",
+  "url": "https://github.com/ssegota/Optimizing-Classification-Algorithm",
+  "description": "",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "palisa-asteroids",
+  "url": "https://github.com/ssegota/palisa-asteroids",
+  "description": "Asteroids discovered by Johann Palisa at Pula Observatory — responsive site with JPL SBDB data",
+  "language": "JavaScript",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "predictor-app",
+  "url": "https://github.com/ssegota/predictor-app",
+  "description": "",
+  "language": "JavaScript",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "rice",
+  "url": "https://github.com/ssegota/rice",
+  "description": "i3 + polybar + Tokyo Night rice for Ubuntu — dotfiles, wallpapers, and a one-shot installer",
+  "language": "Shell",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "robotika-fipu",
+  "url": "https://github.com/ssegota/robotika-fipu",
+  "description": "Objedinjeni interaktivni web kolegija Robotika (FIPU) — naslovnica i 14 predavanja (Vite + React), spremno za Netlify.",
+  "language": "JavaScript",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "scholar-citation-formatter",
+  "url": "https://github.com/ssegota/scholar-citation-formatter",
+  "description": "Formats citations downloaded from Google Scholar in CSV format, into a form usable in other document types (CVs, reports, ...)",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "Smiles-NPY",
+  "url": "https://github.com/ssegota/Smiles-NPY",
+  "description": "Converts SMILES chemical descriptor strings from a CSV dataset, to \"Ones Hot\" Array inside an NPY for machine learning; along with any other data stored in .CSV",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "Smiles-NPY-Converter",
+  "url": "https://github.com/ssegota/Smiles-NPY-Converter",
+  "description": "converts SMILE chemical descriptor strings into \"One Hot\" 2D-Array, and stores it inside NPY and NPZ together with the remainder of the input .CSV dataset",
+  "language": "",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "spot-the-asteroid",
+  "url": "https://github.com/ssegota/spot-the-asteroid",
+  "description": "Simple, Asteroid spotting game.",
+  "language": "HTML",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "stohastic-mathematics-simulations",
+  "url": "https://github.com/ssegota/stohastic-mathematics-simulations",
+  "description": "Simulation excersises for stohastic mathematics. Random variables, distributions, statistics, Markov chains, etc..",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "TSP-Croatian-Islands",
+  "url": "https://github.com/ssegota/TSP-Croatian-Islands",
+  "description": "Code, dataset, and results for TSP solution with GA and SA on Croatian Islands",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "UpcomingAlbums",
+  "url": "https://github.com/ssegota/UpcomingAlbums",
+  "description": "",
+  "language": "Ruby",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "WAVE-file-analysis",
+  "url": "https://github.com/ssegota/WAVE-file-analysis",
+  "description": "Wave File Analysis in C",
+  "language": "C",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "Yacht-Hydrodynamics-MLP",
+  "url": "https://github.com/ssegota/Yacht-Hydrodynamics-MLP",
+  "description": "",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ }
+]

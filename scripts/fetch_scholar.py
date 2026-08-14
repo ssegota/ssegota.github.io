@@ -147,6 +147,11 @@ def main():
         "stats": parse_stats(by_cites),
         "recent": recent[:args.top],
         "cited": sorted(cited, key=lambda row: row["citations"], reverse=True)[:args.top],
+        # Every title Scholar returned, trimmed to what the skill chart needs.
+        # scripts/build_skilltree.py mines these for keyword evidence.
+        "corpus": [{"title": row["title"], "year": row["year"],
+                    "citations": row["citations"], "url": row["url"]}
+                   for row in cited],
     }
 
     if args.dry_run:

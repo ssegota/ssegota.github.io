@@ -1,0 +1,256 @@
+# Skill taxonomy for the star chart on /skills/.
+#
+# You curate this file; scripts/build_skilltree.py does the counting. Nothing
+# here is a claim about proficiency - proficiency is derived from how much
+# published and published-code evidence matches each entry.
+#
+# Per skill:
+#   id      unique slug, used in the generated JSON
+#   name    label drawn on the chart
+#   match   patterns searched in paper titles and repo names/descriptions.
+#           Matched as whole words, case-insensitively. "neural network"
+#           matches "Neural Networks" but "ga" will not match "gauge".
+#   langs   GitHub language names that count as evidence for this skill
+#   boost   flat score added by hand, for work that leaves no paper or repo
+#           (teaching, supervision, review, industry). Keep these honest.
+#   floor   minimum level, 1-5. Use sparingly.
+#   note    one line shown in the detail panel
+#
+# Constellations are drawn in the order listed here.
+
+constellations:
+  - id: nn
+    name: Neural Networks
+    spectral: B          # blue-white
+    blurb: "Feedforward and deep architectures, from MLPs to ensembles."
+    skills:
+      - id: mlp
+        name: Multilayer Perceptrons
+        match: [multilayer perceptron, mlp, feedforward, artificial neural network,
+                neural network, ann]
+        note: "The workhorse across the inverse-kinematics and epidemiology work."
+      - id: cnn
+        name: Convolutional Networks
+        match: [convolutional, cnn, resnet, vgg, alexnet, inception, efficientnet]
+        langs: []
+        note: "Image classifiers for radiographs, histology and benchmark sets."
+      - id: rnn
+        name: Recurrent & Sequence Models
+        match: [lstm, long short-term memory, recurrent, gru, sequence model]
+      - id: gan
+        name: Generative Models
+        match: [generative adversarial, gan, dcgan, data augmentation, synthetic data,
+                diffusion model, variational autoencoder]
+      - id: ensemble
+        name: Ensembles & Classical ML
+        match: [ensemble, random forest, gradient boosting, xgboost, support vector,
+                svm, k-nearest, decision tree, regression method, statistical and
+                machine learning]
+      - id: tuning
+        name: Hyperparameter Search
+        match: [grid search, hyperparameter, random search, cross-validation,
+                model selection, fine-tuning, adapter-based]
+        boost: 2
+        note: "Includes the keras-grid-search and CNN benchmarking tooling."
+
+  - id: evo
+    name: Evolutionary Computation
+    spectral: K          # orange
+    blurb: "Search, optimisation and symbolic model discovery."
+    skills:
+      - id: ga
+        name: Genetic Algorithms
+        match: [genetic algorithm, evolutionary algorithm, evolutionary computation,
+                ga, evolutionary]
+      - id: gp
+        name: Genetic Programming
+        match: [genetic programming, symbolic expression, symbolic regression,
+                interpretable, symbolic]
+        note: "Human-readable expressions instead of opaque models."
+      - id: swarm
+        name: Swarm & Metaheuristics
+        match: [artificial bee colony, abc, particle swarm, pso, ant colony,
+                simulated annealing, metaheuristic, swarm]
+      - id: combopt
+        name: Combinatorial Optimisation
+        match: [travelling salesman, traveling salesman, tsp, path optimization,
+                scheduling, knapsack, n-queens, 8 queen, eight queens]
+
+  - id: nlp
+    name: Language & Reasoning
+    spectral: A          # white
+    blurb: "Large language models, evaluation and applied NLP."
+    skills:
+      - id: llm
+        name: Large Language Models
+        match: [large language model, llm, small language model, language model,
+                gpt, transformer, prompt]
+        note: "Recent focus: what these models get wrong, measured properly."
+      - id: bench
+        name: Benchmarking & Evaluation
+        match: [benchmark, benchmarking, evaluating, evaluation, proficiency,
+                trade-offs, misconception]
+      - id: agents
+        name: Agentic Systems
+        match: [agentic, agent, multi-agent, tool use, retrieval-augmented, rag]
+        boost: 4
+        note: "Architecture work at LiberiqAI on agent structures."
+      - id: embed
+        name: Embeddings & Retrieval
+        match: [faiss, embedding, clip, vector search, similarity search,
+                nearest neighbour search]
+
+  - id: vision
+    name: Vision & Imaging
+    spectral: N1         # nebula teal
+    blurb: "Getting measurements out of pixels."
+    skills:
+      - id: medimg
+        name: Medical Imaging
+        match: [x-ray, radiograph, ct scan, mri, histolog, ultrasound, organmnist,
+                lung condition, medical image]
+      - id: dip
+        name: Digital Image Processing
+        match: [image processing, segmentation, edge detection, morpholog,
+                thresholding, filtering, digital image]
+      - id: recog
+        name: Recognition Systems
+        match: [face recognition, object detection, identification, recognition,
+                classification using]
+
+  - id: robotics
+    name: Robotics & Control
+    spectral: G          # yellow
+    blurb: "Manipulators, planning and the energy cost of moving metal."
+    skills:
+      - id: kin
+        name: Kinematics
+        match: [inverse kinematics, forward kinematics, kinematic, degree-of-freedom,
+                degrees of freedom, dof, manipulator, robotic arm]
+      - id: planning
+        name: Motion & Path Planning
+        match: [path planning, motion planning, trajectory, path optimization,
+                collision avoidance]
+      - id: cobot
+        name: Collaborative Robotics
+        match: [collaborative robot, cobot, human-robot, energy expenditure,
+                industrial robot]
+      - id: embedded
+        name: Embedded & IoT
+        match: [embedded, microcontroller, contiki, 6lowpan, cc2650, sensor node,
+                wireless sensor, iot]
+        langs: [C, C++, Makefile, Assembly]
+
+  - id: thermal
+    name: Marine & Thermal Systems
+    spectral: M          # red
+    blurb: "Ships, turbines and where the energy goes."
+    skills:
+      - id: turbine
+        name: Steam & Gas Turbines
+        match: [steam turbine, gas turbine, turbine, propulsion, condenser, boiler]
+      - id: exergy
+        name: Energy & Exergy Analysis
+        match: [exergy, energy analysis, heat balance, thermodynamic, efficiency
+                analysis, waste heat, heat recovery, co2]
+      - id: hydro
+        name: Hydrodynamics
+        match: [hydrodynamic, yacht, resistance, hull, drag, fluid]
+      - id: marinesys
+        name: Marine Plant Operation
+        match: [marine, pump, ship, vessel, engine room, load, ambient temperature]
+
+  - id: biomed
+    name: Health & Life Sciences
+    spectral: N2         # nebula magenta
+    blurb: "Applied AI where a wrong answer matters."
+    skills:
+      - id: epi
+        name: Epidemiological Modelling
+        match: [covid, covid-19, epidemic, pandemic, infection, spread prediction,
+                epidemic curve]
+      - id: onco
+        name: Oncology & Diagnostics
+        match: [cancer, tumour, tumor, carcinoma, bladder, diagnosis, diagnostic,
+                screening]
+      - id: neuro
+        name: Neuro & Biosignals
+        match: [eeg, emg, ecg, biosignal, brain, neurodegenerative, alzheimer,
+                parkinson, cognitive]
+        boost: 4
+        note: "Core of the dAIgnostics work on early neurodegenerative markers."
+      - id: chem
+        name: Cheminformatics
+        match: [smiles, molecular, chemical composition, compound, refractive index,
+                chemical descriptor, drug]
+
+  - id: signal
+    name: Signals & Data
+    spectral: F          # yellow-white
+    blurb: "Transforms, time series and the plumbing underneath them."
+    skills:
+      - id: wavelet
+        name: Wavelet & Spectral Analysis
+        match: [wavelet, fourier, spectral analysis, frequency band, transform,
+                mlsa, sptk]
+      - id: ts
+        name: Time Series & Forecasting
+        match: [forecasting, time series, stock price, prediction of, trend,
+                seasonal, curve fitting]
+      - id: audio
+        name: Audio & Speech
+        match: [audio, speech, wave file, wav, acoustic, filter on a wave]
+      - id: dataprep
+        name: Feature Engineering
+        match: [correlation, feature selection, feature extraction, dimensionality,
+                preprocessing, dataset construction, confusion matrix, metrics]
+
+  - id: software
+    name: Software & Systems
+    spectral: O          # deep blue
+    blurb: "The engineering that carries the research."
+    skills:
+      - id: python
+        name: Python
+        match: [python]
+        langs: [Python]
+        floor: 4
+      - id: web
+        name: Web Platforms
+        match: [web app, website, web application, frontend, react, vite, amplify]
+        langs: [JavaScript, TypeScript, HTML, PHP, Ruby, CSS]
+      - id: systems
+        name: Systems Programming
+        match: [c library, low-level, compiler, java, matlab]
+        langs: [C, C++, Java, Matlab]
+      - id: linux
+        name: Linux & Tooling
+        match: [dotfiles, config files, i3, polybar, rice, shell, bash, vim]
+        langs: [Shell, Vim script, Perl]
+      - id: cloud
+        name: Cloud & Networks
+        match: [openstack, aws, cloud, ns3, network topology, simulation of network,
+                deployment, docker]
+      - id: teaching
+        name: Teaching & Supervision
+        match: [exercises, course, education, students, curriculum, lecture]
+        boost: 8
+        floor: 4
+        note: "Course repositories, thesis supervision and lecturing at FIPU."
+
+  - id: astro
+    name: Astronomy & Outreach
+    spectral: N3         # nebula violet
+    blurb: "Not a hobby section - it produces datasets and software too."
+    skills:
+      - id: meteor
+        name: Meteor Science
+        match: [meteor, gmn, global meteor network, shower, maxlist, fireball]
+      - id: minor
+        name: Minor Planets
+        match: [asteroid, palisa, minor planet, comet, orbit]
+      - id: outreach
+        name: Science Communication
+        match: [outreach, observatory, chronology, timeline, public engagement]
+        boost: 5
+        note: "ADIP directorate, STEM Games, Istra-STEM."

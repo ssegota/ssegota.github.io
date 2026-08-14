@@ -1,0 +1,44 @@
+# Terms not yet in the taxonomy
+
+Generated 2026-08-14 from 99 paper titles and 46 repositories. Anything here worth keeping should be added to `_data/skills.yml` by hand.
+
+- `learning` &mdash; 13
+- `detection` &mdash; 12
+- `machine` &mdash; 12
+- `machine learning` &mdash; 10
+- `power` &mdash; 10
+- `robotic` &mdash; 10
+- `algorithms` &mdash; 9
+- `classifier` &mdash; 9
+- `symbolic classifier` &mdash; 8
+- `intelligence` &mdash; 7
+- `networks` &mdash; 7
+- `artificial intelligence` &mdash; 6
+- `dataset` &mdash; 6
+- `industrial robotic` &mdash; 6
+- `influence` &mdash; 6
+- `patients` &mdash; 6
+- `plant` &mdash; 6
+- `power plant` &mdash; 6
+- `programming symbolic` &mdash; 6
+- `bladder cancer` &mdash; 5
+- `convolutional neural` &mdash; 5
+- `development` &mdash; 5
+- `expressions` &mdash; 5
+- `main` &mdash; 5
+- `manipulators` &mdash; 5
+- `neural networks` &mdash; 5
+- `robotic manipulator` &mdash; 5
+- `robotic manipulators` &mdash; 5
+- `simulation` &mdash; 5
+- `automated` &mdash; 4
+- `cancer diagnosis` &mdash; 4
+- `codlag` &mdash; 4
+- `codlag propulsion` &mdash; 4
+- `combined` &mdash; 4
+- `csv` &mdash; 4
+- `engineering` &mdash; 4
+- `intelligence algorithms` &mdash; 4
+- `loads` &mdash; 4
+- `npy` &mdash; 4
+- `operation` &mdash; 4

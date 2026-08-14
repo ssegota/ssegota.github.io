@@ -64,7 +64,12 @@
       });
     });
 
-    show(texts[0].getAttribute('data-id'));
+    /* Start on whichever version the page left visible - that is the one
+       flagged `default: true` in _data/cv_summaries.yml, not necessarily the
+       first in the switch. */
+    var initial = texts.filter(function (text) { return !text.hidden; })[0]
+      || texts[0];
+    show(initial.getAttribute('data-id'));
   }
 
   /* ---- Publications: most recent / most cited ----------------------------- */

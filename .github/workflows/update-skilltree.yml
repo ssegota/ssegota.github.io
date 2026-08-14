@@ -1,0 +1,49 @@
+name: Rebuild skill chart
+
+# Unlike the Scholar job, this one is reliable: it reads the already-committed
+# _data/scholar.json and calls the GitHub API, which is happy to talk to its own
+# runners. It reruns after a successful Scholar refresh so the two stay in step.
+
+on:
+  schedule:
+    - cron: "12 5 * * 1" # 05:12 UTC every Monday
+  workflow_run:
+    workflows: ["Refresh Google Scholar data"]
+    types: [completed]
+  workflow_dispatch:
+  push:
+    paths:
+      - "_data/skills.yml"
+      - "scripts/build_skilltree.py"
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      - name: Rebuild the chart data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/build_skilltree.py
+
+      - name: Commit if the chart changed
+        run: |
+          if git diff --quiet -- _data/skilltree.json _data/skill-suggestions.md; then
+            echo "Skill chart unchanged."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/skilltree.json _data/skill-suggestions.md _data/.repos-cache.json
+          git commit -m "Rebuild skill chart"
+          git push

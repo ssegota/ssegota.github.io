@@ -1,0 +1,2033 @@
+{
+ "generated": "2026-08-14",
+ "sources": {
+  "papers": 99,
+  "repos": 46,
+  "citations": 1712,
+  "h_index": 21
+ },
+ "levels": [
+  "Familiar",
+  "Working",
+  "Practised",
+  "Fluent",
+  "Signature"
+ ],
+ "constellations": [
+  {
+   "id": "nn",
+   "name": "Neural Networks",
+   "spectral": "B",
+   "blurb": "Feedforward and deep architectures, from MLPs to ensembles.",
+   "papers": 26,
+   "peak": 4,
+   "skills": [
+    {
+     "id": "mlp",
+     "name": "Multilayer Perceptrons",
+     "note": "The workhorse across the inverse-kinematics and epidemiology work.",
+     "level": 4,
+     "score": 41.0,
+     "papers": 11,
+     "repos": 1,
+     "citations": 536,
+     "signals": [
+      "neural network",
+      "multilayer perceptron",
+      "artificial neural network",
+      "mlp"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Modeling the Spread of COVID-19 Infection Using a Multilayer Perceptron",
+        "year": "2020",
+        "citations": 279,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:KlAtU1dfN6UC"
+       },
+       {
+        "title": "Utilization of multilayer perceptron for determining the inverse kinematics of an industrial robotic manipulator",
+        "year": "2021",
+        "citations": 82,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:J_g5lzvAfSwC"
+       },
+       {
+        "title": "Improvement of marine steam turbine conventional exergy analysis by neural network application",
+        "year": "2020",
+        "citations": 69,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:7PzlFSSx8tAC"
+       },
+       {
+        "title": "Frigate speed estimation using CODLAG propulsion system parameters and multilayer perceptron",
+        "year": "2020",
+        "citations": 31,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:3fE2CSJIrl8C"
+       },
+       {
+        "title": "Artificial neural network for predicting values of residuary resistance per unit weight of displacement",
+        "year": "2019",
+        "citations": 30,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:_FxGoFyzp5QC"
+       },
+       {
+        "title": "Edge Detector-Based Hybrid Artificial Neural Network Models for Urinary Bladder Cancer Diagnosis",
+        "year": "2020",
+        "citations": 18,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:9ZlFYXVOiuMC"
+       },
+       {
+        "title": "Neural Network-Based Model for Classification of Faults During Operation of a Robotic Manipulator",
+        "year": "2021",
+        "citations": 9,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:RGFaLdJalmkC"
+       },
+       {
+        "title": "DATASET SIZE-BASED APPROACH IN DESIGN OF ARTIFICIAL NEURAL NETWORK FOR BREAST CANCER DIAGNOSIS",
+        "year": "2020",
+        "citations": 6,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:Wp0gIr-vW9MC"
+       }
+      ],
+      "repos": [
+       {
+        "name": "Yacht-Hydrodynamics-MLP",
+        "url": "https://github.com/ssegota/Yacht-Hydrodynamics-MLP",
+        "language": "Python",
+        "description": ""
+       }
+      ]
+     }
+    },
+    {
+     "id": "cnn",
+     "name": "Convolutional Networks",
+     "note": "Image classifiers for radiographs, histology and benchmark sets.",
+     "level": 3,
+     "score": 23.0,
+     "papers": 6,
+     "repos": 1,
+     "citations": 121,
+     "signals": [
+      "convolutional",
+      "cnn"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "On urinary bladder cancer diagnosis: Utilization of deep convolutional generative adversarial networks for data augmentation",
+        "year": "2021",
+        "citations": 48,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:TFP_iSt0sucC"
+       },
+       {
+        "title": "Automatic Evaluation of the Lung Condition of COVID-19 Patients Using X-ray Images and Convolutional Neural Networks",
+        "year": "2021",
+        "citations": 46,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:hFOr9nPyWt4C"
+       },
+       {
+        "title": "Preparation of Simplified Molecular Input Line Entry System Notation Datasets for use in Convolutional Neural Networks",
+        "year": "2021",
+        "citations": 15,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:ldfaerwXgEUC"
+       },
+       {
+        "title": "Convolutional neural networks for local component number estimation from time–frequency distributions of multicomponent nonstationary signals",
+        "year": "2024",
+        "citations": 6,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:9Nmd_mFXekcC"
+       },
+       {
+        "title": "Quality assessment assistance of lateral knee X-rays: a hybrid convolutional neural network approach",
+        "year": "2023",
+        "citations": 4,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:4fKUyHm3Qg0C"
+       },
+       {
+        "title": "Utilization of convolutional neural networks for urinary bladder cancer diagnosis recognition from ct imagery",
+        "year": "2021",
+        "citations": 2,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:SeFeTyx0c_EC"
+       }
+      ],
+      "repos": [
+       {
+        "name": "CNN_Bench",
+        "url": "https://github.com/ssegota/CNN_Bench",
+        "language": "Python",
+        "description": "A simpler benchmark tool for CNN performance"
+       }
+      ]
+     }
+    },
+    {
+     "id": "gan",
+     "name": "Generative Models",
+     "note": "",
+     "level": 3,
+     "score": 21.0,
+     "papers": 6,
+     "repos": 0,
+     "citations": 120,
+     "signals": [
+      "synthetic data",
+      "data augmentation",
+      "generative adversarial"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "On urinary bladder cancer diagnosis: Utilization of deep convolutional generative adversarial networks for data augmentation",
+        "year": "2021",
+        "citations": 48,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:TFP_iSt0sucC"
+       },
+       {
+        "title": "Dynamics modeling of industrial robotic manipulators: A machine learning approach based on synthetic data",
+        "year": "2022",
+        "citations": 35,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:cFHS6HbyZ2cC"
+       },
+       {
+        "title": "Use of synthetic data in maritime applications for the problem of steam turbine exergy analysis",
+        "year": "2023",
+        "citations": 20,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:fQNAKQ3IYiAC"
+       },
+       {
+        "title": "Improvement of machine learning-based modelling of container ship’s main particulars with synthetic data",
+        "year": "2024",
+        "citations": 14,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:eq2jaN3J8jMC"
+       },
+       {
+        "title": "On Predicting Marine Engine Measurements with Synthetic Data in Scarce Dataset",
+        "year": "2025",
+        "citations": 2,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:EYYDruWGBe4C"
+       },
+       {
+        "title": "Data Augmentation-Driven Improvements in Malignant Lymphoma Image Classification",
+        "year": "2025",
+        "citations": 1,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:BwyfMAYsbu0C"
+       }
+      ],
+      "repos": []
+     }
+    },
+    {
+     "id": "ensemble",
+     "name": "Ensembles & Classical ML",
+     "note": "",
+     "level": 3,
+     "score": 19.2,
+     "papers": 6,
+     "repos": 0,
+     "citations": 50,
+     "signals": [
+      "random forest",
+      "ensemble",
+      "regression method",
+      "decision tree"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Determining the influence and correlation for parameters of flexible forming using the random forest method",
+        "year": "2023",
+        "citations": 20,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:geHnlv5EZngC"
+       },
+       {
+        "title": "Development of symbolic expressions ensemble for breast cancer type classification using genetic programming symbolic classifier and decision tree classifier",
+        "year": "2023",
+        "citations": 17,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:LPZeul_q3PIC"
+       },
+       {
+        "title": "Determining normalized friction torque of an industrial robotic manipulator using the symbolic regression method",
+        "year": "2023",
+        "citations": 6,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:tS2w5q8j5-wC"
+       },
+       {
+        "title": "Estimation of interaction locations in super cryogenic dark matter search detectors using genetic programming-symbolic regression method",
+        "year": "2023",
+        "citations": 3,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:l7t_Zn2s7bgC"
+       },
+       {
+        "title": "Cancer rates per country-determining the importance of country level factors using random forest regressor",
+        "year": "2022",
+        "citations": 3,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:EUQCXRtRnyEC"
+       },
+       {
+        "title": "Application of Symbolic Classifiers and Multi-Ensemble Threshold Techniques for Android Malware Detection",
+        "year": "2025",
+        "citations": 1,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:epqYDVWIO7EC"
+       }
+      ],
+      "repos": []
+     }
+    },
+    {
+     "id": "tuning",
+     "name": "Hyperparameter Search",
+     "note": "Includes the keras-grid-search and CNN benchmarking tooling.",
+     "level": 2,
+     "score": 7.0,
+     "papers": 1,
+     "repos": 1,
+     "citations": 1,
+     "signals": [
+      "fine-tuning",
+      "grid search"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Fine-Tuning Network Slicing in 5G: Unveiling Mathematical Equations for Precision Classification",
+        "year": "2025",
+        "citations": 1,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:4MWp96NkSFoC"
+       }
+      ],
+      "repos": [
+       {
+        "name": "keras-grid-search",
+        "url": "https://github.com/ssegota/keras-grid-search",
+        "language": "Python",
+        "description": "Implementation of grid search on keras"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "evo",
+   "name": "Evolutionary Computation",
+   "spectral": "K",
+   "blurb": "Search, optimisation and symbolic model discovery.",
+   "papers": 12,
+   "peak": 5,
+   "skills": [
+    {
+     "id": "gp",
+     "name": "Genetic Programming",
+     "note": "Human-readable expressions instead of opaque models.",
+     "level": 5,
+     "score": 68.9,
+     "papers": 21,
+     "repos": 0,
+     "citations": 237,
+     "signals": [
+      "symbolic",
+      "genetic programming",
+      "symbolic regression"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Estimation of COVID-19 epidemic curves using genetic programming algorithm",
+        "year": "2021",
+        "citations": 51,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:TQgYirikUcIC"
+       },
+       {
+        "title": "Estimation of covid-19 epidemiology curve of the united states using genetic programming algorithm",
+        "year": "2021",
+        "citations": 34,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:e5wmG9Sq2KIC"
+       },
+       {
+        "title": "Use of Genetic Programming for the Estimation of CODLAG Propulsion System Parameters",
+        "year": "2021",
+        "citations": 26,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:hMod-77fHWUC"
+       },
+       {
+        "title": "Development of symbolic expressions ensemble for breast cancer type classification using genetic programming symbolic classifier and decision tree classifier",
+        "year": "2023",
+        "citations": 17,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:LPZeul_q3PIC"
+       },
+       {
+        "title": "The development of symbolic expressions for fire detection with symbolic classifier using sensor fusion data",
+        "year": "2022",
+        "citations": 15,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:SP6oXDckpogC"
+       },
+       {
+        "title": "Estimation of gas turbine shaft torque and fuel flow of a CODLAG propulsion system using genetic programming algorithm",
+        "year": "2020",
+        "citations": 13,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:a0OBvERweLwC"
+       },
+       {
+        "title": "The development of symbolic expressions for the detection of hepatitis C patients and the disease progression from blood parameters using genetic programming-symbolic …",
+        "year": "2022",
+        "citations": 12,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:uWQEDVKXjbEC"
+       },
+       {
+        "title": "A comprehensive study on symbolic expressions for fault detection-classification in photovoltaic farms",
+        "year": "2025",
+        "citations": 10,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:zLWjf1WUPmwC"
+       }
+      ],
+      "repos": []
+     }
+    },
+    {
+     "id": "ga",
+     "name": "Genetic Algorithms",
+     "note": "",
+     "level": 3,
+     "score": 19.6,
+     "papers": 4,
+     "repos": 2,
+     "citations": 144,
+     "signals": [
+      "evolutionary",
+      "genetic algorithm",
+      "evolutionary algorithm",
+      "ga"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Path planning optimization of six-degree-of-freedom robotic manipulators using evolutionary algorithms",
+        "year": "2020",
+        "citations": 109,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:UebtZRa9Y70C"
+       },
+       {
+        "title": "On the traveling salesman problem in nautical environments: an evolutionary computing approach to optimization of tourist route paths in Medulin, Croatia",
+        "year": "2019",
+        "citations": 24,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:LkGwnXOMwfcC"
+       },
+       {
+        "title": "On the use of a genetic algorithm for determining Ho–cook coefficients in continuous path planning of industrial robotic manipulators",
+        "year": "2023",
+        "citations": 9,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:WbkHhVStYXYC"
+       },
+       {
+        "title": "On the use of a genetic algorithm for determining Ho–Cook coefficients in continuous path planning of industrial robotic manipulators. Machines 11 (2): 1–19",
+        "year": "2023",
+        "citations": 2,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:2KloaMYe4IUC"
+       }
+      ],
+      "repos": [
+       {
+        "name": "8Queen",
+        "url": "https://github.com/ssegota/8Queen",
+        "language": "Python",
+        "description": "The solution of the 8 Queen problem demonstrating a simple evolutionary algorithm"
+       },
+       {
+        "name": "TSP-Croatian-Islands",
+        "url": "https://github.com/ssegota/TSP-Croatian-Islands",
+        "language": "Python",
+        "description": "Code, dataset, and results for TSP solution with GA and SA on Croatian Islands"
+       }
+      ]
+     }
+    },
+    {
+     "id": "combopt",
+     "name": "Combinatorial Optimisation",
+     "note": "",
+     "level": 2,
+     "score": 9.6,
+     "papers": 1,
+     "repos": 3,
+     "citations": 24,
+     "signals": [
+      "traveling salesman",
+      "path optimization",
+      "8 queen",
+      "tsp"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "On the traveling salesman problem in nautical environments: an evolutionary computing approach to optimization of tourist route paths in Medulin, Croatia",
+        "year": "2019",
+        "citations": 24,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:LkGwnXOMwfcC"
+       }
+      ],
+      "repos": [
+       {
+        "name": "8Queen",
+        "url": "https://github.com/ssegota/8Queen",
+        "language": "Python",
+        "description": "The solution of the 8 Queen problem demonstrating a simple evolutionary algorithm"
+       },
+       {
+        "name": "2DOF-AI-path-optimization",
+        "url": "https://github.com/ssegota/2DOF-AI-path-optimization",
+        "language": "Python",
+        "description": ""
+       },
+       {
+        "name": "TSP-Croatian-Islands",
+        "url": "https://github.com/ssegota/TSP-Croatian-Islands",
+        "language": "Python",
+        "description": "Code, dataset, and results for TSP solution with GA and SA on Croatian Islands"
+       }
+      ]
+     }
+    },
+    {
+     "id": "swarm",
+     "name": "Swarm & Metaheuristics",
+     "note": "",
+     "level": 1,
+     "score": 2.0,
+     "papers": 0,
+     "repos": 1,
+     "citations": 0,
+     "signals": [
+      "artificial bee colony",
+      "abc"
+     ],
+     "evidence": {
+      "papers": [],
+      "repos": [
+       {
+        "name": "artificial-bee-colony",
+        "url": "https://github.com/ssegota/artificial-bee-colony",
+        "language": "Python",
+        "description": "Implementation of artificial bee colony (ABC) algorithm in python"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "nlp",
+   "name": "Language & Reasoning",
+   "spectral": "A",
+   "blurb": "Large language models, evaluation and applied NLP.",
+   "papers": 6,
+   "peak": 3,
+   "skills": [
+    {
+     "id": "bench",
+     "name": "Benchmarking & Evaluation",
+     "note": "",
+     "level": 3,
+     "score": 15.3,
+     "papers": 4,
+     "repos": 1,
+     "citations": 51,
+     "signals": [
+      "evaluation",
+      "trade-offs",
+      "benchmarking",
+      "benchmark"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Automatic Evaluation of the Lung Condition of COVID-19 Patients Using X-ray Images and Convolutional Neural Networks",
+        "year": "2021",
+        "citations": 46,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:hFOr9nPyWt4C"
+       },
+       {
+        "title": "Performance trade-offs of optimizing small language models for e-commerce",
+        "year": "2026",
+        "citations": 4,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:e_rmSamDkqQC"
+       },
+       {
+        "title": "Energy evaluation of a three-cylinder steam turbine which operates in combined cycle power plant",
+        "year": "2023",
+        "citations": 1,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:hkOj_22Ku90C"
+       },
+       {
+        "title": "The Socratic Trap: Benchmarking the Capacity of Large Language Models to Generate Strategic Misconceptions in Computer Science Education",
+        "year": "2026",
+        "citations": 0,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:q3CdL3IzO_QC"
+       }
+      ],
+      "repos": [
+       {
+        "name": "CNN_Bench",
+        "url": "https://github.com/ssegota/CNN_Bench",
+        "language": "Python",
+        "description": "A simpler benchmark tool for CNN performance"
+       }
+      ]
+     }
+    },
+    {
+     "id": "agents",
+     "name": "Agentic Systems",
+     "note": "Architecture work at LiberiqAI on agent structures.",
+     "level": 2,
+     "score": 7.1,
+     "papers": 1,
+     "repos": 0,
+     "citations": 4,
+     "signals": [
+      "retrieval-augmented"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Robust clinical querying with local LLMs: lexical challenges in NL2SQL and retrieval-augmented QA on EHRs",
+        "year": "2025",
+        "citations": 4,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:ILKRHgRFtOwC"
+       }
+      ],
+      "repos": []
+     }
+    },
+    {
+     "id": "embed",
+     "name": "Embeddings & Retrieval",
+     "note": "",
+     "level": 1,
+     "score": 3.0,
+     "papers": 1,
+     "repos": 0,
+     "citations": 2,
+     "signals": [
+      "faiss",
+      "clip"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Face Recognition System Using CLIP and FAISS for Scalable and Real-Time Identification",
+        "year": "2026",
+        "citations": 2,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:kz9GbA2Ns4gC"
+       }
+      ],
+      "repos": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "vision",
+   "name": "Vision & Imaging",
+   "spectral": "N1",
+   "blurb": "Getting measurements out of pixels.",
+   "papers": 8,
+   "peak": 3,
+   "skills": [
+    {
+     "id": "recog",
+     "name": "Recognition Systems",
+     "note": "",
+     "level": 3,
+     "score": 18.5,
+     "papers": 5,
+     "repos": 1,
+     "citations": 61,
+     "signals": [
+      "recognition",
+      "classification using",
+      "identification",
+      "face recognition"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Road type classification using time-frequency representations of tire sensor signals",
+        "year": "2024",
+        "citations": 23,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:z_wVstp3MssC"
+       },
+       {
+        "title": "Development of symbolic expressions ensemble for breast cancer type classification using genetic programming symbolic classifier and decision tree classifier",
+        "year": "2023",
+        "citations": 17,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:LPZeul_q3PIC"
+       },
+       {
+        "title": "Artificial intelligence approach towards assessment of condition of COVID-19 patients-Identification of predictive biomarkers associated with severity of clinical condition and …",
+        "year": "2021",
+        "citations": 17,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:vV6vV6tmYwMC"
+       },
+       {
+        "title": "Face Recognition System Using CLIP and FAISS for Scalable and Real-Time Identification",
+        "year": "2026",
+        "citations": 2,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:kz9GbA2Ns4gC"
+       },
+       {
+        "title": "Utilization of convolutional neural networks for urinary bladder cancer diagnosis recognition from ct imagery",
+        "year": "2021",
+        "citations": 2,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:SeFeTyx0c_EC"
+       }
+      ],
+      "repos": [
+       {
+        "name": "Embedded-Systems-Project",
+        "url": "https://github.com/ssegota/Embedded-Systems-Project",
+        "language": "C++",
+        "description": "Repository for project for Embedded System Programming Class - ROS recognition traffic, on RPi"
+       }
+      ]
+     }
+    },
+    {
+     "id": "dip",
+     "name": "Digital Image Processing",
+     "note": "",
+     "level": 2,
+     "score": 10.8,
+     "papers": 2,
+     "repos": 2,
+     "citations": 34,
+     "signals": [
+      "segmentation",
+      "filtering",
+      "image processing",
+      "digital image"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Semantic segmentation of urinary bladder cancer masses from CT images: a transfer learning approach",
+        "year": "2021",
+        "citations": 18,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:g5m5HwL7SMYC"
+       },
+       {
+        "title": "Semantic segmentation of chest X-ray images based on the severity of COVID-19 infected patients",
+        "year": "2021",
+        "citations": 16,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:ns9cj8rnVeAC"
+       }
+      ],
+      "repos": [
+       {
+        "name": "Automated-correlation-filtering",
+        "url": "https://github.com/ssegota/Automated-correlation-filtering",
+        "language": "Python",
+        "description": ""
+       },
+       {
+        "name": "Digital-Image-Processing-Project",
+        "url": "https://github.com/ssegota/Digital-Image-Processing-Project",
+        "language": "Matlab",
+        "description": ""
+       }
+      ]
+     }
+    },
+    {
+     "id": "medimg",
+     "name": "Medical Imaging",
+     "note": "",
+     "level": 2,
+     "score": 7.5,
+     "papers": 2,
+     "repos": 0,
+     "citations": 62,
+     "signals": [
+      "x-ray",
+      "lung condition"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Automatic Evaluation of the Lung Condition of COVID-19 Patients Using X-ray Images and Convolutional Neural Networks",
+        "year": "2021",
+        "citations": 46,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:hFOr9nPyWt4C"
+       },
+       {
+        "title": "Semantic segmentation of chest X-ray images based on the severity of COVID-19 infected patients",
+        "year": "2021",
+        "citations": 16,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:ns9cj8rnVeAC"
+       }
+      ],
+      "repos": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "robotics",
+   "name": "Robotics & Control",
+   "spectral": "G",
+   "blurb": "Manipulators, planning and the energy cost of moving metal.",
+   "papers": 9,
+   "peak": 3,
+   "skills": [
+    {
+     "id": "kin",
+     "name": "Kinematics",
+     "note": "",
+     "level": 3,
+     "score": 26.6,
+     "papers": 7,
+     "repos": 0,
+     "citations": 222,
+     "signals": [
+      "manipulator",
+      "inverse kinematics",
+      "degree-of-freedom"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Path planning optimization of six-degree-of-freedom robotic manipulators using evolutionary algorithms",
+        "year": "2020",
+        "citations": 109,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:UebtZRa9Y70C"
+       },
+       {
+        "title": "Utilization of multilayer perceptron for determining the inverse kinematics of an industrial robotic manipulator",
+        "year": "2021",
+        "citations": 82,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:J_g5lzvAfSwC"
+       },
+       {
+        "title": "Neural Network-Based Model for Classification of Faults During Operation of a Robotic Manipulator",
+        "year": "2021",
+        "citations": 9,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:RGFaLdJalmkC"
+       },
+       {
+        "title": "Classification of faults operation of a robotic manipulator using symbolic classifier",
+        "year": "2023",
+        "citations": 7,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:K3LRdlH-MEoC"
+       },
+       {
+        "title": "Determining normalized friction torque of an industrial robotic manipulator using the symbolic regression method",
+        "year": "2023",
+        "citations": 6,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:tS2w5q8j5-wC"
+       },
+       {
+        "title": "DETERMINING INVERSE KINEMATICS OF A SERIAL ROBOTIC MANIPULATOR THROUGH THE USE OF GENETIC PROGRAMMING ALGORITHM",
+        "year": "2021",
+        "citations": 5,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:O3NaXMp0MMsC"
+       },
+       {
+        "title": "Regression model for the prediction of total motor power used by an industrial robot manipulator during operation",
+        "year": "2024",
+        "citations": 4,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:VLnqNzywnoUC"
+       }
+      ],
+      "repos": []
+     }
+    },
+    {
+     "id": "planning",
+     "name": "Motion & Path Planning",
+     "note": "",
+     "level": 2,
+     "score": 14.0,
+     "papers": 3,
+     "repos": 1,
+     "citations": 120,
+     "signals": [
+      "path planning",
+      "path optimization"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Path planning optimization of six-degree-of-freedom robotic manipulators using evolutionary algorithms",
+        "year": "2020",
+        "citations": 109,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:UebtZRa9Y70C"
+       },
+       {
+        "title": "On the use of a genetic algorithm for determining Ho–cook coefficients in continuous path planning of industrial robotic manipulators",
+        "year": "2023",
+        "citations": 9,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:WbkHhVStYXYC"
+       },
+       {
+        "title": "On the use of a genetic algorithm for determining Ho–Cook coefficients in continuous path planning of industrial robotic manipulators. Machines 11 (2): 1–19",
+        "year": "2023",
+        "citations": 2,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:2KloaMYe4IUC"
+       }
+      ],
+      "repos": [
+       {
+        "name": "2DOF-AI-path-optimization",
+        "url": "https://github.com/ssegota/2DOF-AI-path-optimization",
+        "language": "Python",
+        "description": ""
+       }
+      ]
+     }
+    },
+    {
+     "id": "embedded",
+     "name": "Embedded & IoT",
+     "note": "",
+     "level": 2,
+     "score": 8.0,
+     "papers": 0,
+     "repos": 4,
+     "citations": 0,
+     "signals": [
+      "c++",
+      "contiki",
+      "6lowpan",
+      "cc2650",
+      "wireless sensor",
+      "makefile"
+     ],
+     "evidence": {
+      "papers": [],
+      "repos": [
+       {
+        "name": "NS3-simulation-example",
+        "url": "https://github.com/ssegota/NS3-simulation-example",
+        "language": "C++",
+        "description": "Example of network topology simulation using ns3 library"
+       },
+       {
+        "name": "BMO-contiki-6LoWPAN",
+        "url": "https://github.com/ssegota/BMO-contiki-6LoWPAN",
+        "language": "Makefile",
+        "description": "Implementation of contiki ping-pong protocol on TI CC2650 for Wireless Sensor Networks class"
+       },
+       {
+        "name": "Embedded-Systems-Project",
+        "url": "https://github.com/ssegota/Embedded-Systems-Project",
+        "language": "C++",
+        "description": "Repository for project for Embedded System Programming Class - ROS recognition traffic, on RPi"
+       },
+       {
+        "name": "WAVE-file-analysis",
+        "url": "https://github.com/ssegota/WAVE-file-analysis",
+        "language": "C",
+        "description": "Wave File Analysis in C"
+       }
+      ]
+     }
+    },
+    {
+     "id": "cobot",
+     "name": "Collaborative Robotics",
+     "note": "",
+     "level": 1,
+     "score": 3.1,
+     "papers": 1,
+     "repos": 0,
+     "citations": 4,
+     "signals": [
+      "industrial robot"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Regression model for the prediction of total motor power used by an industrial robot manipulator during operation",
+        "year": "2024",
+        "citations": 4,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:VLnqNzywnoUC"
+       }
+      ],
+      "repos": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "thermal",
+   "name": "Marine & Thermal Systems",
+   "spectral": "M",
+   "blurb": "Ships, turbines and where the energy goes.",
+   "papers": 17,
+   "peak": 5,
+   "skills": [
+    {
+     "id": "turbine",
+     "name": "Steam & Gas Turbines",
+     "note": "",
+     "level": 5,
+     "score": 57.0,
+     "papers": 17,
+     "repos": 0,
+     "citations": 308,
+     "signals": [
+      "turbine",
+      "steam turbine",
+      "propulsion",
+      "gas turbine",
+      "condenser"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Improvement of marine steam turbine conventional exergy analysis by neural network application",
+        "year": "2020",
+        "citations": 69,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:7PzlFSSx8tAC"
+       },
+       {
+        "title": "Comparison of conventional and heat balance based energy analyses of steam turbine",
+        "year": "2020",
+        "citations": 54,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:_kc_bZDykSQC"
+       },
+       {
+        "title": "The influence of various optimization algorithms on nuclear power plant steam turbine exergy efficiency and destruction",
+        "year": "2021",
+        "citations": 38,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:BqipwSGYUEgC"
+       },
+       {
+        "title": "Frigate speed estimation using CODLAG propulsion system parameters and multilayer perceptron",
+        "year": "2020",
+        "citations": 31,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:3fE2CSJIrl8C"
+       },
+       {
+        "title": "Use of Genetic Programming for the Estimation of CODLAG Propulsion System Parameters",
+        "year": "2021",
+        "citations": 26,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:hMod-77fHWUC"
+       },
+       {
+        "title": "Use of synthetic data in maritime applications for the problem of steam turbine exergy analysis",
+        "year": "2023",
+        "citations": 20,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:fQNAKQ3IYiAC"
+       },
+       {
+        "title": "Comparison of exergy and various energy analysis methods for a main marine steam turbine at different loads",
+        "year": "2020",
+        "citations": 19,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:-f6ydRqryjwC"
+       },
+       {
+        "title": "Energy and Exergy Analysis of Waste Heat Recovery Closed-Cycle Gas Turbine System while Operating with Different Medium",
+        "year": "2021",
+        "citations": 15,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:NaGl4SEjCO4C"
+       }
+      ],
+      "repos": []
+     }
+    },
+    {
+     "id": "exergy",
+     "name": "Energy & Exergy Analysis",
+     "note": "",
+     "level": 4,
+     "score": 38.7,
+     "papers": 11,
+     "repos": 0,
+     "citations": 227,
+     "signals": [
+      "exergy",
+      "energy analysis",
+      "heat balance",
+      "waste heat",
+      "heat recovery",
+      "thermodynamic"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Improvement of marine steam turbine conventional exergy analysis by neural network application",
+        "year": "2020",
+        "citations": 69,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:7PzlFSSx8tAC"
+       },
+       {
+        "title": "Comparison of conventional and heat balance based energy analyses of steam turbine",
+        "year": "2020",
+        "citations": 54,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:_kc_bZDykSQC"
+       },
+       {
+        "title": "The influence of various optimization algorithms on nuclear power plant steam turbine exergy efficiency and destruction",
+        "year": "2021",
+        "citations": 38,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:BqipwSGYUEgC"
+       },
+       {
+        "title": "Use of synthetic data in maritime applications for the problem of steam turbine exergy analysis",
+        "year": "2023",
+        "citations": 20,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:fQNAKQ3IYiAC"
+       },
+       {
+        "title": "Comparison of exergy and various energy analysis methods for a main marine steam turbine at different loads",
+        "year": "2020",
+        "citations": 19,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:-f6ydRqryjwC"
+       },
+       {
+        "title": "Energy and Exergy Analysis of Waste Heat Recovery Closed-Cycle Gas Turbine System while Operating with Different Medium",
+        "year": "2021",
+        "citations": 15,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:NaGl4SEjCO4C"
+       },
+       {
+        "title": "Exergy analysis of steam condenser at various loads during the ambient temperature change",
+        "year": "2020",
+        "citations": 7,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:Se3iqnhoufwC"
+       },
+       {
+        "title": "Energy analysis of main and auxiliary steam turbine from coal fired power plant",
+        "year": "2023",
+        "citations": 2,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:N5tVd3kTz84C"
+       }
+      ],
+      "repos": []
+     }
+    },
+    {
+     "id": "marinesys",
+     "name": "Marine Plant Operation",
+     "note": "",
+     "level": 3,
+     "score": 26.9,
+     "papers": 8,
+     "repos": 0,
+     "citations": 115,
+     "signals": [
+      "marine",
+      "ship",
+      "ambient temperature",
+      "pump"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Improvement of marine steam turbine conventional exergy analysis by neural network application",
+        "year": "2020",
+        "citations": 69,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:7PzlFSSx8tAC"
+       },
+       {
+        "title": "Comparison of exergy and various energy analysis methods for a main marine steam turbine at different loads",
+        "year": "2020",
+        "citations": 19,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:-f6ydRqryjwC"
+       },
+       {
+        "title": "Improvement of machine learning-based modelling of container ship’s main particulars with synthetic data",
+        "year": "2024",
+        "citations": 14,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:eq2jaN3J8jMC"
+       },
+       {
+        "title": "Exergy analysis of steam condenser at various loads during the ambient temperature change",
+        "year": "2020",
+        "citations": 7,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:Se3iqnhoufwC"
+       },
+       {
+        "title": "On Predicting Marine Engine Measurements with Synthetic Data in Scarce Dataset",
+        "year": "2025",
+        "citations": 2,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:EYYDruWGBe4C"
+       },
+       {
+        "title": "Efficiencies and losses comparison of three steam turbines–from conventional, nuclear and marine power plant",
+        "year": "2021",
+        "citations": 2,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:isC4tDSrTZIC"
+       },
+       {
+        "title": "Systematic Review of Machine Learning applications in Marine Engineering",
+        "year": "2025",
+        "citations": 1,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:g3aElNc5_aQC"
+       },
+       {
+        "title": "Comparison of three methods for the pump energy analysis",
+        "year": "2020",
+        "citations": 1,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:ZeXyd9-uunAC"
+       }
+      ],
+      "repos": []
+     }
+    },
+    {
+     "id": "hydro",
+     "name": "Hydrodynamics",
+     "note": "",
+     "level": 2,
+     "score": 8.9,
+     "papers": 2,
+     "repos": 1,
+     "citations": 35,
+     "signals": [
+      "resistance",
+      "yacht"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Artificial neural network for predicting values of residuary resistance per unit weight of displacement",
+        "year": "2019",
+        "citations": 30,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:_FxGoFyzp5QC"
+       },
+       {
+        "title": "Determining residuary resistance per unit weight of displacement with Symbolic Regression and Gradient Boosted Tree algorithms",
+        "year": "2021",
+        "citations": 5,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:zA6iFVUQeVQC"
+       }
+      ],
+      "repos": [
+       {
+        "name": "Yacht-Hydrodynamics-MLP",
+        "url": "https://github.com/ssegota/Yacht-Hydrodynamics-MLP",
+        "language": "Python",
+        "description": ""
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "biomed",
+   "name": "Health & Life Sciences",
+   "spectral": "N2",
+   "blurb": "Applied AI where a wrong answer matters.",
+   "papers": 17,
+   "peak": 4,
+   "skills": [
+    {
+     "id": "epi",
+     "name": "Epidemiological Modelling",
+     "note": "",
+     "level": 4,
+     "score": 45.0,
+     "papers": 13,
+     "repos": 0,
+     "citations": 653,
+     "signals": [
+      "covid",
+      "covid-19",
+      "infection",
+      "spread prediction",
+      "epidemic"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Modeling the Spread of COVID-19 Infection Using a Multilayer Perceptron",
+        "year": "2020",
+        "citations": 279,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:KlAtU1dfN6UC"
+       },
+       {
+        "title": "Impact of COVID‐19 on Forecasting Stock Prices: An Integration of Stationary Wavelet Transform and Bidirectional Long Short‐Term Memory",
+        "year": "2020",
+        "citations": 96,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:4TOpqqG69KYC"
+       },
+       {
+        "title": "Application of artificial intelligence-based regression methods in the problem of COVID-19 spread prediction: a systematic review",
+        "year": "2021",
+        "citations": 63,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:JV2RwH3_ST0C"
+       },
+       {
+        "title": "Estimation of COVID-19 epidemic curves using genetic programming algorithm",
+        "year": "2021",
+        "citations": 51,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:TQgYirikUcIC"
+       },
+       {
+        "title": "Automatic Evaluation of the Lung Condition of COVID-19 Patients Using X-ray Images and Convolutional Neural Networks",
+        "year": "2021",
+        "citations": 46,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:hFOr9nPyWt4C"
+       },
+       {
+        "title": "Estimation of covid-19 epidemiology curve of the united states using genetic programming algorithm",
+        "year": "2021",
+        "citations": 34,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:e5wmG9Sq2KIC"
+       },
+       {
+        "title": "Epidemiological predictive modeling of COVID-19 infection: development, testing, and implementation on the population of the Benelux union",
+        "year": "2021",
+        "citations": 33,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:35N4QoGY0k4C"
+       },
+       {
+        "title": "Artificial intelligence approach towards assessment of condition of COVID-19 patients-Identification of predictive biomarkers associated with severity of clinical condition and …",
+        "year": "2021",
+        "citations": 17,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:vV6vV6tmYwMC"
+       }
+      ],
+      "repos": []
+     }
+    },
+    {
+     "id": "onco",
+     "name": "Oncology & Diagnostics",
+     "note": "",
+     "level": 4,
+     "score": 30.2,
+     "papers": 9,
+     "repos": 0,
+     "citations": 129,
+     "signals": [
+      "cancer",
+      "bladder",
+      "diagnosis",
+      "carcinoma"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "On urinary bladder cancer diagnosis: Utilization of deep convolutional generative adversarial networks for data augmentation",
+        "year": "2021",
+        "citations": 48,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:TFP_iSt0sucC"
+       },
+       {
+        "title": "Semantic segmentation of urinary bladder cancer masses from CT images: a transfer learning approach",
+        "year": "2021",
+        "citations": 18,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:g5m5HwL7SMYC"
+       },
+       {
+        "title": "Edge Detector-Based Hybrid Artificial Neural Network Models for Urinary Bladder Cancer Diagnosis",
+        "year": "2020",
+        "citations": 18,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:9ZlFYXVOiuMC"
+       },
+       {
+        "title": "Development of symbolic expressions ensemble for breast cancer type classification using genetic programming symbolic classifier and decision tree classifier",
+        "year": "2023",
+        "citations": 17,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:LPZeul_q3PIC"
+       },
+       {
+        "title": "Automated grading of oral squamous cell carcinoma into multiple classes using deep learning methods",
+        "year": "2021",
+        "citations": 15,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:ZHo1McVdvXMC"
+       },
+       {
+        "title": "DATASET SIZE-BASED APPROACH IN DESIGN OF ARTIFICIAL NEURAL NETWORK FOR BREAST CANCER DIAGNOSIS",
+        "year": "2020",
+        "citations": 6,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:Wp0gIr-vW9MC"
+       },
+       {
+        "title": "Cancer rates per country-determining the importance of country level factors using random forest regressor",
+        "year": "2022",
+        "citations": 3,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:EUQCXRtRnyEC"
+       },
+       {
+        "title": "Data synthetization and feature analysis: A study in bladder cancer recurrence data",
+        "year": "2025",
+        "citations": 2,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:TIZ-Mc8IlK0C"
+       }
+      ],
+      "repos": []
+     }
+    },
+    {
+     "id": "chem",
+     "name": "Cheminformatics",
+     "note": "",
+     "level": 2,
+     "score": 7.4,
+     "papers": 1,
+     "repos": 2,
+     "citations": 15,
+     "signals": [
+      "smiles",
+      "chemical descriptor",
+      "molecular"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Preparation of Simplified Molecular Input Line Entry System Notation Datasets for use in Convolutional Neural Networks",
+        "year": "2021",
+        "citations": 15,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:ldfaerwXgEUC"
+       }
+      ],
+      "repos": [
+       {
+        "name": "Smiles-NPY",
+        "url": "https://github.com/ssegota/Smiles-NPY",
+        "language": "Python",
+        "description": "Converts SMILES chemical descriptor strings from a CSV dataset, to \"Ones Hot\" Array inside an NPY for machine "
+       },
+       {
+        "name": "Smiles-NPY-Converter",
+        "url": "https://github.com/ssegota/Smiles-NPY-Converter",
+        "language": "",
+        "description": "converts SMILE chemical descriptor strings into \"One Hot\" 2D-Array, and stores it inside NPY and NPZ together "
+       }
+      ]
+     }
+    },
+    {
+     "id": "neuro",
+     "name": "Neuro & Biosignals",
+     "note": "Core of the dAIgnostics work on early neurodegenerative markers.",
+     "level": 1,
+     "score": 6.0,
+     "papers": 0,
+     "repos": 1,
+     "citations": 0,
+     "signals": [
+      "eeg"
+     ],
+     "evidence": {
+      "papers": [],
+      "repos": [
+       {
+        "name": "EEGDetection",
+        "url": "https://github.com/ssegota/EEGDetection",
+        "language": "Python",
+        "description": "Detection of EEG waves in a frequency band using Emotiv EPOC device"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "signal",
+   "name": "Signals & Data",
+   "spectral": "F",
+   "blurb": "Transforms, time series and the plumbing underneath them.",
+   "papers": 7,
+   "peak": 3,
+   "skills": [
+    {
+     "id": "ts",
+     "name": "Time Series & Forecasting",
+     "note": "",
+     "level": 3,
+     "score": 21.9,
+     "papers": 6,
+     "repos": 0,
+     "citations": 157,
+     "signals": [
+      "prediction of",
+      "forecasting"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Impact of COVID‐19 on Forecasting Stock Prices: An Integration of Stationary Wavelet Transform and Bidirectional Long Short‐Term Memory",
+        "year": "2020",
+        "citations": 96,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:4TOpqqG69KYC"
+       },
+       {
+        "title": "Prediction of main particulars of container ships using artificial intelligence algorithms",
+        "year": "2022",
+        "citations": 36,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:P5F9QuxV20EC"
+       },
+       {
+        "title": "Prediction of Robot Grasp Robustness using Artificial Intelligence Algorithms",
+        "year": "2022",
+        "citations": 11,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:u_35RYKgDlwC"
+       },
+       {
+        "title": "Machine learning models for the prediction of wind loads on containerships",
+        "year": "2025",
+        "citations": 9,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:uWiczbcajpAC"
+       },
+       {
+        "title": "Regression model for the prediction of total motor power used by an industrial robot manipulator during operation",
+        "year": "2024",
+        "citations": 4,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:VLnqNzywnoUC"
+       },
+       {
+        "title": "Prediction of main engine power of oil tankers using artificial intelligence algorithms",
+        "year": "2024",
+        "citations": 1,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:t7zJ5fGR-2UC"
+       }
+      ],
+      "repos": []
+     }
+    },
+    {
+     "id": "wavelet",
+     "name": "Wavelet & Spectral Analysis",
+     "note": "",
+     "level": 2,
+     "score": 11.4,
+     "papers": 1,
+     "repos": 3,
+     "citations": 96,
+     "signals": [
+      "wavelet",
+      "transform",
+      "frequency band",
+      "mlsa",
+      "sptk"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Impact of COVID‐19 on Forecasting Stock Prices: An Integration of Stationary Wavelet Transform and Bidirectional Long Short‐Term Memory",
+        "year": "2020",
+        "citations": 96,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:4TOpqqG69KYC"
+       }
+      ],
+      "repos": [
+       {
+        "name": "EEGDetection",
+        "url": "https://github.com/ssegota/EEGDetection",
+        "language": "Python",
+        "description": "Detection of EEG waves in a frequency band using Emotiv EPOC device"
+       },
+       {
+        "name": "gmn-wavelet-maps",
+        "url": "https://github.com/ssegota/gmn-wavelet-maps",
+        "language": "Python",
+        "description": "Reproduces the GMN daily wavelet meteor-shower maps + maxlist from raw radiants (Brown et al. 2010 3-D wavelet"
+       },
+       {
+        "name": "MLSA-filtar",
+        "url": "https://github.com/ssegota/MLSA-filtar",
+        "language": "Python",
+        "description": "implementation of MLSA filter on a wave file using SPTK functions"
+       }
+      ]
+     }
+    },
+    {
+     "id": "dataprep",
+     "name": "Feature Engineering",
+     "note": "",
+     "level": 2,
+     "score": 7.5,
+     "papers": 1,
+     "repos": 2,
+     "citations": 20,
+     "signals": [
+      "correlation",
+      "metrics"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "Determining the influence and correlation for parameters of flexible forming using the random forest method",
+        "year": "2023",
+        "citations": 20,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:geHnlv5EZngC"
+       }
+      ],
+      "repos": [
+       {
+        "name": "Automated-correlation-filtering",
+        "url": "https://github.com/ssegota/Automated-correlation-filtering",
+        "language": "Python",
+        "description": ""
+       },
+       {
+        "name": "metrics_from_cm",
+        "url": "https://github.com/ssegota/metrics_from_cm",
+        "language": "Python",
+        "description": "Gets metrics from confusion marix, including ones not existing in sklearn. All metrics defined as ratios of fp"
+       }
+      ]
+     }
+    },
+    {
+     "id": "audio",
+     "name": "Audio & Speech",
+     "note": "",
+     "level": 1,
+     "score": 4.0,
+     "papers": 0,
+     "repos": 2,
+     "citations": 0,
+     "signals": [
+      "wave file",
+      "filter on a wave"
+     ],
+     "evidence": {
+      "papers": [],
+      "repos": [
+       {
+        "name": "MLSA-filtar",
+        "url": "https://github.com/ssegota/MLSA-filtar",
+        "language": "Python",
+        "description": "implementation of MLSA filter on a wave file using SPTK functions"
+       },
+       {
+        "name": "WAVE-file-analysis",
+        "url": "https://github.com/ssegota/WAVE-file-analysis",
+        "language": "C",
+        "description": "Wave File Analysis in C"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "software",
+   "name": "Software & Systems",
+   "spectral": "O",
+   "blurb": "The engineering that carries the research.",
+   "papers": 1,
+   "peak": 4,
+   "skills": [
+    {
+     "id": "python",
+     "name": "Python",
+     "note": "",
+     "level": 4,
+     "score": 44.0,
+     "papers": 0,
+     "repos": 22,
+     "citations": 0,
+     "signals": [
+      "python"
+     ],
+     "evidence": {
+      "papers": [],
+      "repos": [
+       {
+        "name": "isComputerOn-Python",
+        "url": "https://github.com/ssegota/isComputerOn-Python",
+        "language": "Python",
+        "description": "Python library for checking if the computer is on."
+       },
+       {
+        "name": "EEGDetection",
+        "url": "https://github.com/ssegota/EEGDetection",
+        "language": "Python",
+        "description": "Detection of EEG waves in a frequency band using Emotiv EPOC device"
+       },
+       {
+        "name": "8Queen",
+        "url": "https://github.com/ssegota/8Queen",
+        "language": "Python",
+        "description": "The solution of the 8 Queen problem demonstrating a simple evolutionary algorithm"
+       },
+       {
+        "name": "2DOF-AI-path-optimization",
+        "url": "https://github.com/ssegota/2DOF-AI-path-optimization",
+        "language": "Python",
+        "description": ""
+       },
+       {
+        "name": "Application-of-Artifical-Intelligence-Exercises",
+        "url": "https://github.com/ssegota/Application-of-Artifical-Intelligence-Exercises",
+        "language": "Python",
+        "description": "A repository to store and share the solutions of exercises from the laboratory section of \"Application of Arti"
+       },
+       {
+        "name": "artificial-bee-colony",
+        "url": "https://github.com/ssegota/artificial-bee-colony",
+        "language": "Python",
+        "description": "Implementation of artificial bee colony (ABC) algorithm in python"
+       },
+       {
+        "name": "Automated-correlation-filtering",
+        "url": "https://github.com/ssegota/Automated-correlation-filtering",
+        "language": "Python",
+        "description": ""
+       },
+       {
+        "name": "CNN_Bench",
+        "url": "https://github.com/ssegota/CNN_Bench",
+        "language": "Python",
+        "description": "A simpler benchmark tool for CNN performance"
+       }
+      ]
+     }
+    },
+    {
+     "id": "teaching",
+     "name": "Teaching & Supervision",
+     "note": "Course repositories, thesis supervision and lecturing at FIPU.",
+     "level": 4,
+     "score": 15.0,
+     "papers": 1,
+     "repos": 2,
+     "citations": 0,
+     "signals": [
+      "exercises",
+      "education"
+     ],
+     "evidence": {
+      "papers": [
+       {
+        "title": "The Socratic Trap: Benchmarking the Capacity of Large Language Models to Generate Strategic Misconceptions in Computer Science Education",
+        "year": "2026",
+        "citations": 0,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:q3CdL3IzO_QC"
+       }
+      ],
+      "repos": [
+       {
+        "name": "Application-of-Artifical-Intelligence-Exercises",
+        "url": "https://github.com/ssegota/Application-of-Artifical-Intelligence-Exercises",
+        "language": "Python",
+        "description": "A repository to store and share the solutions of exercises from the laboratory section of \"Application of Arti"
+       },
+       {
+        "name": "Complex-System-Engineering-Exercises",
+        "url": "https://github.com/ssegota/Complex-System-Engineering-Exercises",
+        "language": "Python",
+        "description": "This repository contains solutions to exercises from Complex System Engineering Class (ML and AI techniques) a"
+       }
+      ]
+     }
+    },
+    {
+     "id": "web",
+     "name": "Web Platforms",
+     "note": "",
+     "level": 3,
+     "score": 26.0,
+     "papers": 0,
+     "repos": 13,
+     "citations": 0,
+     "signals": [
+      "javascript",
+      "html",
+      "react",
+      "vite",
+      "amplify",
+      "typescript"
+     ],
+     "evidence": {
+      "papers": [],
+      "repos": [
+       {
+        "name": "adip-web",
+        "url": "https://github.com/ssegota/adip-web",
+        "language": "HTML",
+        "description": ""
+       },
+       {
+        "name": "amplify-vite-react-template-dai",
+        "url": "https://github.com/ssegota/amplify-vite-react-template-dai",
+        "language": "JavaScript",
+        "description": ""
+       },
+       {
+        "name": "amplify-vite-react-template-test",
+        "url": "https://github.com/ssegota/amplify-vite-react-template-test",
+        "language": "TypeScript",
+        "description": "Test"
+       },
+       {
+        "name": "Art-Showroom-RWA",
+        "url": "https://github.com/ssegota/Art-Showroom-RWA",
+        "language": "PHP",
+        "description": ""
+       },
+       {
+        "name": "dai-amplify-test",
+        "url": "https://github.com/ssegota/dai-amplify-test",
+        "language": "TypeScript",
+        "description": ""
+       },
+       {
+        "name": "gundam-timeline",
+        "url": "https://github.com/ssegota/gundam-timeline",
+        "language": "HTML",
+        "description": "A source-attributed chronology of every Gundam continuity — 100 events, 44 series, 19 continuities — with a re"
+       },
+       {
+        "name": "ies_web-app-detector",
+        "url": "https://github.com/ssegota/ies_web-app-detector",
+        "language": "Python",
+        "description": ""
+       },
+       {
+        "name": "menzapp",
+        "url": "https://github.com/ssegota/menzapp",
+        "language": "JavaScript",
+        "description": ""
+       }
+      ]
+     }
+    },
+    {
+     "id": "systems",
+     "name": "Systems Programming",
+     "note": "",
+     "level": 2,
+     "score": 12.0,
+     "papers": 0,
+     "repos": 6,
+     "citations": 0,
+     "signals": [
+      "java",
+      "c++",
+      "matlab",
+      "c"
+     ],
+     "evidence": {
+      "papers": [],
+      "repos": [
+       {
+        "name": "NS3-simulation-example",
+        "url": "https://github.com/ssegota/NS3-simulation-example",
+        "language": "C++",
+        "description": "Example of network topology simulation using ns3 library"
+       },
+       {
+        "name": "Digital-Image-Processing-Project",
+        "url": "https://github.com/ssegota/Digital-Image-Processing-Project",
+        "language": "Matlab",
+        "description": ""
+       },
+       {
+        "name": "Embedded-Systems-Project",
+        "url": "https://github.com/ssegota/Embedded-Systems-Project",
+        "language": "C++",
+        "description": "Repository for project for Embedded System Programming Class - ROS recognition traffic, on RPi"
+       },
+       {
+        "name": "MemoryGeeks",
+        "url": "https://github.com/ssegota/MemoryGeeks",
+        "language": "Java",
+        "description": "A simple android memory game for college project."
+       },
+       {
+        "name": "MPIS-simulation",
+        "url": "https://github.com/ssegota/MPIS-simulation",
+        "language": "Java",
+        "description": "Java model of trasformer field for College project (Modelling process-information systems)"
+       },
+       {
+        "name": "WAVE-file-analysis",
+        "url": "https://github.com/ssegota/WAVE-file-analysis",
+        "language": "C",
+        "description": "Wave File Analysis in C"
+       }
+      ]
+     }
+    },
+    {
+     "id": "linux",
+     "name": "Linux & Tooling",
+     "note": "",
+     "level": 2,
+     "score": 8.0,
+     "papers": 0,
+     "repos": 4,
+     "citations": 0,
+     "signals": [
+      "shell",
+      "dotfiles",
+      "config files",
+      "vim script",
+      "i3",
+      "polybar"
+     ],
+     "evidence": {
+      "papers": [],
+      "repos": [
+       {
+        "name": "linux-config-files",
+        "url": "https://github.com/ssegota/linux-config-files",
+        "language": "Vim script",
+        "description": "Various config files and auxiliary files for linux - used as backup"
+       },
+       {
+        "name": "Blic",
+        "url": "https://github.com/ssegota/Blic",
+        "language": "Shell",
+        "description": ""
+       },
+       {
+        "name": "dotfiles",
+        "url": "https://github.com/ssegota/dotfiles",
+        "language": "Shell",
+        "description": ""
+       },
+       {
+        "name": "rice",
+        "url": "https://github.com/ssegota/rice",
+        "language": "Shell",
+        "description": "i3 + polybar + Tokyo Night rice for Ubuntu — dotfiles, wallpapers, and a one-shot installer"
+       }
+      ]
+     }
+    },
+    {
+     "id": "cloud",
+     "name": "Cloud & Networks",
+     "note": "",
+     "level": 1,
+     "score": 4.0,
+     "papers": 0,
+     "repos": 2,
+     "citations": 0,
+     "signals": [
+      "ns3",
+      "network topology",
+      "openstack"
+     ],
+     "evidence": {
+      "papers": [],
+      "repos": [
+       {
+        "name": "NS3-simulation-example",
+        "url": "https://github.com/ssegota/NS3-simulation-example",
+        "language": "C++",
+        "description": "Example of network topology simulation using ns3 library"
+       },
+       {
+        "name": "openstack-project",
+        "url": "https://github.com/ssegota/openstack-project",
+        "language": "Python",
+        "description": ""
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "astro",
+   "name": "Astronomy & Outreach",
+   "spectral": "N3",
+   "blurb": "Not a hobby section - it produces datasets and software too.",
+   "papers": 0,
+   "peak": 2,
+   "skills": [
+    {
+     "id": "outreach",
+     "name": "Science Communication",
+     "note": "ADIP directorate, STEM Games, Istra-STEM.",
+     "level": 2,
+     "score": 9.0,
+     "papers": 0,
+     "repos": 2,
+     "citations": 0,
+     "signals": [
+      "chronology",
+      "timeline",
+      "observatory"
+     ],
+     "evidence": {
+      "papers": [],
+      "repos": [
+       {
+        "name": "gundam-timeline",
+        "url": "https://github.com/ssegota/gundam-timeline",
+        "language": "HTML",
+        "description": "A source-attributed chronology of every Gundam continuity — 100 events, 44 series, 19 continuities — with a re"
+       },
+       {
+        "name": "palisa-asteroids",
+        "url": "https://github.com/ssegota/palisa-asteroids",
+        "language": "JavaScript",
+        "description": "Asteroids discovered by Johann Palisa at Pula Observatory — responsive site with JPL SBDB data"
+       }
+      ]
+     }
+    },
+    {
+     "id": "minor",
+     "name": "Minor Planets",
+     "note": "",
+     "level": 1,
+     "score": 4.0,
+     "papers": 0,
+     "repos": 2,
+     "citations": 0,
+     "signals": [
+      "palisa",
+      "asteroid"
+     ],
+     "evidence": {
+      "papers": [],
+      "repos": [
+       {
+        "name": "palisa-asteroids",
+        "url": "https://github.com/ssegota/palisa-asteroids",
+        "language": "JavaScript",
+        "description": "Asteroids discovered by Johann Palisa at Pula Observatory — responsive site with JPL SBDB data"
+       },
+       {
+        "name": "spot-the-asteroid",
+        "url": "https://github.com/ssegota/spot-the-asteroid",
+        "language": "HTML",
+        "description": "Simple, Asteroid spotting game."
+       }
+      ]
+     }
+    },
+    {
+     "id": "meteor",
+     "name": "Meteor Science",
+     "note": "",
+     "level": 1,
+     "score": 2.0,
+     "papers": 0,
+     "repos": 1,
+     "citations": 0,
+     "signals": [
+      "meteor",
+      "gmn",
+      "shower",
+      "maxlist"
+     ],
+     "evidence": {
+      "papers": [],
+      "repos": [
+       {
+        "name": "gmn-wavelet-maps",
+        "url": "https://github.com/ssegota/gmn-wavelet-maps",
+        "language": "Python",
+        "description": "Reproduces the GMN daily wavelet meteor-shower maps + maxlist from raw radiants (Brown et al. 2010 3-D wavelet"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}
