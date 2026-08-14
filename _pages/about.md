@@ -44,18 +44,11 @@ Recent and most cited work is on the
 <a href="{{ base_path }}/cv/">here</a>.
 </p>
 
-## Skills
-
 {% if site.data.skilltree.constellations %}
 
-{% include skilltree.html %}
+## Skills
 
-<p>
-The chart is generated rather than written: every star is scored from the
-publications and public repositories that actually stand behind it. See
-<a href="{{ base_path }}/skills/">the full skill chart</a> for how the levels
-are derived.
-</p>
+{% include skilltree.html %}
 
 {% endif %}
 

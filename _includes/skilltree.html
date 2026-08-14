@@ -190,6 +190,15 @@
 }
 .sky .sky__foot a { color: var(--g-link); }
 .sky .sky__foot a:hover { color: var(--g-link-hover); }
+.sky .sky__built { margin: 0; }
+/* Footnote: smaller and quieter than the rebuild line it sits under. Sized in
+   em, not rem - rem is root-relative and would come out larger than the
+   .62rem line above it. */
+.sky .sky__fine {
+  margin: .5rem 0 0; max-width: 84ch;
+  font-size: .92em; line-height: 1.55;
+  letter-spacing: .02em; color: var(--sky-dim); opacity: .8;
+}
 
 @container (max-width: 560px) {
   .sky .sky__stats { margin-left: 0; text-align: left; }
@@ -227,7 +236,12 @@
     <aside class="sky__panel" id="sky-panel" aria-live="polite"></aside>
   </div>
 
-  <div class="sky__foot" id="sky-foot"></div>
+  <div class="sky__foot">
+    <p class="sky__built" id="sky-foot"></p>
+    <p class="sky__fine">The chart is generated, not written: every level is
+      derived from the papers and repositories listed against it, with a manual
+      boost only for work that leaves no public trace.</p>
+  </div>
 </div>
 
 <script id="skilltree-data" type="application/json">{{ site.data.skilltree | jsonify }}</script>

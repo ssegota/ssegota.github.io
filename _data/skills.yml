@@ -1,4 +1,4 @@
-# Skill taxonomy for the star chart on /skills/.
+# Skill taxonomy for the star chart on the front page.
 #
 # You curate this file; scripts/build_skilltree.py does the counting. Nothing
 # here is a claim about proficiency - proficiency is derived from how much
