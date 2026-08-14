@@ -1,139 +1,198 @@
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Spectral:ital,wght@1,400;1,500&display=swap">
-
 <style>
+/* Star chart, themed off the RX-78-2 tokens in _sass/_gundam.scss.
+   No hardcoded colours and no webfonts: the chart takes --g-* and the site's
+   own type so it reads as part of the page in both modes.
+
+   Light is a printed star atlas - ink on paper, saturated spectral hues.
+   Dark is the night sky the design was drawn for.
+
+   Text rules are compound (.sky .sky__sub, not .sky__sub) on purpose: the
+   theme sets `.page__content p` at (0,1,1), which outranks a bare class and
+   would otherwise repaint this panel's copy in the page's ink colour. */
 .sky {
-  --void:   #070b18;
-  --deep:   #0d1428;
-  --grid:   #1b2747;
-  --star:   #eef3ff;
-  --dim:    #7d90bd;
-  --faint:  #4c5c85;
-  --edge:   #223257;
+  /* Surfaces and ink, straight off the theme */
+  --sky-bg:      var(--g-surface);
+  --sky-bg-2:    var(--g-surface-alt);
+  --sky-panel:   var(--g-surface-alt);
+  --sky-ink:     var(--g-text);
+  --sky-dim:     var(--g-text-dim);
+  --sky-line:    var(--g-line);
+  --sky-soft:    var(--g-line-soft);
+  --sky-dust:    var(--g-line);
+  --sky-dust-op: .45;
+  --sky-mark:    var(--g-yellow);   /* selected */
+  --sky-focus:   var(--g-red);      /* keyboard focus, as elsewhere on the site */
+
+  /* Spectral classes, deepened so they carry on paper */
+  --sp-O: #2f47b5;  --sp-B: #2a63ab;  --sp-A: #55617d;  --sp-F: #96741b;
+  --sp-G: #a9781a;  --sp-K: #bd5620;  --sp-M: #b1302b;
+  --sp-N1:#0e7a6c;  --sp-N2:#a92c74;  --sp-N3:#6a3cae;
+
+  position: relative;
+  margin: 1.5em 0 2.5em;
+  background: var(--sky-bg);
+  border: 1px solid var(--sky-line);
+  color: var(--sky-ink);
+  font-size: 16px;
+  line-height: 1.45;
+  overflow: hidden;
+  clip-path: polygon(0 0, calc(100% - var(--g-chamfer, 12px)) 0,
+                     100% var(--g-chamfer, 12px), 100% 100%, 0 100%);
+}
+
+/* Night operations: the original deep-space field, keyed to the dark tokens. */
+:root[data-theme="dark"] .sky {
+  --sky-bg:      #0d1220;
+  --sky-bg-2:    #070b16;
+  --sky-panel:   rgba(7, 11, 22, .55);
+  --sky-line:    #2a3550;
+  --sky-soft:    #1d2740;
+  --sky-dust:    #7d90bd;
+  --sky-dust-op: 1;
 
   --sp-O: #8ea6ff;  --sp-B: #a9c0ff;  --sp-A: #dfe8ff;  --sp-F: #fff3d6;
   --sp-G: #ffd98a;  --sp-K: #ffb066;  --sp-M: #ff8a7a;
   --sp-N1:#66e0d0;  --sp-N2:#ff8ad4;  --sp-N3:#b08cff;
 
-  position: relative;
-  margin: 1.5em 0 2.5em;
-  background: radial-gradient(120% 90% at 22% 8%, #14203c 0%, var(--void) 62%);
-  border: 1px solid var(--edge);
-  color: var(--star);
-  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
-  font-size: 16px;
-  line-height: 1.45;
-  overflow: hidden;
+  background: radial-gradient(120% 90% at 22% 8%, #16203a 0%, var(--sky-bg) 62%);
+  color: #eef3ff;
+  --sky-ink: #eef3ff;
+  --sky-dim: #9fb0d6;
 }
 
 /* ---- header ---------------------------------------------------------- */
-.sky__head {
+.sky .sky__head {
   display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1.4rem;
   padding: 1.1rem 1.3rem .9rem;
-  border-bottom: 1px solid var(--edge);
+  border-bottom: 1px solid var(--sky-line);
 }
-.sky__title {
-  font-family: Spectral, Georgia, serif; font-style: italic; font-weight: 500;
-  font-size: 1.35rem; letter-spacing: .01em; margin: 0; color: var(--star);
+.sky .sky__title {
+  font-size: 1.05rem; font-weight: 700; letter-spacing: .01em;
+  margin: 0; color: var(--sky-ink);
 }
-.sky__sub { color: var(--dim); font-size: .95rem; max-width: 46ch; margin: 0; }
-.sky__stats {
-  margin-left: auto; font-family: "IBM Plex Mono", monospace;
-  font-size: .72rem; color: var(--faint); letter-spacing: .04em;
-  text-align: right; white-space: nowrap;
+.sky .sky__sub {
+  color: var(--sky-dim); font-size: .9rem; max-width: 48ch; margin: .25rem 0 0;
+}
+.sky .sky__stats {
+  margin-left: auto; font-family: var(--g-mono);
+  font-size: .68rem; color: var(--sky-dim); letter-spacing: .08em;
+  text-align: right; white-space: nowrap; text-transform: uppercase;
 }
 
 /* ---- magnitude legend ------------------------------------------------ */
-.sky__legend {
+.sky .sky__legend {
   display: flex; flex-wrap: wrap; gap: .35rem 1.15rem; align-items: center;
-  padding: .6rem 1.3rem; border-bottom: 1px solid var(--edge);
-  font-family: "IBM Plex Mono", monospace; font-size: .68rem;
-  letter-spacing: .06em; text-transform: uppercase; color: var(--faint);
+  padding: .6rem 1.3rem; border-bottom: 1px solid var(--sky-line);
+  font-family: var(--g-mono); font-size: .64rem;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--sky-dim);
 }
-.sky__legend b { color: var(--dim); font-weight: 500; }
-.sky__mag { display: inline-flex; align-items: center; gap: .38rem; }
-.sky__mag i { display: block; border-radius: 50%; background: var(--sp-A); }
+.sky .sky__legend b { color: var(--sky-ink); font-weight: 700; }
+.sky .sky__mag { display: inline-flex; align-items: center; gap: .38rem; }
+.sky .sky__mag i {
+  display: block; border-radius: 50%; background: var(--sp-A);
+  outline: 1px solid var(--sky-line);
+}
 
-/* ---- layout ---------------------------------------------------------- */
-.sky__body { display: grid; grid-template-columns: 1fr 20rem; }
-.sky__chart { position: relative; min-width: 0; }
-.sky__chart svg { display: block; width: 100%; height: auto; }
+/* ---- layout ----------------------------------------------------------
+   Stacked by default, side-by-side only when the chart itself is wide.
+   This is a container query, not a viewport one: the theme caps
+   .page__content at 770px and puts a sidebar beside it, so the panel would
+   otherwise sit next to the chart at any desktop size and squeeze the field
+   to a single column. Browsers without @container keep the stacked layout,
+   which is the safe one. */
+.sky { container-type: inline-size; }
+.sky .sky__body { display: grid; grid-template-columns: 1fr; }
+.sky .sky__chart { position: relative; min-width: 0; }
+.sky .sky__chart svg { display: block; width: 100%; height: auto; }
+
+@container (min-width: 900px) {
+  .sky .sky__body { grid-template-columns: 1fr 20rem; }
+  .sky .sky__panel { border-left: 1px solid var(--sky-line); border-top: 0; }
+}
 
 /* ---- chart marks ----------------------------------------------------- */
-.sky-grid    { stroke: var(--grid); stroke-width: .5; fill: none; }
-.sky-dust    { fill: var(--faint); }
-.sky-link    { stroke: var(--edge); stroke-width: 1; fill: none;
-               stroke-linecap: round; }
-.sky-cell    { fill: transparent; }
-.sky-cname   { font-family: Spectral, Georgia, serif; font-style: italic;
-               fill: var(--dim); font-size: 13px; }
-.sky-ccount  { font-family: "IBM Plex Mono", monospace; fill: var(--faint);
-               font-size: 8.5px; letter-spacing: .08em; }
-.sky-label   { font-family: "Barlow Condensed", sans-serif; fill: var(--dim);
-               font-size: 10.5px; letter-spacing: .05em; pointer-events: none; }
-.sky-spike   { stroke-width: .8; opacity: .55; }
+.sky .sky-grid   { stroke: var(--sky-soft); stroke-width: .5; fill: none; }
+.sky .sky-dust   { fill: var(--sky-dust); opacity: var(--sky-dust-op); }
+.sky .sky-link   { stroke: var(--sky-line); stroke-width: 1; fill: none;
+                   stroke-linecap: round; }
+.sky .sky-cell   { fill: transparent; }
+.sky .sky-cname  { font-weight: 700; fill: var(--sky-ink); font-size: 12.5px; }
+.sky .sky-ccount { font-family: var(--g-mono); fill: var(--sky-dim);
+                   font-size: 8.5px; letter-spacing: .1em; }
+/* Knocked out of the background the way a printed chart does it, so the
+   labels that still cross a link line or each other stay readable. */
+.sky .sky-label,
+.sky .sky-cname,
+.sky .sky-ccount { paint-order: stroke fill; stroke: var(--sky-bg);
+                   stroke-width: 3px; stroke-linejoin: round; }
+.sky .sky-label  { fill: var(--sky-dim); font-size: 10px;
+                   letter-spacing: .01em; pointer-events: none; }
+.sky .sky-spike  { stroke-width: .8; opacity: .55; }
 
-.sky-star { cursor: pointer; outline: none; }
-.sky-star .halo { opacity: .16; }
-.sky-star:hover .sky-label,
-.sky-star:focus-visible .sky-label { fill: var(--star); }
-.sky-star:focus-visible .ring { opacity: 1; }
-.sky-star .ring { fill: none; stroke: var(--star); stroke-width: 1;
-                  opacity: 0; transition: opacity .15s; }
-.sky-star[aria-pressed="true"] .ring { opacity: .9; }
-.sky-star:hover .ring { opacity: .45; }
+.sky .sky-star { cursor: pointer; outline: none; }
+.sky .sky-star .halo { opacity: .16; }
+.sky .sky-star:hover .sky-label,
+.sky .sky-star:focus-visible .sky-label { fill: var(--sky-ink); font-weight: 700; }
+.sky .sky-star .ring { fill: none; stroke: var(--sky-mark); stroke-width: 1.5;
+                       opacity: 0; transition: opacity .15s; }
+.sky .sky-star:hover .ring { opacity: .5; }
+.sky .sky-star[aria-pressed="true"] .ring { opacity: 1; }
+.sky .sky-star:focus-visible .ring { opacity: 1; stroke: var(--sky-focus);
+                                     stroke-width: 2; }
 
 /* ---- detail panel ---------------------------------------------------- */
-.sky__panel {
-  border-left: 1px solid var(--edge); padding: 1.15rem 1.25rem;
-  background: rgba(3, 7, 18, .5); min-width: 0;
+.sky .sky__panel {
+  border-top: 1px solid var(--sky-line); padding: 1.15rem 1.25rem;
+  background: var(--sky-panel); min-width: 0;
 }
-.sky__eyebrow {
-  font-family: "IBM Plex Mono", monospace; font-size: .66rem;
-  letter-spacing: .16em; text-transform: uppercase; color: var(--faint);
+.sky .sky__eyebrow {
+  font-family: var(--g-mono); font-size: .62rem;
+  letter-spacing: .18em; text-transform: uppercase; color: var(--sky-dim);
   display: block; margin-bottom: .45rem;
 }
-.sky__name {
-  font-family: Spectral, Georgia, serif; font-style: italic; font-weight: 500;
-  font-size: 1.2rem; margin: 0 0 .15rem; color: var(--star);
+.sky .sky__name {
+  font-size: 1.1rem; font-weight: 700; margin: 0 0 .15rem; color: var(--sky-ink);
 }
-.sky__note { color: var(--dim); font-size: .95rem; margin: .35rem 0 .9rem; }
-.sky__bar { display: flex; gap: 3px; margin: .5rem 0 .2rem; }
-.sky__bar span { height: 5px; flex: 1; background: var(--edge); }
-.sky__bar span.on { background: currentColor; }
-.sky__rank {
-  font-family: "IBM Plex Mono", monospace; font-size: .7rem; color: var(--dim);
-  letter-spacing: .08em; text-transform: uppercase;
+.sky .sky__note { color: var(--sky-dim); font-size: .9rem; margin: .35rem 0 .9rem; }
+.sky .sky__note b { color: var(--sky-ink); }
+.sky .sky__bar { display: flex; gap: 3px; margin: .5rem 0 .2rem; }
+.sky .sky__bar span { height: 5px; flex: 1; background: var(--sky-line); }
+.sky .sky__bar span.on { background: currentColor; }
+.sky .sky__rank {
+  font-family: var(--g-mono); font-size: .66rem; color: var(--sky-dim);
+  letter-spacing: .14em; text-transform: uppercase;
 }
-.sky__counts {
+.sky .sky__counts {
   display: flex; gap: 1.1rem; margin: .9rem 0 1rem; padding: .6rem 0;
-  border-top: 1px solid var(--edge); border-bottom: 1px solid var(--edge);
-  font-family: "IBM Plex Mono", monospace;
+  border-top: 1px solid var(--sky-line); border-bottom: 1px solid var(--sky-line);
+  font-family: var(--g-mono);
 }
-.sky__counts div { line-height: 1.25; }
-.sky__counts b { display: block; font-size: 1.15rem; font-weight: 500;
-                 color: var(--star); }
-.sky__counts small { font-size: .62rem; letter-spacing: .1em;
-                     text-transform: uppercase; color: var(--faint); }
-.sky__list { list-style: none; margin: 0 0 1rem; padding: 0; }
-.sky__list li { margin: 0 0 .55rem; font-size: .88rem; line-height: 1.35; }
-.sky__list a { color: var(--star); text-decoration: none;
-               border-bottom: 1px solid var(--faint); }
-.sky__list a:hover { border-bottom-color: var(--star); }
-.sky__list em { display: block; font-style: normal; color: var(--faint);
-                font-family: "IBM Plex Mono", monospace; font-size: .66rem;
-                letter-spacing: .06em; margin-top: .1rem; }
-.sky__foot {
-  padding: .7rem 1.3rem; border-top: 1px solid var(--edge);
-  font-family: "IBM Plex Mono", monospace; font-size: .66rem;
-  color: var(--faint); letter-spacing: .04em;
+.sky .sky__counts div { line-height: 1.25; }
+.sky .sky__counts b { display: block; font-size: 1.15rem; font-weight: 700;
+                      color: var(--sky-ink); }
+.sky .sky__counts small { font-size: .58rem; letter-spacing: .14em;
+                          text-transform: uppercase; color: var(--sky-dim); }
+.sky .sky__list { list-style: none; margin: 0 0 1rem; padding: 0; }
+.sky .sky__list li { margin: 0 0 .55rem; font-size: .85rem; line-height: 1.35;
+                     color: var(--sky-ink); }
+.sky .sky__list a { color: var(--g-link); text-decoration: none;
+                    border-bottom: 1px solid var(--sky-line); }
+.sky .sky__list a:hover,
+.sky .sky__list a:focus-visible { color: var(--g-link-hover);
+                                  border-bottom-color: var(--g-link-hover); }
+.sky .sky__list em { display: block; font-style: normal; color: var(--sky-dim);
+                     font-family: var(--g-mono); font-size: .6rem;
+                     letter-spacing: .1em; margin-top: .1rem; }
+.sky .sky__foot {
+  padding: .7rem 1.3rem; border-top: 1px solid var(--sky-line);
+  font-family: var(--g-mono); font-size: .62rem;
+  color: var(--sky-dim); letter-spacing: .08em;
 }
-.sky__foot a { color: var(--dim); }
+.sky .sky__foot a { color: var(--g-link); }
+.sky .sky__foot a:hover { color: var(--g-link-hover); }
 
-@media (max-width: 800px) {
-  .sky__body { grid-template-columns: 1fr; }
-  .sky__panel { border-left: 0; border-top: 1px solid var(--edge); }
-  .sky__stats { margin-left: 0; text-align: left; }
+@container (max-width: 560px) {
+  .sky .sky__stats { margin-left: 0; text-align: left; }
 }
 
 /* ---- entrance -------------------------------------------------------- */
@@ -230,11 +289,12 @@
     '/blob/master/_data/skills.yml">taxonomy</a>';
 
   /* ---- layout --------------------------------------------------------- */
+  /* The SVG scales to the container width, so height = width * rows*cellH /
+     (cols*cellW). Too few columns and the chart becomes a tower - at one
+     column it is 14x its own width. Ramp smoothly rather than in tiers so
+     there is no dead band where an extra column would have fitted. */
   function columnsFor(width) {
-    if (width >= 1000) { return 5; }
-    if (width >= 700)  { return 3; }
-    if (width >= 460)  { return 2; }
-    return 1;
+    return Math.max(1, Math.min(5, Math.round(width / 210)));
   }
 
   function place(constellation, cellW, cellH) {
@@ -246,7 +306,7 @@
 
     stars.forEach(function (skill) {
       var r = radius(skill.level), best = null, bestGap = -1;
-      for (var attempt = 0; attempt < 90; attempt++) {
+      for (var attempt = 0; attempt < 160; attempt++) {
         var x = pad + rand() * (cellW - pad * 2);
         var y = top + rand() * (cellH - top - bottom);
         var gap = Infinity;
@@ -254,11 +314,38 @@
           var dx = placed[i].x - x, dy = placed[i].y - y;
           gap = Math.min(gap, Math.sqrt(dx * dx + dy * dy) - placed[i].r - r);
         }
-        if (gap > 34) { best = { x: x, y: y }; break; }
+        if (gap > 40) { best = { x: x, y: y }; break; }
         if (gap > bestGap) { bestGap = gap; best = { x: x, y: y }; }
       }
       placed.push({ x: best.x, y: best.y, r: r, skill: skill });
     });
+
+    /* Relax the scatter. Random sampling leaves clusters however many
+       attempts it gets, and clustered stars are what force labels on top of
+       each other - so push any pair that is too close apart, then clamp back
+       into the cell. Deterministic: same input, same chart. */
+    for (var pass = 0; pass < 60; pass++) {
+      var moved = false;
+      for (var a = 0; a < placed.length; a++) {
+        for (var b = a + 1; b < placed.length; b++) {
+          var A = placed[a], B = placed[b];
+          var dx = B.x - A.x, dy = B.y - A.y;
+          var dist = Math.sqrt(dx * dx + dy * dy) || 0.01;
+          var want = A.r + B.r + 46;
+          if (dist < want) {
+            var push = (want - dist) / 2, ux = dx / dist, uy = dy / dist;
+            A.x -= ux * push; A.y -= uy * push;
+            B.x += ux * push; B.y += uy * push;
+            moved = true;
+          }
+        }
+      }
+      for (var c = 0; c < placed.length; c++) {
+        placed[c].x = Math.min(Math.max(placed[c].x, pad), cellW - pad);
+        placed[c].y = Math.min(Math.max(placed[c].y, top), cellH - bottom);
+      }
+      if (!moved) { break; }
+    }
     return placed;
   }
 
@@ -283,7 +370,7 @@
     var cols = columnsFor(chart.clientWidth || 900);
     var groups = DATA.constellations;
     var rows = Math.ceil(groups.length / cols);
-    var cellW = 200, cellH = 290;
+    var cellW = 235, cellH = 250;
     var W = cols * cellW, H = rows * cellH;
 
     chart.innerHTML = "";
@@ -317,6 +404,22 @@
       var cell = el("g", { transform: "translate(" + ox + "," + oy + ")" }, svg);
       var color = hue(group.spectral);
       var points = place(group, cellW, cellH);
+
+      /* Boxes already spoken for in this cell, so labels can dodge each other
+         rather than just the cell edges. Seeded with the caption block in the
+         bottom-left, which is drawn after the stars but occupies space now. */
+      var taken = [{
+        x1: 10, x2: 16 + Math.max(group.name.length * 6.6,
+                                  (group.skills.length + " SKILLS  PEAK " +
+                                   DATA.levels[group.peak - 1]).length * 5.1),
+        y1: cellH - 34, y2: cellH - 4
+      }];
+      /* Stars are obstacles too - a label reads badly sitting on one. Each
+         star's own label clears it by r+6, so this never blocks its owner. */
+      points.forEach(function (pt) {
+        taken.push({ x1: pt.x - pt.r - 2, x2: pt.x + pt.r + 2,
+                     y1: pt.y - pt.r - 2, y2: pt.y + pt.r + 2 });
+      });
 
       chain(points).forEach(function (pair) {
         var dx = pair[1].x - pair[0].x, dy = pair[1].y - pair[0].y;
@@ -352,18 +455,62 @@
         el("circle", { class: "ring", cx: point.x, cy: point.y,
                        r: point.r + 5 }, star);
 
-        /* Labels must stay inside their own cell, so try right, then left,
-           then centred underneath the star. */
-        var width = skill.name.length * 4.55;
-        var gap = point.r + 6, label;
-        if (point.x + gap + width < cellW - 6) {
-          label = { x: point.x + gap, y: point.y + 3.6, anchor: "start" };
-        } else if (point.x - gap - width > 6) {
-          label = { x: point.x - gap, y: point.y + 3.6, anchor: "end" };
-        } else {
-          label = { x: Math.min(Math.max(point.x, width / 2 + 6), cellW - width / 2 - 6),
-                    y: point.y + point.r + 13, anchor: "middle" };
+        /* Labels stay inside their own cell AND clear of labels already
+           placed. Try right, left, under, over; take the first that fits
+           cleanly, else whichever overlaps least. */
+        var width = skill.name.length * 4.5;
+        var gap = point.r + 6;
+        var mid = Math.min(Math.max(point.x, width / 2 + 6), cellW - width / 2 - 6);
+        var below = point.y + point.r + 12, above = point.y - point.r - 6;
+        var candidates = [
+          { x: point.x + gap, y: point.y + 3.4, anchor: "start" },
+          { x: point.x - gap, y: point.y + 3.4, anchor: "end" },
+          { x: point.x + gap, y: below, anchor: "start" },
+          { x: point.x - gap, y: below, anchor: "end" },
+          { x: point.x + gap, y: above, anchor: "start" },
+          { x: point.x - gap, y: above, anchor: "end" },
+          { x: mid, y: below + 4, anchor: "middle" },
+          { x: mid, y: above - 4, anchor: "middle" }
+        ];
+
+        function boxOf(c) {
+          var x1 = c.anchor === "start" ? c.x
+                 : c.anchor === "end"   ? c.x - width
+                 : c.x - width / 2;
+          return { x1: x1, x2: x1 + width, y1: c.y - 8, y2: c.y + 3 };
         }
+        function spill(b) {
+          /* how far outside the cell, 0 when fully inside */
+          return Math.max(0, 6 - b.x1) + Math.max(0, b.x2 - (cellW - 6)) +
+                 Math.max(0, 4 - b.y1) + Math.max(0, b.y2 - (cellH - 4));
+        }
+        function clash(b) {
+          var total = 0;
+          for (var i = 0; i < taken.length; i++) {
+            var o = taken[i];
+            var ox = Math.min(b.x2, o.x2) - Math.max(b.x1, o.x1);
+            var oy = Math.min(b.y2, o.y2) - Math.max(b.y1, o.y1);
+            if (ox > 0 && oy > 0) { total += ox * oy; }
+          }
+          return total;
+        }
+
+        /* Staying inside the cell is a hard requirement - a label that leaves
+           it gets clipped by the next cell or the SVG edge. Among the ones
+           that fit, take the least-overlapping. */
+        var label = null, box = null, bestCost = Infinity, bestClash = Infinity;
+        for (var ci = 0; ci < candidates.length; ci++) {
+          var cb = boxOf(candidates[ci]);
+          var sp = spill(cb), cl = clash(cb);
+          if (sp === 0 && cl < bestClash) {
+            bestClash = cl; label = candidates[ci]; box = cb;
+            if (cl === 0) { break; }
+          } else if (bestClash === Infinity && sp * 40 + cl < bestCost) {
+            bestCost = sp * 40 + cl; label = candidates[ci]; box = cb;
+          }
+        }
+        taken.push(box);
+
         el("text", { class: "sky-label", x: label.x.toFixed(1),
                      y: label.y.toFixed(1), "text-anchor": label.anchor }, star)
           .textContent = skill.name;
@@ -452,13 +599,24 @@
 
   /* ---- go ------------------------------------------------------------- */
   render();
-  var timer;
-  window.addEventListener("resize", function () {
+
+  /* Watch the container, not the window: the panel stacks on a container
+     query, so the chart can change width without the window doing so. */
+  var timer, lastCols = columnsFor(chart.clientWidth || 900);
+  function reflow() {
     clearTimeout(timer);
     timer = setTimeout(function () {
+      var cols = columnsFor(chart.clientWidth || 900);
+      if (cols === lastCols) { return; }   /* width alone does not need a redraw */
+      lastCols = cols;
       root.classList.remove("sky--anim");
       render();
     }, 180);
-  });
+  }
+  if (window.ResizeObserver) {
+    new ResizeObserver(reflow).observe(chart);
+  } else {
+    window.addEventListener("resize", reflow);
+  }
 }());
 </script>
