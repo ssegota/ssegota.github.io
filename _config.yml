@@ -160,9 +160,14 @@ exclude:
   - Capfile
   - Gemfile
   - Gruntfile.js
+  # Developer docs for the skill chart. Excluded because GitHub Pages enables
+  # jekyll-optional-front-matter, which renders root .md files as pages - and
+  # INSTRUCTIONS.md documents a {% if %} guard that Liquid then tries to parse.
+  - INSTRUCTIONS.md
   - LICENSE
   - README
   - Rakefile
+  - SKILLTREE.md
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
