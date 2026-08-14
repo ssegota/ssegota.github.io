@@ -131,7 +131,23 @@ og_image                 :  # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  # Feeds schema.org sameAs in _includes/seo.html, which tells Google, Scholar
+  # and ORCID that these profiles are all the same person. Left empty the tag
+  # still rendered, emitting "sameAs": null.
+  #
+  # These duplicate the `author:` block above, which drives the sidebar icons -
+  # the theme wants a plain array here, so adding a profile means adding it in
+  # both places.
+  links:
+    - "https://orcid.org/0000-0002-3015-1024"
+    - "https://scholar.google.com/citations?user=lhMwhucAAAAJ&hl=en"
+    - "https://fipu.unipu.hr/fipu/sandi.baressi_segota"
+    - "https://www.researchgate.net/profile/Sandi-Baressi-Segota"
+    - "https://github.com/ssegota"
+    - "https://www.linkedin.com/in/ssegota"
+    - "https://www.kaggle.com/sandibaressiegota"
+    - "https://stackoverflow.com/users/1558364"
+    - "https://x.com/sandisegota"
 
 
 # Analytics
