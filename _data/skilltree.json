@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-31",
+ "generated": "2026-09-01",
  "sources": {
   "papers": 99,
-  "repos": 46,
-  "citations": 1712,
+  "repos": 47,
+  "citations": 1723,
   "h_index": 21
  },
  "levels": [
@@ -168,7 +168,7 @@
      "score": 21.0,
      "papers": 6,
      "repos": 0,
-     "citations": 120,
+     "citations": 121,
      "signals": [
       "synthetic data",
       "data augmentation",
@@ -203,7 +203,7 @@
        {
         "title": "On Predicting Marine Engine Measurements with Synthetic Data in Scarce Dataset",
         "year": "2025",
-        "citations": 2,
+        "citations": 3,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:EYYDruWGBe4C"
        },
        {
@@ -221,10 +221,10 @@
      "name": "Ensembles & Classical ML",
      "note": "",
      "level": 3,
-     "score": 19.2,
+     "score": 19.3,
      "papers": 6,
      "repos": 0,
-     "citations": 50,
+     "citations": 51,
      "signals": [
       "random forest",
       "ensemble",
@@ -236,7 +236,7 @@
        {
         "title": "Determining the influence and correlation for parameters of flexible forming using the random forest method",
         "year": "2023",
-        "citations": 20,
+        "citations": 21,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:geHnlv5EZngC"
        },
        {
@@ -320,10 +320,10 @@
      "name": "Genetic Programming",
      "note": "Human-readable expressions instead of opaque models.",
      "level": 5,
-     "score": 68.9,
-     "papers": 21,
+     "score": 72.0,
+     "papers": 22,
      "repos": 0,
-     "citations": 237,
+     "citations": 241,
      "signals": [
       "symbolic",
       "genetic programming",
@@ -376,7 +376,7 @@
        {
         "title": "A comprehensive study on symbolic expressions for fault detection-classification in photovoltaic farms",
         "year": "2025",
-        "citations": 10,
+        "citations": 11,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:zLWjf1WUPmwC"
        }
       ],
@@ -519,22 +519,21 @@
    "name": "Language & Reasoning",
    "spectral": "A",
    "blurb": "Large language models, evaluation and applied NLP.",
-   "papers": 6,
-   "peak": 3,
+   "papers": 5,
+   "peak": 2,
    "skills": [
     {
      "id": "bench",
      "name": "Benchmarking & Evaluation",
      "note": "",
-     "level": 3,
-     "score": 15.3,
-     "papers": 4,
+     "level": 2,
+     "score": 12.3,
+     "papers": 3,
      "repos": 1,
      "citations": 51,
      "signals": [
       "evaluation",
       "trade-offs",
-      "benchmarking",
       "benchmark"
      ],
      "evidence": {
@@ -556,12 +555,6 @@
         "year": "2023",
         "citations": 1,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:hkOj_22Ku90C"
-       },
-       {
-        "title": "The Socratic Trap: Benchmarking the Capacity of Large Language Models to Generate Strategic Misconceptions in Computer Science Education",
-        "year": "2026",
-        "citations": 0,
-        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:q3CdL3IzO_QC"
        }
       ],
       "repos": [
@@ -638,10 +631,10 @@
      "name": "Recognition Systems",
      "note": "",
      "level": 3,
-     "score": 18.5,
+     "score": 18.6,
      "papers": 5,
      "repos": 1,
-     "citations": 61,
+     "citations": 62,
      "signals": [
       "recognition",
       "classification using",
@@ -653,7 +646,7 @@
        {
         "title": "Road type classification using time-frequency representations of tire sensor signals",
         "year": "2024",
-        "citations": 23,
+        "citations": 24,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:z_wVstp3MssC"
        },
        {
@@ -973,7 +966,7 @@
      "score": 57.0,
      "papers": 17,
      "repos": 0,
-     "citations": 308,
+     "citations": 311,
      "signals": [
       "turbine",
       "steam turbine",
@@ -998,7 +991,7 @@
        {
         "title": "The influence of various optimization algorithms on nuclear power plant steam turbine exergy efficiency and destruction",
         "year": "2021",
-        "citations": 38,
+        "citations": 39,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:BqipwSGYUEgC"
        },
        {
@@ -1022,13 +1015,13 @@
        {
         "title": "Comparison of exergy and various energy analysis methods for a main marine steam turbine at different loads",
         "year": "2020",
-        "citations": 19,
+        "citations": 20,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:-f6ydRqryjwC"
        },
        {
         "title": "Energy and Exergy Analysis of Waste Heat Recovery Closed-Cycle Gas Turbine System while Operating with Different Medium",
         "year": "2021",
-        "citations": 15,
+        "citations": 16,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:NaGl4SEjCO4C"
        }
       ],
@@ -1040,10 +1033,10 @@
      "name": "Energy & Exergy Analysis",
      "note": "",
      "level": 4,
-     "score": 38.7,
+     "score": 38.8,
      "papers": 11,
      "repos": 0,
-     "citations": 227,
+     "citations": 230,
      "signals": [
       "exergy",
       "energy analysis",
@@ -1069,7 +1062,7 @@
        {
         "title": "The influence of various optimization algorithms on nuclear power plant steam turbine exergy efficiency and destruction",
         "year": "2021",
-        "citations": 38,
+        "citations": 39,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:BqipwSGYUEgC"
        },
        {
@@ -1081,13 +1074,13 @@
        {
         "title": "Comparison of exergy and various energy analysis methods for a main marine steam turbine at different loads",
         "year": "2020",
-        "citations": 19,
+        "citations": 20,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:-f6ydRqryjwC"
        },
        {
         "title": "Energy and Exergy Analysis of Waste Heat Recovery Closed-Cycle Gas Turbine System while Operating with Different Medium",
         "year": "2021",
-        "citations": 15,
+        "citations": 16,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:NaGl4SEjCO4C"
        },
        {
@@ -1114,7 +1107,7 @@
      "score": 26.9,
      "papers": 8,
      "repos": 0,
-     "citations": 115,
+     "citations": 117,
      "signals": [
       "marine",
       "ship",
@@ -1132,7 +1125,7 @@
        {
         "title": "Comparison of exergy and various energy analysis methods for a main marine steam turbine at different loads",
         "year": "2020",
-        "citations": 19,
+        "citations": 20,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:-f6ydRqryjwC"
        },
        {
@@ -1150,7 +1143,7 @@
        {
         "title": "On Predicting Marine Engine Measurements with Synthetic Data in Scarce Dataset",
         "year": "2025",
-        "citations": 2,
+        "citations": 3,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:EYYDruWGBe4C"
        },
        {
@@ -1231,7 +1224,7 @@
      "score": 45.0,
      "papers": 13,
      "repos": 0,
-     "citations": 653,
+     "citations": 654,
      "signals": [
       "covid",
       "covid-19",
@@ -1250,13 +1243,13 @@
        {
         "title": "Impact of COVID‐19 on Forecasting Stock Prices: An Integration of Stationary Wavelet Transform and Bidirectional Long Short‐Term Memory",
         "year": "2020",
-        "citations": 96,
+        "citations": 97,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:4TOpqqG69KYC"
        },
        {
         "title": "Application of artificial intelligence-based regression methods in the problem of COVID-19 spread prediction: a systematic review",
         "year": "2021",
-        "citations": 63,
+        "citations": 64,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:JV2RwH3_ST0C"
        },
        {
@@ -1280,7 +1273,7 @@
        {
         "title": "Epidemiological predictive modeling of COVID-19 infection: development, testing, and implementation on the population of the Benelux union",
         "year": "2021",
-        "citations": 33,
+        "citations": 32,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:35N4QoGY0k4C"
        },
        {
@@ -1443,7 +1436,7 @@
      "score": 21.9,
      "papers": 6,
      "repos": 0,
-     "citations": 157,
+     "citations": 158,
      "signals": [
       "prediction of",
       "forecasting"
@@ -1453,7 +1446,7 @@
        {
         "title": "Impact of COVID‐19 on Forecasting Stock Prices: An Integration of Stationary Wavelet Transform and Bidirectional Long Short‐Term Memory",
         "year": "2020",
-        "citations": 96,
+        "citations": 97,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:4TOpqqG69KYC"
        },
        {
@@ -1498,7 +1491,7 @@
      "score": 11.4,
      "papers": 1,
      "repos": 3,
-     "citations": 96,
+     "citations": 97,
      "signals": [
       "wavelet",
       "transform",
@@ -1511,7 +1504,7 @@
        {
         "title": "Impact of COVID‐19 on Forecasting Stock Prices: An Integration of Stationary Wavelet Transform and Bidirectional Long Short‐Term Memory",
         "year": "2020",
-        "citations": 96,
+        "citations": 97,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:4TOpqqG69KYC"
        }
       ],
@@ -1545,7 +1538,7 @@
      "score": 7.5,
      "papers": 1,
      "repos": 2,
-     "citations": 20,
+     "citations": 21,
      "signals": [
       "correlation",
       "metrics"
@@ -1555,7 +1548,7 @@
        {
         "title": "Determining the influence and correlation for parameters of flexible forming using the random forest method",
         "year": "2023",
-        "citations": 20,
+        "citations": 21,
         "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:geHnlv5EZngC"
        }
       ],
@@ -1613,7 +1606,7 @@
    "name": "Software & Systems",
    "spectral": "O",
    "blurb": "The engineering that carries the research.",
-   "papers": 1,
+   "papers": 0,
    "peak": 4,
    "skills": [
     {
@@ -1621,9 +1614,9 @@
      "name": "Python",
      "note": "",
      "level": 4,
-     "score": 44.0,
+     "score": 46.0,
      "papers": 0,
-     "repos": 22,
+     "repos": 23,
      "citations": 0,
      "signals": [
       "python"
@@ -1687,23 +1680,15 @@
      "name": "Teaching & Supervision",
      "note": "Course repositories, thesis supervision and lecturing at FIPU.",
      "level": 4,
-     "score": 15.0,
-     "papers": 1,
+     "score": 12.0,
+     "papers": 0,
      "repos": 2,
      "citations": 0,
      "signals": [
-      "exercises",
-      "education"
+      "exercises"
      ],
      "evidence": {
-      "papers": [
-       {
-        "title": "The Socratic Trap: Benchmarking the Capacity of Large Language Models to Generate Strategic Misconceptions in Computer Science Education",
-        "year": "2026",
-        "citations": 0,
-        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:q3CdL3IzO_QC"
-       }
-      ],
+      "papers": [],
       "repos": [
        {
         "name": "Application-of-Artifical-Intelligence-Exercises",

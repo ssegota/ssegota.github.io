@@ -207,6 +207,15 @@
   "fork": false
  },
  {
+  "name": "liberiq-description-writer",
+  "url": "https://github.com/ssegota/liberiq-description-writer",
+  "description": "",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
   "name": "linux-config-files",
   "url": "https://github.com/ssegota/linux-config-files",
   "description": "Various config files and auxiliary files for linux - used as backup",
