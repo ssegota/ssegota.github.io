@@ -1,13 +1,13 @@
 {
   "profile_name": "Sandi Baressi Šegota",
   "profile_url": "https://scholar.google.com/citations?user=lhMwhucAAAAJ&hl=en",
-  "fetched": "2026-08-14",
+  "fetched": "2026-09-01",
   "total_publications": 100,
   "stats": {
-    "citations_all": 1712,
-    "citations_5y": 1632,
+    "citations_all": 1723,
+    "citations_5y": 1643,
     "h_index_all": 21,
-    "h_index_5y": 20,
+    "h_index_5y": 21,
     "i10_all": 39,
     "i10_5y": 39
   },
@@ -86,8 +86,8 @@
     },
     {
       "title": "Confidence-guided lightweight CNN ensemble for OrganMNIST classification",
-      "authors": "S Baressi Šegota, I Lorencin, D Frank, NI Anđelić",
-      "venue": "Book of abstracts-6th BELBI, 2026",
+      "authors": "S Baressi Šegota, I Lorencin, D Frank, N Anđelić",
+      "venue": "Book of Abstracts: 6th Belgrade Bioinformatics Conference, 59-59, 2026",
       "year": "2026",
       "citations": 0,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=lhMwhucAAAAJ:PoWvk5oyLR8C"
@@ -115,7 +115,7 @@
       "authors": "D Štifanić, J Musulin, A Miočević, S Baressi Šegota, R Šubić, Z Car",
       "venue": "Complexity 2020 (1), 1846926, 2020",
       "year": "2020",
-      "citations": 96,
+      "citations": 97,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:4TOpqqG69KYC"
     },
     {
@@ -139,7 +139,7 @@
       "authors": "J Musulin, S Baressi Šegota, D Štifanić, I Lorencin, N Anđelić, T Šušteršič, ...",
       "venue": "International journal of environmental research and public health 18 (8), 4287, 2021",
       "year": "2021",
-      "citations": 63,
+      "citations": 64,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:JV2RwH3_ST0C"
     },
     {
@@ -191,7 +191,7 @@
     {
       "title": "Impact of COVID‐19 on Forecasting Stock Prices: An Integration of Stationary Wavelet Transform and Bidirectional Long Short‐Term Memory",
       "year": "2020",
-      "citations": 96,
+      "citations": 97,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:4TOpqqG69KYC"
     },
     {
@@ -209,7 +209,7 @@
     {
       "title": "Application of artificial intelligence-based regression methods in the problem of COVID-19 spread prediction: a systematic review",
       "year": "2021",
-      "citations": 63,
+      "citations": 64,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:JV2RwH3_ST0C"
     },
     {
@@ -239,7 +239,7 @@
     {
       "title": "The influence of various optimization algorithms on nuclear power plant steam turbine exergy efficiency and destruction",
       "year": "2021",
-      "citations": 38,
+      "citations": 39,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:BqipwSGYUEgC"
     },
     {
@@ -263,7 +263,7 @@
     {
       "title": "Epidemiological predictive modeling of COVID-19 infection: development, testing, and implementation on the population of the Benelux union",
       "year": "2021",
-      "citations": 33,
+      "citations": 32,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:35N4QoGY0k4C"
     },
     {
@@ -285,16 +285,16 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:hMod-77fHWUC"
     },
     {
+      "title": "Road type classification using time-frequency representations of tire sensor signals",
+      "year": "2024",
+      "citations": 24,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:z_wVstp3MssC"
+    },
+    {
       "title": "On the traveling salesman problem in nautical environments: an evolutionary computing approach to optimization of tourist route paths in Medulin, Croatia",
       "year": "2019",
       "citations": 24,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:LkGwnXOMwfcC"
-    },
-    {
-      "title": "Road type classification using time-frequency representations of tire sensor signals",
-      "year": "2024",
-      "citations": 23,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:z_wVstp3MssC"
     },
     {
       "title": "Decentralized smart grid stability modeling with machine learning",
@@ -305,7 +305,7 @@
     {
       "title": "Determining the influence and correlation for parameters of flexible forming using the random forest method",
       "year": "2023",
-      "citations": 20,
+      "citations": 21,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:geHnlv5EZngC"
     },
     {
@@ -317,7 +317,7 @@
     {
       "title": "Comparison of exergy and various energy analysis methods for a main marine steam turbine at different loads",
       "year": "2020",
-      "citations": 19,
+      "citations": 20,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:-f6ydRqryjwC"
     },
     {
@@ -351,6 +351,12 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:ns9cj8rnVeAC"
     },
     {
+      "title": "Energy and Exergy Analysis of Waste Heat Recovery Closed-Cycle Gas Turbine System while Operating with Different Medium",
+      "year": "2021",
+      "citations": 16,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:NaGl4SEjCO4C"
+    },
+    {
       "title": "The development of symbolic expressions for fire detection with symbolic classifier using sensor fusion data",
       "year": "2022",
       "citations": 15,
@@ -367,12 +373,6 @@
       "year": "2021",
       "citations": 15,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:ZHo1McVdvXMC"
-    },
-    {
-      "title": "Energy and Exergy Analysis of Waste Heat Recovery Closed-Cycle Gas Turbine System while Operating with Different Medium",
-      "year": "2021",
-      "citations": 15,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:NaGl4SEjCO4C"
     },
     {
       "title": "Improvement of machine learning-based modelling of container ship’s main particulars with synthetic data",
@@ -393,16 +393,16 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:uWQEDVKXjbEC"
     },
     {
+      "title": "A comprehensive study on symbolic expressions for fault detection-classification in photovoltaic farms",
+      "year": "2025",
+      "citations": 11,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:zLWjf1WUPmwC"
+    },
+    {
       "title": "Prediction of Robot Grasp Robustness using Artificial Intelligence Algorithms",
       "year": "2022",
       "citations": 11,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:u_35RYKgDlwC"
-    },
-    {
-      "title": "A comprehensive study on symbolic expressions for fault detection-classification in photovoltaic farms",
-      "year": "2025",
-      "citations": 10,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:zLWjf1WUPmwC"
     },
     {
       "title": "On Approximating the pIC50 Value of COVID-19 Medicines In Silico with Artificial Neural Networks",
@@ -447,6 +447,12 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:K3LRdlH-MEoC"
     },
     {
+      "title": "Classification of wall following robot movements using genetic programming symbolic classifier",
+      "year": "2023",
+      "citations": 7,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:OU6Ihb5iCvQC"
+    },
+    {
       "title": "Exergy analysis of steam condenser at various loads during the ambient temperature change",
       "year": "2020",
       "citations": 7,
@@ -457,12 +463,6 @@
       "year": "2024",
       "citations": 6,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:9Nmd_mFXekcC"
-    },
-    {
-      "title": "Classification of wall following robot movements using genetic programming symbolic classifier",
-      "year": "2023",
-      "citations": 6,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:OU6Ihb5iCvQC"
     },
     {
       "title": "Determining normalized friction torque of an industrial robotic manipulator using the symbolic regression method",
@@ -481,6 +481,12 @@
       "year": "2020",
       "citations": 6,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:Wp0gIr-vW9MC"
+    },
+    {
+      "title": "Achieving High Accuracy in Android Malware Detection through Genetic Programming Symbolic Classifier",
+      "year": "2024",
+      "citations": 5,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:0KyAp5RtaNEC"
     },
     {
       "title": "Drive System Inverter Modeling Using Symbolic Regression",
@@ -511,12 +517,6 @@
       "year": "2025",
       "citations": 4,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:ILKRHgRFtOwC"
-    },
-    {
-      "title": "Achieving High Accuracy in Android Malware Detection through Genetic Programming Symbolic Classifier",
-      "year": "2024",
-      "citations": 4,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:0KyAp5RtaNEC"
     },
     {
       "title": "An advanced methodology for crystal system detection in Li-ion batteries",
@@ -573,6 +573,12 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:MLfJN-KU85MC"
     },
     {
+      "title": "On Predicting Marine Engine Measurements with Synthetic Data in Scarce Dataset",
+      "year": "2025",
+      "citations": 3,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:EYYDruWGBe4C"
+    },
+    {
       "title": "On differentiating synthetic and real data in medical applications",
       "year": "2023",
       "citations": 3,
@@ -613,12 +619,6 @@
       "year": "2026",
       "citations": 2,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:kz9GbA2Ns4gC"
-    },
-    {
-      "title": "On Predicting Marine Engine Measurements with Synthetic Data in Scarce Dataset",
-      "year": "2025",
-      "citations": 2,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:EYYDruWGBe4C"
     },
     {
       "title": "Determining the Energy-Optimal Path of Six-Axis Industrial Robotic manipulators Using Machine Learning and Memetic Algorithms: doctoral thesis",
@@ -699,6 +699,12 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:g3aElNc5_aQC"
     },
     {
+      "title": "Hybrid Explainable AI for Machine Predictive Maintenance: From Symbolic Expressions to Meta-Ensembles",
+      "year": "2025",
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:L7CI7m0gUJcC"
+    },
+    {
       "title": "Data Augmentation-Driven Improvements in Malignant Lymphoma Image Classification",
       "year": "2025",
       "citations": 1,
@@ -769,12 +775,6 @@
       "year": "",
       "citations": 1,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:NhqRSupF_l8C"
-    },
-    {
-      "title": "The Socratic Trap: Benchmarking the Capacity of Large Language Models to Generate Strategic Misconceptions in Computer Science Education",
-      "year": "2026",
-      "citations": 0,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhMwhucAAAAJ&pagesize=100&citation_for_view=lhMwhucAAAAJ:q3CdL3IzO_QC"
     }
   ]
 }
