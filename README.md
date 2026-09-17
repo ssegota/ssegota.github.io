@@ -15,6 +15,7 @@ served by GitHub Pages, which rebuilds on every push to `master`.
 | The five CV summaries (full → 250 chars) | [`_data/cv_summaries.yml`](_data/cv_summaries.yml) | [/cv/](https://ssegota.github.io/cv/) |
 | Education, jobs, skills, awards, service | [`_data/cv.yml`](_data/cv.yml) | [/cv/](https://ssegota.github.io/cv/) and the PDF |
 | Thesis topics for students | [`_pages/thesis-topics.md`](_pages/thesis-topics.md) | [/thesis-topics/](https://ssegota.github.io/thesis-topics/) |
+| Thesis and defence templates students can download | [`_data/downloads.yml`](_data/downloads.yml) and the files in [`Downloads/`](Downloads/) | top of [/thesis-topics/](https://ssegota.github.io/thesis-topics/) |
 | Special issues you edit | [`_data/editorial.yml`](_data/editorial.yml) | [/editorial/](https://ssegota.github.io/editorial/) |
 | Courses you teach | [`_teaching/`](_teaching/) — one file per course | [/teaching/](https://ssegota.github.io/teaching/) |
 | Talks you have given | [`_talks/`](_talks/) — one file per talk | [/talks/](https://ssegota.github.io/talks/) |

@@ -11,6 +11,38 @@ redirect_from:
 
 {% include base_path %}
 
+{% comment %} Downloadable templates. Entries come from _data/downloads.yml, the
+styles are in _sass/_gundam.scss under "Downloads". A native <details> element,
+so it folds without JavaScript; drop `open` to start it collapsed. {% endcomment %}
+<details class="g-downloads" open>
+  <summary>
+    <span class="g-downloads__heading">
+      <span class="g-downloads__eyebrow">Downloads</span>
+      <span class="g-downloads__title">Templates for writing and defending your thesis</span>
+    </span>
+    <span class="g-downloads__hint">{{ site.data.downloads | size }} files &middot; {{ site.data.downloads | map: "format" | join: " &middot; " }}</span>
+    <i class="fa fa-chevron-down g-downloads__chevron" aria-hidden="true"></i>
+  </summary>
+  <div class="g-downloads__body">
+    <p class="g-downloads__lead">Croatian-language templates for theses at the Faculty of Informatics: the
+    written thesis in Word or LaTeX, and the slides for the defence. Download a file directly, or open the
+    PDF preview first.</p>
+    <ul class="g-downloads__list">
+      {% for item in site.data.downloads %}
+      <li class="g-downloads__item">
+        <i class="fa fa-{{ item.icon }} g-downloads__icon" aria-hidden="true"></i>
+        <p class="g-downloads__name">{{ item.title }} <span class="g-downloads__format">{{ item.format }}</span></p>
+        <div class="g-downloads__desc">{{ item.description | markdownify }}</div>
+        <p class="g-downloads__actions">
+          <a class="g-btn" href="{{ base_path }}{{ item.file }}" download><i class="fa fa-download" aria-hidden="true"></i> Download {{ item.format }}</a>
+          {% if item.preview %}<a class="g-btn g-btn--ghost" href="{{ base_path }}{{ item.preview }}" target="_blank" rel="noopener"><i class="fa fa-file-pdf" aria-hidden="true"></i> Preview PDF<span class="sr-only"> (opens in a new tab)</span></a>{% endif %}
+        </p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</details>
+
 Below is a list of suggested topics for **bachelor's** and **master's** theses at the
 [Faculty of Informatics, Juraj Dobrila University of Pula](https://fipu.unipu.hr), as well as for
 seminar and project assignments. The topics are grouped by the level at which they are usually

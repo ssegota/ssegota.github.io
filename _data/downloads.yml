@@ -1,0 +1,53 @@
+# Files offered for download in the collapsible box at the top of
+# /thesis-topics/ (rendered by _pages/thesis-topics.md, styled in
+# _sass/_gundam.scss under "Downloads"). The files themselves live in
+# Downloads/ at the repo root; Jekyll copies that folder to the site as is.
+#
+#   title        what the entry is called on the page
+#   format       short badge, also used for the "Download …" button label
+#   icon         Font Awesome 6 icon name, without the fa- prefix
+#   file         site-root path of the file the Download button fetches
+#   preview      optional site-root path of a PDF rendering, opened in a new tab
+#   description  one paragraph, Markdown allowed
+
+- title: "Thesis template for Word"
+  format: DOCX
+  icon: file-word
+  file: /Downloads/Predlozak-DOCX.docx
+  preview: /Downloads/Predlozak-DOCX.pdf
+  description: >-
+    Word template for bachelor's and master's theses (*završni* and *diplomski rad*) at the
+    Faculty of Informatics. It is a template and a manual at once: title page, declaration of
+    independent work, acknowledgements, Croatian and English abstract, automatic table of
+    contents and lists of figures and tables, followed by six short chapters that explain the
+    page layout, heading levels, figures, tables, equations, code, citing, the reference list,
+    appendices and a pre-submission checklist. Replace the guidance with your own text, keep
+    the styles, and delete the instruction chapters before you submit. Works in Word and
+    Google Docs.
+
+- title: "Thesis template for LaTeX"
+  format: TEX
+  icon: file-code
+  file: /Downloads/Predlozak-LaTeX.tex
+  description: >-
+    The same template as a single self-contained LaTeX file: identical page layout, headings,
+    captions and numeric reference style, with the BibTeX database embedded in the file so
+    there is nothing else to upload. Fill in the block marked *UREDI* at the top (thesis type,
+    Croatian and English title, your name and JMBAG, mentor, place and date) and leave the rest
+    of the preamble alone. Compiles with `pdflatex` and `bibtex`, or upload it to Overleaf and
+    press Recompile two or three times. The PDF preview of the Word version shows the same
+    layout.
+
+- title: "Defence slides for PowerPoint"
+  format: PPTX
+  icon: file-powerpoint
+  file: /Downloads/Predlozak-obrana-diplomskog.pptx
+  preview: /Downloads/Predlozak-obrana-diplomskog.pdf
+  description: >-
+    Slide deck for the ten-minute master's thesis defence: one slide per part of the talk, from
+    motivation and research questions through the state of the art, methodology, results and
+    limitations to the conclusion and contribution, with the time slot for each slide in its
+    corner and speaker notes that say what belongs on it, what to say and how long to spend.
+    The first two slides are the instructions and a minute-by-minute schedule; delete them
+    before the defence. The last slide explains which backup slides to prepare. Arial and the
+    faculty colour only, no animations or transitions.

@@ -625,6 +625,11 @@ select.g-select {
   align-items: center;
   gap: 0.4em;
 
+  /* The bare `a:visited` rule near the top outranks a lone class and would
+     otherwise paint the label link-blue on a blue button once the file behind
+     it has been fetched. */
+  &:visited { color: #fff; }
+
   &:hover,
   &:focus {
     background: var(--g-red);
@@ -643,6 +648,23 @@ select.g-select {
     border-color: var(--g-blue);
     color: var(--g-blue);
     background: var(--g-bg);
+  }
+}
+
+/* Outlined variant for a secondary action beside a solid .g-btn, such as the
+   PDF preview next to a download. Declared after .g-btn so it wins the tie. */
+.g-btn--ghost {
+  background: transparent;
+  border-color: var(--g-line);
+  color: var(--g-text);
+
+  &:visited { color: var(--g-text); }
+
+  &:hover,
+  &:focus {
+    background: transparent;
+    border-color: var(--g-blue);
+    color: var(--g-blue);
   }
 }
 
@@ -685,6 +707,175 @@ p.g-deadline,
 
   p { margin: 0 0 0.8em; }
   p:last-child { margin-bottom: 0; }
+}
+
+/* ==========================================================================
+   Downloads - the template box at the top of the thesis topics page.
+
+   A native <details> element, so it folds without JavaScript (the compress
+   layout is hostile to inline scripts). Yellow trim on the left edge keeps it
+   visually apart from the blue-ruled topic headings that follow it.
+   ========================================================================== */
+
+.g-downloads {
+  margin: 0 0 2.2em;
+  background: var(--g-surface);
+  border: 1px solid var(--g-line);
+  border-left: 4px solid var(--g-yellow);
+  clip-path: polygon(0 0, calc(100% - var(--g-chamfer)) 0,
+                     100% var(--g-chamfer), 100% 100%, 0 100%);
+
+  > summary {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4em 1em;
+    padding: 0.9em 1.15em;
+    list-style: none;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 120ms ease;
+
+    &::-webkit-details-marker { display: none; }
+
+    &:hover { background: var(--g-surface-alt); }
+
+    /* The chamfer clips anything drawn outside the box, so the focus ring
+       has to sit inside it. */
+    &:focus-visible {
+      outline: 2px solid var(--g-red);
+      outline-offset: -4px;
+    }
+  }
+
+  &__heading {
+    flex: 1 1 12em;
+    min-width: 0;
+  }
+
+  &__eyebrow {
+    display: block;
+    margin-bottom: 0.3em;
+    font-family: var(--g-mono);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--g-blue);
+  }
+
+  &__title {
+    display: block;
+    font-family: $sans-serif;
+    font-size: $type-size-4;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--g-text);
+  }
+
+  &__hint {
+    margin-left: auto;
+    font-family: var(--g-mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--g-text-dim);
+  }
+
+  &__chevron {
+    flex: none;
+    color: var(--g-blue);
+    transition: transform 160ms ease;
+  }
+
+  &[open] > summary .g-downloads__chevron { transform: rotate(180deg); }
+
+  &__body {
+    padding: 0 1.15em 1.15em;
+    border-top: 1px solid var(--g-line-soft);
+  }
+
+  /* p / ul / li below are nested under .g-downloads so they outrank the
+     `.archive p` and `.archive li` rules at the top of this file. */
+  .g-downloads__lead {
+    margin: 1em 0 0.3em;
+    font-size: 0.9em;
+    color: var(--g-text-dim);
+  }
+
+  .g-downloads__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .g-downloads__item {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    column-gap: 1em;
+    row-gap: 0.35em;
+    margin: 0;
+    padding: 1em 0;
+    border-bottom: 1px dashed var(--g-line);
+
+    &:last-child {
+      padding-bottom: 0.2em;
+      border-bottom: 0;
+    }
+  }
+
+  &__icon {
+    grid-row: span 3;
+    padding-top: 0.15em;
+    font-size: 1.7em;
+    line-height: 1;
+    color: var(--g-blue);
+  }
+
+  .g-downloads__name {
+    margin: 0;
+    font-weight: 700;
+    color: var(--g-text);
+  }
+
+  &__format {
+    display: inline-block;
+    margin-left: 0.5em;
+    padding: 0.1em 0.45em;
+    vertical-align: 0.1em;
+    font-family: var(--g-mono);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--g-brand-deep);
+    background: var(--g-yellow);
+  }
+
+  .g-downloads__desc {
+    font-size: 0.9em;
+
+    p { margin: 0 0 0.5em; }
+    p:last-child { margin-bottom: 0; }
+  }
+
+  .g-downloads__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 0.25em 0 0;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .g-downloads__hint {
+    flex-basis: 100%;
+    order: 3;
+    margin-left: 0;
+  }
+
+  .g-downloads .g-downloads__item { grid-template-columns: minmax(0, 1fr); }
+  .g-downloads__icon { display: none; }
 }
 
 /* ==========================================================================
