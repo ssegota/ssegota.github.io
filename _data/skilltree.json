@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14",
+ "generated": "2026-09-21",
  "sources": {
   "papers": 99,
   "repos": 47,
@@ -1488,9 +1488,9 @@
      "name": "Wavelet & Spectral Analysis",
      "note": "",
      "level": 2,
-     "score": 11.4,
+     "score": 9.4,
      "papers": 1,
-     "repos": 3,
+     "repos": 2,
      "citations": 97,
      "signals": [
       "wavelet",
@@ -1514,12 +1514,6 @@
         "url": "https://github.com/ssegota/EEGDetection",
         "language": "Python",
         "description": "Detection of EEG waves in a frequency band using Emotiv EPOC device"
-       },
-       {
-        "name": "gmn-wavelet-maps",
-        "url": "https://github.com/ssegota/gmn-wavelet-maps",
-        "language": "Python",
-        "description": "Reproduces the GMN daily wavelet meteor-shower maps + maxlist from raw radiants (Brown et al. 2010 3-D wavelet"
        },
        {
         "name": "MLSA-filtar",
@@ -1981,33 +1975,6 @@
         "url": "https://github.com/ssegota/spot-the-asteroid",
         "language": "HTML",
         "description": "Simple, Asteroid spotting game."
-       }
-      ]
-     }
-    },
-    {
-     "id": "meteor",
-     "name": "Meteor Science",
-     "note": "",
-     "level": 1,
-     "score": 2.0,
-     "papers": 0,
-     "repos": 1,
-     "citations": 0,
-     "signals": [
-      "meteor",
-      "gmn",
-      "shower",
-      "maxlist"
-     ],
-     "evidence": {
-      "papers": [],
-      "repos": [
-       {
-        "name": "gmn-wavelet-maps",
-        "url": "https://github.com/ssegota/gmn-wavelet-maps",
-        "language": "Python",
-        "description": "Reproduces the GMN daily wavelet meteor-shower maps + maxlist from raw radiants (Brown et al. 2010 3-D wavelet"
        }
       ]
      }

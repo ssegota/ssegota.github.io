@@ -162,15 +162,6 @@
   "fork": false
  },
  {
-  "name": "gmn-wavelet-maps",
-  "url": "https://github.com/ssegota/gmn-wavelet-maps",
-  "description": "Reproduces the GMN daily wavelet meteor-shower maps + maxlist from raw radiants (Brown et al. 2010 3-D wavelet)",
-  "language": "Python",
-  "topics": [],
-  "stars": 0,
-  "fork": false
- },
- {
   "name": "gundam-timeline",
   "url": "https://github.com/ssegota/gundam-timeline",
   "description": "A source-attributed chronology of every Gundam continuity — 100 events, 44 series, 19 continuities — with a renderer that keeps sourced fact and project guesswork visibly apart.",
@@ -209,6 +200,15 @@
  {
   "name": "liberiq-description-writer",
   "url": "https://github.com/ssegota/liberiq-description-writer",
+  "description": "",
+  "language": "Python",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "Liberiq-descriptioner",
+  "url": "https://github.com/ssegota/Liberiq-descriptioner",
   "description": "",
   "language": "Python",
   "topics": [],
