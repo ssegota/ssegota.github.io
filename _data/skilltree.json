@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-21",
+ "generated": "2026-09-28",
  "sources": {
   "papers": 99,
-  "repos": 47,
+  "repos": 48,
   "citations": 1723,
   "h_index": 21
  },
@@ -1704,9 +1704,9 @@
      "name": "Web Platforms",
      "note": "",
      "level": 3,
-     "score": 26.0,
+     "score": 28.0,
      "papers": 0,
-     "repos": 13,
+     "repos": 14,
      "citations": 0,
      "signals": [
       "javascript",
@@ -1744,6 +1744,12 @@
         "description": ""
        },
        {
+        "name": "ctri-centar",
+        "url": "https://github.com/ssegota/ctri-centar",
+        "language": "JavaScript",
+        "description": ""
+       },
+       {
         "name": "dai-amplify-test",
         "url": "https://github.com/ssegota/dai-amplify-test",
         "language": "TypeScript",
@@ -1759,12 +1765,6 @@
         "name": "ies_web-app-detector",
         "url": "https://github.com/ssegota/ies_web-app-detector",
         "language": "Python",
-        "description": ""
-       },
-       {
-        "name": "menzapp",
-        "url": "https://github.com/ssegota/menzapp",
-        "language": "JavaScript",
         "description": ""
        }
       ]
