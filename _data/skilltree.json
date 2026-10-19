@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12",
+ "generated": "2026-10-19",
  "sources": {
   "papers": 99,
   "repos": 48,
@@ -1710,10 +1710,10 @@
      "citations": 0,
      "signals": [
       "javascript",
-      "html",
       "react",
       "vite",
       "amplify",
+      "php",
       "typescript"
      ],
      "evidence": {
@@ -1722,7 +1722,7 @@
        {
         "name": "adip-web",
         "url": "https://github.com/ssegota/adip-web",
-        "language": "HTML",
+        "language": "PHP",
         "description": ""
        },
        {
