@@ -144,6 +144,15 @@
   "fork": false
  },
  {
+  "name": "diplomski-app",
+  "url": "https://github.com/ssegota/diplomski-app",
+  "description": "Praćenje završnih i diplomskih radova (FIPU) — Netlify",
+  "language": "JavaScript",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
   "name": "dotfiles",
   "url": "https://github.com/ssegota/dotfiles",
   "description": "",
@@ -346,6 +355,15 @@
   "url": "https://github.com/ssegota/robotika-fipu",
   "description": "Objedinjeni interaktivni web kolegija Robotika (FIPU) — naslovnica i 14 predavanja (Vite + React), spremno za Netlify.",
   "language": "JavaScript",
+  "topics": [],
+  "stars": 0,
+  "fork": false
+ },
+ {
+  "name": "sbs-fipu-diplomski",
+  "url": "https://github.com/ssegota/sbs-fipu-diplomski",
+  "description": "",
+  "language": "TeX",
   "topics": [],
   "stars": 0,
   "fork": false

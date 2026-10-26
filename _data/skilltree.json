@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-19",
+ "generated": "2026-10-26",
  "sources": {
   "papers": 99,
-  "repos": 48,
+  "repos": 50,
   "citations": 1723,
   "h_index": 21
  },
@@ -1670,43 +1670,13 @@
      }
     },
     {
-     "id": "teaching",
-     "name": "Teaching & Supervision",
-     "note": "Course repositories, thesis supervision and lecturing at FIPU.",
-     "level": 4,
-     "score": 12.0,
-     "papers": 0,
-     "repos": 2,
-     "citations": 0,
-     "signals": [
-      "exercises"
-     ],
-     "evidence": {
-      "papers": [],
-      "repos": [
-       {
-        "name": "Application-of-Artifical-Intelligence-Exercises",
-        "url": "https://github.com/ssegota/Application-of-Artifical-Intelligence-Exercises",
-        "language": "Python",
-        "description": "A repository to store and share the solutions of exercises from the laboratory section of \"Application of Arti"
-       },
-       {
-        "name": "Complex-System-Engineering-Exercises",
-        "url": "https://github.com/ssegota/Complex-System-Engineering-Exercises",
-        "language": "Python",
-        "description": "This repository contains solutions to exercises from Complex System Engineering Class (ML and AI techniques) a"
-       }
-      ]
-     }
-    },
-    {
      "id": "web",
      "name": "Web Platforms",
      "note": "",
-     "level": 3,
-     "score": 28.0,
+     "level": 4,
+     "score": 30.0,
      "papers": 0,
-     "repos": 14,
+     "repos": 15,
      "citations": 0,
      "signals": [
       "javascript",
@@ -1756,16 +1726,46 @@
         "description": ""
        },
        {
+        "name": "diplomski-app",
+        "url": "https://github.com/ssegota/diplomski-app",
+        "language": "JavaScript",
+        "description": "Praćenje završnih i diplomskih radova (FIPU) — Netlify"
+       },
+       {
         "name": "gundam-timeline",
         "url": "https://github.com/ssegota/gundam-timeline",
         "language": "HTML",
         "description": "A source-attributed chronology of every Gundam continuity — 100 events, 44 series, 19 continuities — with a re"
+       }
+      ]
+     }
+    },
+    {
+     "id": "teaching",
+     "name": "Teaching & Supervision",
+     "note": "Course repositories, thesis supervision and lecturing at FIPU.",
+     "level": 4,
+     "score": 12.0,
+     "papers": 0,
+     "repos": 2,
+     "citations": 0,
+     "signals": [
+      "exercises"
+     ],
+     "evidence": {
+      "papers": [],
+      "repos": [
+       {
+        "name": "Application-of-Artifical-Intelligence-Exercises",
+        "url": "https://github.com/ssegota/Application-of-Artifical-Intelligence-Exercises",
+        "language": "Python",
+        "description": "A repository to store and share the solutions of exercises from the laboratory section of \"Application of Arti"
        },
        {
-        "name": "ies_web-app-detector",
-        "url": "https://github.com/ssegota/ies_web-app-detector",
+        "name": "Complex-System-Engineering-Exercises",
+        "url": "https://github.com/ssegota/Complex-System-Engineering-Exercises",
         "language": "Python",
-        "description": ""
+        "description": "This repository contains solutions to exercises from Complex System Engineering Class (ML and AI techniques) a"
        }
       ]
      }

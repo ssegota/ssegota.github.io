@@ -1,6 +1,6 @@
 # Terms not yet in the taxonomy
 
-Generated 2026-10-19 from 99 paper titles and 48 repositories. Anything here worth keeping should be added to `_data/skills.yml` by hand.
+Generated 2026-10-26 from 99 paper titles and 50 repositories. Anything here worth keeping should be added to `_data/skills.yml` by hand.
 
 - `learning` &mdash; 13
 - `machine` &mdash; 13
@@ -39,6 +39,6 @@ Generated 2026-10-19 from 99 paper titles and 48 repositories. Anything here wor
 - `combined` &mdash; 4
 - `csv` &mdash; 4
 - `engineering` &mdash; 4
+- `fipu` &mdash; 4
 - `intelligence algorithms` &mdash; 4
 - `loads` &mdash; 4
-- `npy` &mdash; 4
